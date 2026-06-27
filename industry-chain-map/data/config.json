@@ -1,0 +1,99 @@
+{
+  "gap_rules": {
+    "cycle_axis": {
+      "stages": [
+        "bottom",
+        "uptrend",
+        "peak",
+        "downtrend"
+      ],
+      "dimensions": [
+        "inventory",
+        "capex",
+        "demand",
+        "price",
+        "utilization"
+      ],
+      "source_priority": [
+        "research",
+        "derived"
+      ]
+    },
+    "penetration_axis": {
+      "stages": [
+        "intro",
+        "golden",
+        "mature",
+        "decline"
+      ],
+      "rate_ranges": {
+        "intro": [
+          0,
+          10
+        ],
+        "golden": [
+          10,
+          30
+        ],
+        "mature": [
+          30,
+          50
+        ],
+        "decline": [
+          50,
+          null
+        ]
+      },
+      "types": [
+        "structural",
+        "space_creating",
+        "supply_chain",
+        "scenario"
+      ],
+      "source_priority": [
+        "research",
+        "derived"
+      ]
+    }
+  },
+  "ref_map": {},
+  "heatmap": {
+    "color_mode": "sentiment",
+    "palette": {
+      "positive": "#b76f22",
+      "negative": "#5f7f6b",
+      "flat": "#d8d2c5",
+      "missing": "#f1ede4"
+    }
+  },
+  "penetration_trend": {
+    "unit": "%",
+    "risk_line": 30,
+    "thresholds": [
+      {
+        "max": 10,
+        "stage": "intro",
+        "name": "导入期",
+        "color": "neutral"
+      },
+      {
+        "max": 30,
+        "stage": "golden",
+        "name": "黄金爆发期",
+        "color": "highlight"
+      },
+      {
+        "max": 50,
+        "stage": "mature",
+        "name": "成熟分化期",
+        "color": "caution"
+      },
+      {
+        "max": 100,
+        "stage": "decline",
+        "name": "衰退期",
+        "color": "danger"
+      }
+    ]
+  }
+}

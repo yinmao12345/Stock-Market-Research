@@ -1,0 +1,18 @@
+{
+  "default_chain": "pcb",
+  "chains": [
+    {
+      "id": "semiconductor",
+      "name": "半导体",
+      "note": "大产业链入口；已补充功率半导体及 SiC衬底/外延、硅晶圆代工、功率封测三个一级上游。"
+    },
+    {
+      "id": "pcb",
+      "name": "印制电路板 (PCB)"
+    },
+    {
+      "id": "optical-module",
+      "name": "光模块"
+    }
+  ]
+}

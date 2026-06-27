@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+
+  --font-display: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --font-body: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+
+  --text-title: 20px;
+  --text-body: 13px;
+  --text-label: 12px;
+  --leading-title: 1.32;
+  --leading-body: 1.65;
+  --leading-label: 1.35;
+  --weight-title: 700;
+  --weight-body: 400;
+
+  --color-app: #f4f1ea;
+  --color-surface: #fffdf8;
+  --color-surface-muted: #f8f5ee;
+  --color-panel: #fbfaf6;
+  --color-border: #ddd6c8;
+  --color-border-strong: #c8bfad;
+  --color-text: #20201d;
+  --color-muted: #6f6b61;
+  --color-faint: #9a9386;
+  --color-ink: #34322d;
+  --color-accent: #2f5f73;
+
+  --cycle-bottom: #517a62;
+  --cycle-uptrend: #b76f22;
+  --cycle-peak: #b84f42;
+  --cycle-downtrend: #596a7d;
+  --penetration-intro: #6f6b61;
+  --penetration-golden: #a7832f;
+  --penetration-mature: #4d7f8f;
+  --penetration-decline: #6a5d7e;
+  --cycle-soft: rgba(183, 111, 34, 0.11);
+  --penetration-soft: rgba(77, 127, 143, 0.11);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-round: 999px;
+
+  --shadow-card: 0 10px 28px rgba(54, 48, 38, 0.08);
+  --shadow-soft: 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+
+  --card-bg: var(--color-surface);
+  --card-border: 1px solid var(--color-border);
+  --card-radius: var(--radius-lg);
+  --card-padding: var(--space-4);
+  --metric-title-weight: var(--weight-title);
+  --metric-value-weight: var(--weight-body);
+  --node-toggle-x: 126px;
+  --table-key-cell-white-space: nowrap;
+}

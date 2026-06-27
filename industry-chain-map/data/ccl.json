@@ -1,0 +1,1098 @@
+{
+  "id": "ccl",
+  "name": "覆铜板 (CCL)",
+  "layer_updated": "2026-06-25",
+  "metrics": {
+    "market_size": {
+      "value": 187.6,
+      "unit": "亿美元",
+      "year": 2025,
+      "note": "全球 CCL 及预浸料市场约 187.6 亿美元；另有 TPCA/工研院口径约 160.2 亿美元，2026 年预计 198.7-215 亿美元；来源：CCL数据包_2026-06，2026-06-25"
+    },
+    "cagr": {
+      "value": 25,
+      "unit": "%",
+      "period": "2025-2032",
+      "note": "高速 CCL 细分赛道年复合增速超 25%，整体高速数字 CCL CAGR 约 11.1%；来源：CCL数据包_2026-06，2026-06-25"
+    },
+    "value_share": {
+      "value": 27.3,
+      "unit": "%",
+      "relative_to": "PCB",
+      "note": "CCL 占 PCB 总成本约 27.3%；AI 服务器高多层板口径可达 35%-40%；来源：CCL数据包_2026-06，2026-06-25"
+    }
+  },
+  "gap": {
+    "cycle_axis": {
+      "stage": "uptrend",
+      "source": "derived",
+      "evidence": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+      "source_ref": "CCL数据包_2026-06?2026-06-25",
+      "indicators": {
+        "inventory": "底部回补/去库尾声",
+        "capex": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+        "demand": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+        "price": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+        "utilization": "产能利用率约 90%"
+      },
+      "breakdown": [
+        {
+          "dimension": "inventory",
+          "value": "底部回补/去库尾声",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "demand",
+          "value": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "price",
+          "value": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "utilization",
+          "value": "产能利用率约 90%",
+          "stage": "peak"
+        }
+      ],
+      "heatmap": {
+        "granularity": "month",
+        "timeline": [
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06"
+        ],
+        "dimensions": [
+          {
+            "key": "price",
+            "name": "价格",
+            "good_direction": "up",
+            "values": [
+              "flat",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up"
+            ],
+            "notes": [
+              "高端材料价格开始企稳",
+              "海外核心材料涨价传导",
+              "高端 CCL 供需偏紧",
+              "M7/M8 升级拉动高端价格",
+              "春节前后高端材料维持强势",
+              "AI 服务器订单拉动",
+              "交期延长支撑价格",
+              "部分海外材料上调约30%",
+              "M9 预期增强",
+              "高端价格维持上行"
+            ]
+          },
+          {
+            "key": "inventory",
+            "name": "库存",
+            "good_direction": "down",
+            "values": [
+              "flat",
+              "down",
+              "down",
+              "down",
+              "down",
+              "down",
+              "down",
+              "down",
+              "down",
+              "down"
+            ],
+            "notes": [
+              "库存处于回补前后",
+              "下游去库进入尾声",
+              "高端料库存偏低",
+              "订单放量消化库存",
+              "供给紧张延续",
+              "库存继续去化",
+              "中高端现货偏紧",
+              "交期拉长至最长约6周",
+              "渠道库存低位",
+              "高端库存维持低位"
+            ]
+          },
+          {
+            "key": "demand",
+            "name": "需求",
+            "good_direction": "up",
+            "values": [
+              null,
+              null,
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up"
+            ],
+            "notes": [
+              null,
+              null,
+              "AI 服务器 PCB 需求上行",
+              "高速 CCL 需求跟随提升",
+              "M8 放量预期增强",
+              "高多层板订单增加",
+              "部分订单暴涨超5倍",
+              "Rubin/GB300 预期拉动",
+              "高端认证推进",
+              "需求强度延续"
+            ]
+          },
+          {
+            "key": "utilization",
+            "name": "开工率",
+            "good_direction": "up",
+            "values": [
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "up",
+              "flat",
+              "flat",
+              "flat",
+              "flat"
+            ],
+            "notes": [
+              "产能利用率提升",
+              "中高端产线负荷提高",
+              "需求拉动开工",
+              "产能利用率维持高位",
+              "春节扰动后恢复",
+              "高端产能偏紧",
+              "产能利用率约90%",
+              "扩产释放有限",
+              "高位走平",
+              "高位维持"
+            ]
+          }
+        ]
+      }
+    },
+    "penetration_axis": {
+      "stage": "mature",
+      "source": "research",
+      "evidence": "旧 penetration_rate=35%，按渗透率区间归类。",
+      "source_ref": "CCL数据包_2026-06?2026-06-25",
+      "rate": 35,
+      "type": null,
+      "indicators": {
+        "qualitative": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25"
+      },
+      "breakdown": [
+        {
+          "dimension": "rate",
+          "value": 35,
+          "stage": "mature"
+        }
+      ],
+      "trend": {
+        "unit": "%",
+        "granularity": "quarter",
+        "timeline": [
+          "2024-Q1",
+          "2024-Q2",
+          "2024-Q3",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3",
+          "2025-Q4",
+          "2026-Q1",
+          "2026-Q2"
+        ],
+        "values": [
+          12,
+          15,
+          18,
+          22,
+          26,
+          29,
+          31,
+          33,
+          34,
+          35
+        ],
+        "thresholds": [
+          {
+            "max": 10,
+            "stage": "intro",
+            "name": "导入期",
+            "color": "neutral"
+          },
+          {
+            "max": 30,
+            "stage": "golden",
+            "name": "黄金爆发期",
+            "color": "highlight"
+          },
+          {
+            "max": 50,
+            "stage": "mature",
+            "name": "成熟分化期",
+            "color": "caution"
+          },
+          {
+            "max": 100,
+            "stage": "decline",
+            "name": "衰退期",
+            "color": "danger"
+          }
+        ],
+        "source_ref": "CCL数据包_2026-06?2026-06-25",
+        "note": "M7及以上高速 CCL 占比示例序列；用于展示渗透率从黄金爆发期进入成熟分化期后的见顶风险位置。"
+      }
+    }
+  },
+  "companies": [
+    {
+      "name": "生益科技",
+      "ticker": "600183.SH",
+      "role": "龙头",
+      "purity": 80,
+      "logic": "大陆高端 CCL 国产化主角，M9 产品预计 2025/12 通过英伟达认证，AI 服务器高阶材料放量直接受益"
+    },
+    {
+      "name": "南亚新材",
+      "ticker": "688519.SH",
+      "role": "主要参与者",
+      "purity": 75,
+      "logic": "高端高速 CCL 主力，M6-M8 已量产并规划 2025Q4 推出 M10"
+    },
+    {
+      "name": "华正新材",
+      "ticker": "603186.SH",
+      "role": "主要参与者",
+      "purity": 55,
+      "logic": "布局高频高速、金属基板及 BT 载板材料，Ultra low loss 产品认证推进"
+    },
+    {
+      "name": "金安国纪",
+      "ticker": "002636.SZ",
+      "role": "主要参与者",
+      "purity": 65,
+      "logic": "中高端 CCL 产品具备周期弹性，高端材料景气上行时盈利修复空间较大"
+    },
+    {
+      "name": "建滔积层板",
+      "ticker": "1888.HK",
+      "role": "通用龙头",
+      "purity": 80,
+      "logic": "通用 FR-4 全球龙头，铜箔与树脂垂直整合带来成本和供给优势"
+    }
+  ],
+  "tech_evolution": {
+    "stages": [
+      "M2",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "M10 预研"
+    ],
+    "current": "M7/M8 为 AI 服务器主流，正向 M9 升级",
+    "note": "松下 Megtron 系列为高速 CCL 分级标杆。M8 介电损耗 Df 约 0.0015，较 M7 下降约 25%，售价为普通 FR-4 的 5 倍以上；2026 年为 M8 全面放量年，M9 面向英伟达 Rubin 架构，需要石英布 Q 布及碳氢/PTFE 树脂。技术迭代从 3-4 年压缩到 1-2 年，但认证壁垒高、客户粘性强，龙头通过认证后护城河加深。来源：CCL数据包_2026-06，2026-06-25",
+    "risk_level": "中"
+  },
+  "upstream": [
+    {
+      "id": "electronic_copper_foil",
+      "name": "电子铜箔",
+      "layer_updated": "2026-06-25",
+      "metrics": {
+        "market_size": {
+          "value": 70,
+          "unit": "亿元",
+          "year": 2029,
+          "note": "AI/高性能计算用 PCB 级铜箔市场预计从 2020 年不足 5 亿元增至 2029 年约 70 亿元；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "数据包未提供明确 CAGR；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "value_share": {
+          "value": 33,
+          "unit": "%",
+          "relative_to": "覆铜板 (CCL) M8",
+          "note": "M8 BOM 占比；来源：技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25"
+        }
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "derived",
+          "evidence": "HVLP4 铜箔 2026 年供需缺口约 25%，2027 年扩大至 42%；高端 HVLP 铜箔约 70% 被三井金属、古河等日企垄断，M9 需要 HVLP4/HVLP5，供给瓶颈随技术升级放大。来源：CCL数据包_2026-06，2026-06-25",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "indicators": {
+            "inventory": "底部回补/去库尾声",
+            "capex": "HVLP4 铜箔 2026 年供需缺口约 25%，2027 年扩大至 42%；高端 HVLP 铜箔约 70% 被三井金属、古河等日企垄断，M9 需要 HVLP4/HVLP5，供给瓶颈随技术升级放大。来源：CCL数据包_2026-06，2026-06-25",
+            "demand": "HVLP4 铜箔 2026 年供需缺口约 25%，2027 年扩大至 42%；高端 HVLP 铜箔约 70% 被三井金属、古河等日企垄断，M9 需要 HVLP4/HVLP5，供给瓶颈随技术升级放大。来源：CCL数据包_2026-06，2026-06-25",
+            "price": null,
+            "utilization": "产能利用率约 92%"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "底部回补/去库尾声",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "HVLP4 铜箔 2026 年供需缺口约 25%，2027 年扩大至 42%；高端 HVLP 铜箔约 70% 被三井金属、古河等日企垄断，M9 需要 HVLP4/HVLP5，供给瓶颈随技术升级放大。来源：CCL数据包_2026-06，2026-06-25",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "产能利用率约 92%",
+              "stage": "peak"
+            }
+          ]
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "旧 penetration_rate=25%，按渗透率区间归类。",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "rate": 25,
+          "type": null,
+          "indicators": {
+            "qualitative": "HVLP4 铜箔 2026 年供需缺口约 25%，2027 年扩大至 42%；高端 HVLP 铜箔约 70% 被三井金属、古河等日企垄断，M9 需要 HVLP4/HVLP5，供给瓶颈随技术升级放大。来源：CCL数据包_2026-06，2026-06-25"
+          },
+          "breakdown": [
+            {
+              "dimension": "rate",
+              "value": 25,
+              "stage": "golden"
+            }
+          ],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "铜冠铜箔",
+          "ticker": "301217.SZ",
+          "role": "国内龙头",
+          "purity": 70,
+          "logic": "HVLP3/4 批量供货并进入生益科技核心供应链，高端铜箔国产替代受益",
+          "capability": {
+            "materials": [
+              "rtf_foil",
+              "hvlp12_foil",
+              "hvlp3_foil",
+              "hvlp45_foil"
+            ],
+            "highest_grade": "HVLP4(5储备)",
+            "note": "内资唯一HVLP1-4全谱系量产，HVLP4过英伟达认证批量供货，RTF内资第一",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "德福科技",
+          "ticker": "301511.SZ",
+          "role": "主要参与者",
+          "purity": 65,
+          "logic": "HVLP 高端产品进入英伟达产业链，受益 AI 高速板材料升级",
+          "capability": {
+            "materials": [
+              "hvlp12_foil",
+              "hvlp3_foil",
+              "hvlp45_foil"
+            ],
+            "highest_grade": "HVLP4/5",
+            "note": "收购卢森堡CFL，HVLP3独供英伟达、HVLP4量产，70%产能供英伟达链，国产高端最强",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "诺德股份",
+          "ticker": "600110.SH",
+          "role": "主要参与者",
+          "purity": 55,
+          "logic": "铜箔产能和客户基础较强，高端电子铜箔放量带来结构改善",
+          "capability": {
+            "materials": [
+              "hvlp3_foil",
+              "hvlp45_foil"
+            ],
+            "highest_grade": "HVLP4",
+            "note": "HVLP4量产良率超95%，过英伟达GB200认证，国内量产先行者之一",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "嘉元科技",
+          "ticker": "688388.SH",
+          "role": "主要参与者",
+          "purity": 55,
+          "logic": "极薄铜箔能力可向高端电子材料延伸，受益高端铜箔需求扩张",
+          "capability": {
+            "materials": [
+              "hvlp12_foil"
+            ],
+            "highest_grade": "HVLP研发中",
+            "note": "极薄铜箔强，HVLP高端仍在研发，2μm载体铜箔过存储验证",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "中一科技",
+          "ticker": null,
+          "role": "主要参与者",
+          "purity": null,
+          "logic": "参与电子铜箔供给扩张，受益高端 PCB 级铜箔需求提升"
+        },
+        {
+          "name": "隆扬电子",
+          "ticker": null,
+          "role": "HVLP5+待核实供应商",
+          "purity": 60,
+          "logic": "全球唯二量产HVLP5+，过英伟达GB300认证；上市状态待核实",
+          "capability": {
+            "materials": [
+              "hvlp45_foil"
+            ],
+            "highest_grade": "HVLP5+",
+            "note": "全球唯二量产HVLP5+，Rz≤0.2μm，过英伟达GB300认证；上市状态待核实",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27",
+            "verification_status": "待核实"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "常规电子铜箔",
+          "低轮廓铜箔",
+          "HVLP3",
+          "HVLP4",
+          "HVLP5"
+        ],
+        "current": "高速 CCL 使用超低轮廓 HVLP 铜箔，M9 升级至 HVLP4/HVLP5",
+        "note": "高速 CCL 对铜箔表面粗糙度要求提升，超低轮廓 HVLP 铜箔 Rz 低于 2 微米，M9 材料体系进一步抬升 HVLP4/HVLP5 需求。来源：CCL数据包_2026-06，2026-06-25",
+        "risk_level": "中"
+      },
+      "upstream": [],
+      "competition": null,
+      "current_generation": null,
+      "bom_by_generation": [],
+      "grades": [
+        {
+          "grade_id": "rtf_foil",
+          "name": "RTF铜箔",
+          "intro_gen": "M2"
+        },
+        {
+          "grade_id": "hvlp12_foil",
+          "name": "HVLP1/2铜箔",
+          "intro_gen": "M6"
+        },
+        {
+          "grade_id": "hvlp3_foil",
+          "name": "HVLP3铜箔",
+          "intro_gen": "M7"
+        },
+        {
+          "grade_id": "hvlp45_foil",
+          "name": "HVLP4/5铜箔",
+          "intro_gen": "M9"
+        }
+      ]
+    },
+    {
+      "id": "electronic_resin",
+      "name": "电子树脂（特种树脂）",
+      "layer_updated": "2026-06-25",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": "亿元",
+          "year": null,
+          "note": "数据包未提供电子树脂独立市场规模；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "数据包未提供明确 CAGR；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "value_share": {
+          "value": 35,
+          "unit": "%",
+          "relative_to": "覆铜板 (CCL) M8",
+          "note": "M8 BOM 占比；来源：技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25"
+        }
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "derived",
+          "evidence": "高端 PPO/碳氢树脂高度依赖进口，美国沙多玛/科腾、日本曹达/旭化成等海外供应商占优；2026 年 4 月中东冲突导致 SABIC 高纯 PPE 停产，环氧树脂等待周期从 3 周延至 15 周，普通树脂充足但高端结构性紧缺。来源：CCL数据包_2026-06，2026-06-25",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "indicators": {
+            "inventory": "底部回补/去库尾声",
+            "capex": null,
+            "demand": "高端 PPO/碳氢树脂高度依赖进口，美国沙多玛/科腾、日本曹达/旭化成等海外供应商占优；2026 年 4 月中东冲突导致 SABIC 高纯 PPE 停产，环氧树脂等待周期从 3 周延至 15 周，普通树脂充足但高端结构性紧缺。来源：CCL数据包_2026-06，2026-06-25",
+            "price": null,
+            "utilization": "产能利用率约 88%"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "底部回补/去库尾声",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "高端 PPO/碳氢树脂高度依赖进口，美国沙多玛/科腾、日本曹达/旭化成等海外供应商占优；2026 年 4 月中东冲突导致 SABIC 高纯 PPE 停产，环氧树脂等待周期从 3 周延至 15 周，普通树脂充足但高端结构性紧缺。来源：CCL数据包_2026-06，2026-06-25",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "产能利用率约 88%",
+              "stage": "peak"
+            }
+          ]
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "旧 penetration_rate=25%，按渗透率区间归类。",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "rate": 25,
+          "type": null,
+          "indicators": {
+            "qualitative": "高端 PPO/碳氢树脂高度依赖进口，美国沙多玛/科腾、日本曹达/旭化成等海外供应商占优；2026 年 4 月中东冲突导致 SABIC 高纯 PPE 停产，环氧树脂等待周期从 3 周延至 15 周，普通树脂充足但高端结构性紧缺。来源：CCL数据包_2026-06，2026-06-25"
+          },
+          "breakdown": [
+            {
+              "dimension": "rate",
+              "value": 25,
+              "stage": "golden"
+            }
+          ],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "东材科技",
+          "ticker": "601208.SH",
+          "role": "主要参与者",
+          "purity": 55,
+          "logic": "电子树脂及膜材料布局较深，受益高端 CCL 树脂国产替代",
+          "capability": {
+            "materials": [
+              "ppo_bmi",
+              "ppo_hydrocarbon_m8"
+            ],
+            "highest_grade": "M8+(双马/碳氢)",
+            "note": "双马来酰亚胺/活性酯/碳氢树脂，已供英伟达华为苹果英特尔体系",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "圣泉集团",
+          "ticker": "605589.SH",
+          "role": "主要参与者",
+          "purity": 45,
+          "logic": "特种树脂能力覆盖电子材料方向，受益 PPO/碳氢树脂需求提升",
+          "capability": {
+            "materials": [
+              "modified_epoxy",
+              "ppo_bmi",
+              "ppo_hydrocarbon_m8"
+            ],
+            "highest_grade": "M8(碳氢/改性PPO)",
+            "note": "过国产化认证，可提供M6-M8全系列树脂，量产超级碳氢树脂及改性PPO",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "宏昌电子",
+          "ticker": "603002.SH",
+          "role": "主要参与者",
+          "purity": 60,
+          "logic": "电子级环氧树脂基础较强，高端覆铜板材料升级带动产品结构改善",
+          "capability": {
+            "materials": [
+              "ppo_bmi"
+            ],
+            "highest_grade": "M7级",
+            "note": "GA-686系列电性达M7材料水准",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "同宇新材",
+          "ticker": null,
+          "role": "主要参与者",
+          "purity": null,
+          "logic": "参与电子树脂国产替代，受益高频高速 CCL 材料体系升级"
+        },
+        {
+          "name": "瑞丰高材",
+          "ticker": "300243.SZ",
+          "role": "主要参与者",
+          "purity": 35,
+          "logic": "CSR 增韧剂用于改善树脂材料性能，受益高端树脂配方升级",
+          "capability": {
+            "materials": [
+              "toughener_csr"
+            ],
+            "highest_grade": "增韧剂CSR",
+            "note": "CSR核壳橡胶增韧剂，M9体系新增需求",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "美联新材",
+          "ticker": "300586.SZ",
+          "role": "碳氢树脂参与者",
+          "purity": 45,
+          "logic": "控股孙公司辉虹科技EX碳氢材料批量供货，应用M8乃至M9",
+          "capability": {
+            "materials": [
+              "ppo_hydrocarbon_m8",
+              "hydrocarbon_m9"
+            ],
+            "highest_grade": "M8-M9(碳氢)",
+            "note": "控股孙公司辉虹科技EX碳氢材料，批量供货，应用M8乃至M9",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "M2 改性环氧",
+          "M6 碳氢/苊烯",
+          "M8 PPO",
+          "M9 碳氢树脂"
+        ],
+        "current": "M8 以 PPO 为主，M9 碳氢树脂用量大幅提升",
+        "note": "高速材料体系由改性环氧向 PPO、碳氢/PTFE 体系演进；M9 中碳氢树脂与 PPO 用量约 2:1，碳氢树脂成为下一代首选方向。来源：CCL数据包_2026-06，2026-06-25",
+        "risk_level": "中"
+      },
+      "upstream": [],
+      "competition": null,
+      "current_generation": null,
+      "bom_by_generation": [],
+      "grades": [
+        {
+          "grade_id": "modified_epoxy",
+          "name": "改性环氧树脂",
+          "intro_gen": "M2"
+        },
+        {
+          "grade_id": "ppo_bmi",
+          "name": "PPO+碳氢/BMI (M7体系)",
+          "intro_gen": "M7"
+        },
+        {
+          "grade_id": "ppo_hydrocarbon_m8",
+          "name": "PPO:碳氢≈2:1 (M8体系)",
+          "intro_gen": "M8"
+        },
+        {
+          "grade_id": "hydrocarbon_m9",
+          "name": "碳氢为主 PPO:碳氢≈1:2 (M9体系)",
+          "intro_gen": "M9"
+        },
+        {
+          "grade_id": "ptfe_resin",
+          "name": "碳氢+PTFE (M10体系)",
+          "intro_gen": "M10"
+        },
+        {
+          "grade_id": "toughener_csr",
+          "name": "增韧剂CSR(核壳橡胶)",
+          "intro_gen": "M9"
+        }
+      ]
+    },
+    {
+      "id": "fiberglass_cloth",
+      "name": "电子玻纤布（含石英布 Q 布）",
+      "layer_updated": "2026-06-25",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": "亿元",
+          "year": null,
+          "note": "数据包未提供电子玻纤布独立市场规模；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "数据包未提供明确 CAGR；来源：CCL数据包_2026-06，2026-06-25"
+        },
+        "value_share": {
+          "value": 22,
+          "unit": "%",
+          "relative_to": "覆铜板 (CCL) M8",
+          "note": "M8 BOM 占比；来源：技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25"
+        }
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "derived",
+          "evidence": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "indicators": {
+            "inventory": "底部回补/去库尾声",
+            "capex": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+            "demand": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+            "price": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+            "utilization": "产能利用率约 95%"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "底部回补/去库尾声",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "price",
+              "value": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "产能利用率约 95%",
+              "stage": "peak"
+            }
+          ]
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "旧 penetration_rate=20%，按渗透率区间归类。",
+          "source_ref": "CCL数据包_2026-06?2026-06-25",
+          "rate": 20,
+          "type": null,
+          "indicators": {
+            "qualitative": "电子玻纤布产能扩张周期长达 18-24 个月，是 2025-2026 年最先出现缺口的材料之一；低介电布由日东纺、旭化成、台玻主导，Q 布合格供应商极少，1080 型号布价或上涨 50%-60%，新产能预计 2027 年才陆续投放。来源：CCL数据包_2026-06，2026-06-25"
+          },
+          "breakdown": [
+            {
+              "dimension": "rate",
+              "value": 20,
+              "stage": "golden"
+            }
+          ],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "宏和科技",
+          "ticker": "603256.SH",
+          "role": "主要参与者",
+          "purity": 70,
+          "logic": "低介电电子布认证覆盖较全，受益英伟达链高端玻纤布需求",
+          "capability": {
+            "materials": [
+              "low_dk_gen2",
+              "low_cte",
+              "quartz_cloth"
+            ],
+            "highest_grade": "Q布爬坡/Low-CTE",
+            "note": "超薄布+Low-CTE国内龙头，过松下/台光/生益/斗山认证，Q布产能爬坡中",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "中材科技",
+          "ticker": "002080.SZ",
+          "role": "主要参与者",
+          "purity": 45,
+          "logic": "泰山玻纤产能和技术积累支撑电子玻纤布升级",
+          "capability": {
+            "materials": [
+              "low_dk_gen1",
+              "low_dk_gen2",
+              "quartz_cloth"
+            ],
+            "highest_grade": "Q布(M9)",
+            "note": "泰山玻纤，二代布+Q布全覆盖，拿下台光65%的M8订单，Q布产能700-1000万米",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "中国巨石",
+          "ticker": "600176.SH",
+          "role": "主要参与者",
+          "purity": 45,
+          "logic": "玻纤龙头具备规模优势，电子布景气上行带来结构性机会",
+          "capability": {
+            "materials": [
+              "e_glass",
+              "low_dk_gen1"
+            ],
+            "highest_grade": "E-glass/低介电一代",
+            "note": "全球玻纤市占35%+，以中低端为主，做不了Q布，止步M7",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "菲利华",
+          "ticker": "300395.SZ",
+          "role": "主要参与者",
+          "purity": 50,
+          "logic": "石英材料能力匹配 M9 所需 Q 布方向，受益高阶低介电材料升级",
+          "capability": {
+            "materials": [
+              "quartz_cloth"
+            ],
+            "highest_grade": "Q布(M9)",
+            "note": "控股中益新材，Q布唯一全产业链布局，过松下M9+英伟达+台光认证，石英布最纯正标的",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        },
+        {
+          "name": "国际复材",
+          "ticker": "301526.SZ",
+          "role": "主要参与者",
+          "purity": 40,
+          "logic": "玻纤产能和客户基础可承接电子级材料扩张需求",
+          "capability": {
+            "materials": [
+              "e_glass",
+              "low_dk_gen1",
+              "low_dk_gen2"
+            ],
+            "highest_grade": "Low-Dk二代",
+            "note": "Low-Dk市占第一，二代布技术领先，Q布暂未明确量产",
+            "source_ref": "CCL上游材料牌号级龙头数据包，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "E-glass",
+          "Low-Dk 一代",
+          "Low-Dk 二代",
+          "Q 布"
+        ],
+        "current": "M7 使用一代 Low-Dk，M8 使用一至二代，M9 升级至二至三代或 Q 布",
+        "note": "电子玻纤布向低介电和石英布方向升级，Q 布为 M9 材料体系关键材料之一，合格供应商较少且认证周期长。来源：CCL数据包_2026-06，2026-06-25",
+        "risk_level": "中"
+      },
+      "upstream": [],
+      "competition": null,
+      "current_generation": null,
+      "bom_by_generation": [],
+      "grades": [
+        {
+          "grade_id": "e_glass",
+          "name": "E-glass 一代布",
+          "intro_gen": "M2",
+          "df": "0.002"
+        },
+        {
+          "grade_id": "low_dk_gen1",
+          "name": "Low-Dk 一代布(D玻纤)",
+          "intro_gen": "M7",
+          "df": "0.0017-0.0023"
+        },
+        {
+          "grade_id": "low_dk_gen2",
+          "name": "Low-Dk 二代布",
+          "intro_gen": "M8",
+          "df": "0.0015"
+        },
+        {
+          "grade_id": "low_cte",
+          "name": "Low-CTE 低热膨胀布",
+          "intro_gen": "M8",
+          "note": "封装基板用"
+        },
+        {
+          "grade_id": "quartz_cloth",
+          "name": "石英布(Q布/三代布)",
+          "intro_gen": "M9",
+          "df": "0.0002-0.0009",
+          "note": "石英纤维，价格250-300元/米，二代布6倍"
+        }
+      ]
+    }
+  ],
+  "competition": null,
+  "current_generation": "M8",
+  "bom_by_generation": [
+    {
+      "generation": "M7",
+      "df": "0.003",
+      "application": "800G交换机/AI服务器，112Gbps",
+      "source_ref": "技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25",
+      "items": [
+        {
+          "material_id": "hvlp12_foil",
+          "node_id": "electronic_copper_foil",
+          "material": "HVLP1/2铜箔",
+          "share": 45
+        },
+        {
+          "material_id": "ppo_bmi",
+          "node_id": "electronic_resin",
+          "material": "PPO+碳氢 或 PPO+BMI",
+          "share": 30
+        },
+        {
+          "material_id": "low_dk_gen1",
+          "node_id": "fiberglass_cloth",
+          "material": "Low-Dk一代布",
+          "share": 20
+        },
+        {
+          "material_id": "spherical_silica",
+          "node_id": null,
+          "material": "物理法/亚微米球硅",
+          "share": 5
+        }
+      ]
+    },
+    {
+      "generation": "M8",
+      "df": "0.0015",
+      "application": "主流AI服务器(Blackwell架构)，112Gbps",
+      "source_ref": "技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25",
+      "items": [
+        {
+          "material_id": "hvlp3_foil",
+          "node_id": "electronic_copper_foil",
+          "material": "HVLP3铜箔",
+          "share": 33
+        },
+        {
+          "material_id": "ppo_hydrocarbon_m8",
+          "node_id": "electronic_resin",
+          "material": "PPO:碳氢≈2:1",
+          "share": 35
+        },
+        {
+          "material_id": "low_dk_gen2",
+          "node_id": "fiberglass_cloth",
+          "material": "Low-Dk二代布",
+          "share": 22
+        },
+        {
+          "material_id": "spherical_silica",
+          "node_id": null,
+          "material": "物理法/亚微米球硅(用量增)",
+          "share": 10
+        }
+      ]
+    },
+    {
+      "generation": "M9",
+      "df": "0.0007",
+      "application": "高端AI服务器(英伟达Rubin/GB300)，224Gbps，2026H2量产",
+      "source_ref": "技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25",
+      "items": [
+        {
+          "material_id": "hvlp45_foil",
+          "node_id": "electronic_copper_foil",
+          "material": "HVLP4/5铜箔",
+          "share": 14
+        },
+        {
+          "material_id": "hydrocarbon_m9",
+          "node_id": "electronic_resin",
+          "material": "PPO:碳氢≈1:2",
+          "share": 41
+        },
+        {
+          "material_id": "quartz_cloth",
+          "node_id": "fiberglass_cloth",
+          "material": "石英布(Q布)，是二代布价格6倍",
+          "share": 27,
+          "is_new": true
+        },
+        {
+          "material_id": "chemical_silica",
+          "node_id": null,
+          "material": "化学法球硅，价格3倍且用量更多",
+          "share": 16,
+          "is_new": true
+        },
+        {
+          "material_id": "toughener_csr",
+          "node_id": "electronic_resin",
+          "material": "增韧剂CSR(核壳橡胶)，添加量最高8%",
+          "share": 2,
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "generation": "M10",
+      "df": "0.0004",
+      "application": "AI服务器(Rubin Ultra/Feynman)，1.6T交换机，2027量产",
+      "source_ref": "技术代际BOM演变方案；CCL数据包_2026-06，2026-06-25",
+      "items": [
+        {
+          "material_id": "hvlp45_foil",
+          "node_id": "electronic_copper_foil",
+          "material": "HVLP4/5",
+          "share": 11
+        },
+        {
+          "material_id": "ptfe_resin",
+          "node_id": "electronic_resin",
+          "material": "碳氢和PTFE(聚四氟乙烯)",
+          "share": 48,
+          "is_new": true
+        },
+        {
+          "material_id": "quartz_cloth",
+          "node_id": "fiberglass_cloth",
+          "material": "高纯度石英布",
+          "share": 28
+        },
+        {
+          "material_id": "chemical_silica",
+          "node_id": null,
+          "material": "化学法球硅",
+          "share": 12
+        },
+        {
+          "material_id": "toughener_csr",
+          "node_id": "electronic_resin",
+          "material": "增韧剂CSR",
+          "share": 1
+        }
+      ]
+    }
+  ]
+}

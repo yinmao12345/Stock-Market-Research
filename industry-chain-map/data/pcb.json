@@ -1,0 +1,243 @@
+{
+  "id": "pcb",
+  "name": "印制电路板 (PCB)",
+  "layer_updated": "2026-06-25",
+  "metrics": {
+    "market_size": {
+      "value": 778,
+      "unit": "亿美元",
+      "year": 2025,
+      "note": "全球 PCB 2024 年约 735-750 亿美元，2025 年预计约 778 亿美元，2026 年预计约 814 亿美元；中国 PCB 2025 年预计约 4333 亿元；AI 服务器 PCB 2025 年约 56 亿美元、2026 年预计约 100 亿美元。来源：PCB数据包_2026-06，2026-06-25"
+    },
+    "cagr": {
+      "value": 32.5,
+      "unit": "%",
+      "period": "2023-2028",
+      "note": "整体全球 PCB 2024-2029 CAGR 约 5.2%，中国约 4.3%；AI/HPC 服务器 PCB 2023-2028 CAGR 约 32.5%，18 层以上高多层板 2024-2029 CAGR 约 15.7%。节点采用 AI/HPC 服务器 PCB 口径以反映核心增量。来源：PCB数据包_2026-06，2026-06-25"
+    },
+    "value_share": {
+      "value": null,
+      "unit": "%",
+      "relative_to": "终端应用",
+      "note": "PCB 作为当前根节点，下游为消费电子、AI 服务器、汽车电子等终端应用；PCB 占终端整机成本口径待后续补充。来源：PCB数据包_2026-06，2026-06-25"
+    }
+  },
+  "gap": {
+    "cycle_axis": {
+      "stage": "uptrend",
+      "source": "derived",
+      "evidence": "2025 年以来需求持续向上，台股 PCB 行业 1-4 月累计收入同比增长 14.9%，龙头海外订单能见度达 8-10 个月；AI 服务器普遍要求 20-30 层，高多层板、HDI、载板等高端占比持续扩大；2025 年国内 PCB 产能利用率约 92.8%，高端产能释放滞后，AI 高端 HDI 及高多层板产能和原材料供应相对紧张。来源：PCB数据包_2026-06，2026-06-25",
+      "source_ref": "PCB数据包_2026-06?2026-06-25",
+      "indicators": {
+        "inventory": "高景气/订单能见度8-10个月",
+        "capex": "2025 年以来需求持续向上，台股 PCB 行业 1-4 月累计收入同比增长 14.9%，龙头海外订单能见度达 8-10 个月；AI 服务器普遍要求 20-30 层，高多层板、HDI、载板等高端占比持续扩大；2025 年国内 PCB 产能利用率约 92.8%，高端产能释放滞后，AI 高端 HDI 及高多层板产能和原材料供应相对紧张。来源：PCB数据包_2026-06，2026-06-25",
+        "demand": "2025 年以来需求持续向上，台股 PCB 行业 1-4 月累计收入同比增长 14.9%，龙头海外订单能见度达 8-10 个月；AI 服务器普遍要求 20-30 层，高多层板、HDI、载板等高端占比持续扩大；2025 年国内 PCB 产能利用率约 92.8%，高端产能释放滞后，AI 高端 HDI 及高多层板产能和原材料供应相对紧张。来源：PCB数据包_2026-06，2026-06-25",
+        "price": null,
+        "utilization": "产能利用率约 92.8%"
+      },
+      "breakdown": [
+        {
+          "dimension": "inventory",
+          "value": "高景气/订单能见度8-10个月",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "demand",
+          "value": "2025 年以来需求持续向上，台股 PCB 行业 1-4 月累计收入同比增长 14.9%，龙头海外订单能见度达 8-10 个月；AI 服务器普遍要求 20-30 层，高多层板、HDI、载板等高端占比持续扩大；2025 年国内 PCB 产能利用率约 92.8%，高端产能释放滞后，AI 高端 HDI 及高多层板产能和原材料供应相对紧张。来源：PCB数据包_2026-06，2026-06-25",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "utilization",
+          "value": "产能利用率约 92.8%",
+          "stage": "peak"
+        }
+      ]
+    },
+    "penetration_axis": {
+      "stage": "golden",
+      "source": "research",
+      "evidence": "旧 penetration_rate=25%，按渗透率区间归类。",
+      "source_ref": "PCB数据包_2026-06?2026-06-25",
+      "rate": 25,
+      "type": null,
+      "indicators": {
+        "qualitative": "2025 年以来需求持续向上，台股 PCB 行业 1-4 月累计收入同比增长 14.9%，龙头海外订单能见度达 8-10 个月；AI 服务器普遍要求 20-30 层，高多层板、HDI、载板等高端占比持续扩大；2025 年国内 PCB 产能利用率约 92.8%，高端产能释放滞后，AI 高端 HDI 及高多层板产能和原材料供应相对紧张。来源：PCB数据包_2026-06，2026-06-25"
+      },
+      "breakdown": [
+        {
+          "dimension": "rate",
+          "value": 25,
+          "stage": "golden"
+        }
+      ],
+      "trend": null
+    }
+  },
+  "companies": [
+    {
+      "name": "沪电股份",
+      "ticker": "002463.SZ",
+      "role": "龙头",
+      "purity": 96,
+      "logic": "PCB 占营收约 96%，AI 服务器 PCB 收入占比超 30%，112Gbps 高速板通过 AWS 认证，绑定英伟达"
+    },
+    {
+      "name": "深南电路",
+      "ticker": "002916.SZ",
+      "role": "龙头",
+      "purity": 85,
+      "logic": "覆盖 PCB、封装基板、电子装联，全球第八，与华为共建 6G 实验室"
+    },
+    {
+      "name": "鹏鼎控股",
+      "ticker": "002938.SZ",
+      "role": "龙头",
+      "purity": 99,
+      "logic": "PCB 占营收约 99%，全球 PCB 第一，FPC 全球市占率超 20%，受益 AI 手机和服务器需求"
+    },
+    {
+      "name": "胜宏科技",
+      "ticker": "300476.SZ",
+      "role": "主要参与者",
+      "purity": 85,
+      "logic": "HDI 与汽车电子领先，汽车电子收入占比超 40%，绑定英伟达"
+    },
+    {
+      "name": "东山精密",
+      "ticker": "002384.SZ",
+      "role": "主要参与者",
+      "purity": 65,
+      "logic": "电子电路占营收约 65%，全球第三，多基金重仓"
+    },
+    {
+      "name": "生益电子",
+      "ticker": "688183.SH",
+      "role": "主要参与者",
+      "purity": 80,
+      "logic": "高多层算力板扩产，受益 AI 服务器 PCB 升级"
+    },
+    {
+      "name": "景旺电子",
+      "ticker": "603228.SH",
+      "role": "主要参与者",
+      "purity": 80,
+      "logic": "HDI 与汽车电子能力突出，进入博世供应链"
+    }
+  ],
+  "tech_evolution": {
+    "stages": [
+      "单/双面板",
+      "多层板",
+      "高多层板(18层+)",
+      "HDI(高阶/Anylayer)",
+      "封装基板(IC载板)"
+    ],
+    "current": "高多层板与高阶 HDI 为当前 AI 主战场，并向封装基板和先进封装延伸",
+    "note": "AI 服务器推动 PCB 层数从普通服务器 8-16 层升至 20-30 层，超算可达 78 层。下一代看点是 CoWoP（Chip-on-Wafer-on-PCB）先进封装；若 2027 年量产明确，将显著提升市场预期。封装基板（FC-BGA/ABF 载板）打破海外垄断是高端核心增量。来源：PCB数据包_2026-06，2026-06-25",
+    "risk_level": "低"
+  },
+  "upstream": [
+    {
+      "ref": "ccl"
+    },
+    {
+      "id": "pcb_drilling_equipment",
+      "name": "PCB钻孔/电镀设备",
+      "layer_updated": "2026-06-25",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": "亿元",
+          "year": null,
+          "note": "数据包未提供 PCB 钻孔/电镀设备独立市场规模；来源：PCB数据包_2026-06，2026-06-25"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "数据包未提供明确 CAGR；来源：PCB数据包_2026-06，2026-06-25"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": "PCB",
+          "note": "制程设备，非材料成本，占比另计；来源：PCB数据包_2026-06，2026-06-25"
+        }
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "derived",
+          "evidence": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25",
+          "source_ref": "PCB数据包_2026-06?2026-06-25",
+          "indicators": {
+            "inventory": "随PCB高端扩产景气上行",
+            "capex": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25",
+            "demand": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25",
+            "price": null,
+            "utilization": null
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "随PCB高端扩产景气上行",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25",
+              "stage": "uptrend"
+            }
+          ]
+        },
+        "penetration_axis": {
+          "stage": null,
+          "source": "derived",
+          "evidence": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25",
+          "source_ref": "PCB数据包_2026-06?2026-06-25",
+          "rate": null,
+          "type": null,
+          "indicators": {
+            "qualitative": "AI 服务器 PCB 层数和加工精度提升，带动钻孔、曝光、检测、电镀等关键制程设备需求；国产设备和耗材龙头受益高端 PCB 扩产与国产替代。来源：PCB数据包_2026-06，2026-06-25"
+          },
+          "breakdown": [],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "大族数控",
+          "ticker": "301200.SZ",
+          "role": "龙头",
+          "purity": 80,
+          "logic": "国内 PCB 钻孔、曝光、检测设备主力，受益高端 PCB 扩产"
+        },
+        {
+          "name": "鼎泰高科",
+          "ticker": "301377.SZ",
+          "role": "主要参与者",
+          "purity": 70,
+          "logic": "全球 PCB 钻针龙头，受益高层数和高精度加工需求提升"
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "机械钻孔",
+          "激光钻孔",
+          "高精度曝光/检测",
+          "精细电镀与自动化产线"
+        ],
+        "current": "高多层板和高阶 HDI 推动钻孔、电镀、曝光、检测设备精度与效率升级",
+        "note": "PCB 高端化提升孔径、层间对位、线路精细度和良率要求，关键制程设备与钻针耗材随 AI 服务器 PCB 扩产同步受益。来源：PCB数据包_2026-06，2026-06-25",
+        "risk_level": "中"
+      },
+      "upstream": [],
+      "competition": null,
+      "current_generation": null,
+      "bom_by_generation": []
+    }
+  ],
+  "competition": null,
+  "current_generation": null,
+  "bom_by_generation": []
+}

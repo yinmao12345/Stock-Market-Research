@@ -1,0 +1,63 @@
+{
+  "id": "optical-module",
+  "name": "光模块",
+  "layer_updated": "2026-06-27",
+  "current_generation": null,
+  "metrics": {
+    "market_size": {
+      "value": null,
+      "unit": null,
+      "year": null,
+      "note": "待补充；新增大产业链入口占位。"
+    },
+    "cagr": {
+      "value": null,
+      "unit": "%",
+      "period": null,
+      "note": "待补充；新增大产业链入口占位。"
+    },
+    "value_share": {
+      "value": null,
+      "unit": "%",
+      "relative_to": "AI 算力基础设施",
+      "note": "待补充；新增大产业链入口占位。"
+    }
+  },
+  "competition": null,
+  "gap": {
+    "cycle_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "indicators": {},
+      "breakdown": [],
+      "heatmap": null
+    },
+    "penetration_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "rate": null,
+      "type": null,
+      "indicators": {},
+      "breakdown": [],
+      "trend": null
+    }
+  },
+  "companies": [],
+  "tech_evolution": {
+    "stages": [
+      "100G",
+      "400G",
+      "800G",
+      "1.6T"
+    ],
+    "current": "800G 放量并向 1.6T 演进",
+    "note": "光模块大产业链入口占位，后续可补充光芯片、DSP、激光器、连接器等上游环节。",
+    "risk_level": "中"
+  },
+  "bom_by_generation": [],
+  "upstream": []
+}
