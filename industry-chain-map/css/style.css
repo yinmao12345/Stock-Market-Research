@@ -555,6 +555,17 @@ input {
   font-weight: 800;
 }
 
+.penetration-trend--empty .penetration-trend__band {
+  opacity: 0.36;
+}
+
+.penetration-trend__empty-label {
+  fill: var(--color-muted);
+  font-size: 13px;
+  font-weight: 800;
+  text-anchor: middle;
+}
+
 .penetration-trend__tick,
 .penetration-trend__x {
   fill: var(--color-muted);
@@ -718,6 +729,13 @@ input {
   background:
     repeating-linear-gradient(135deg, transparent 0 3px, rgba(111, 107, 97, 0.12) 3px 5px),
     var(--heat-missing);
+}
+
+.heatmap__empty-note {
+  margin-top: var(--space-2);
+  color: var(--color-muted);
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
 }
 
 .bom {
@@ -1192,4 +1210,38 @@ input {
   .topbar {
     padding: var(--space-3);
   }
+}
+.container-overview {
+  padding: var(--space-2) 0;
+}
+
+.container-overview__desc {
+  margin-bottom: var(--space-3);
+  padding: var(--space-3);
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+}
+
+.container-overview__metrics {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.container-overview__metric {
+  padding: var(--space-3);
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.container-overview__label {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--color-ink);
+  font-weight: var(--weight-title);
+  font-size: var(--text-label);
 }

@@ -1,0 +1,1450 @@
+{
+  "id": "power_battery_lithium",
+  "name": "动力电池（锂）",
+  "layer_updated": "2026-06-28",
+  "metrics": {
+    "market_size": {
+      "value": null,
+      "unit": null,
+      "year": null,
+      "note": "待补充"
+    },
+    "cagr": {
+      "value": null,
+      "unit": "%",
+      "period": null,
+      "note": "待补充"
+    },
+    "value_share": {
+      "value": null,
+      "unit": "%",
+      "relative_to": null,
+      "note": "待补充"
+    }
+  },
+  "competition": null,
+  "gap": {
+    "cycle_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "indicators": {},
+      "breakdown": [],
+      "heatmap": null
+    },
+    "penetration_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "rate": null,
+      "type": null,
+      "indicators": {},
+      "breakdown": [],
+      "trend": null
+    }
+  },
+  "companies": [],
+  "tech_evolution": {
+    "stages": [],
+    "current": "",
+    "note": "待补充",
+    "risk_level": null
+  },
+  "current_generation": null,
+  "bom_by_generation": [],
+  "upstream": [
+    {
+      "id": "battery_cell",
+      "name": "电芯",
+      "layer_updated": "2026-06-28",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": null,
+          "year": null,
+          "note": "待补充"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "待补充"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": null,
+          "note": "待补充"
+        }
+      },
+      "competition": null,
+      "gap": {
+        "cycle_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "indicators": {},
+          "breakdown": [],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "rate": null,
+          "type": null,
+          "indicators": {},
+          "breakdown": [],
+          "trend": null
+        }
+      },
+      "companies": [],
+      "tech_evolution": {
+        "stages": [],
+        "current": "",
+        "note": "待补充",
+        "risk_level": null
+      },
+      "current_generation": null,
+      "bom_by_generation": [],
+      "upstream": [
+        {
+          "id": "cathode_material",
+          "name": "正极材料",
+          "layer_updated": "2026-06-28",
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "待补充"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "待补充"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": null,
+              "note": "待补充"
+            }
+          },
+          "competition": null,
+          "gap": {
+            "cycle_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "indicators": {},
+              "breakdown": [],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [],
+          "tech_evolution": {
+            "stages": [],
+            "current": "",
+            "note": "待补充",
+            "risk_level": null
+          },
+          "current_generation": null,
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "lithium_resource",
+              "name": "锂资源",
+              "layer_updated": "2026-06-28",
+              "metrics": {
+                "market_size": {
+                  "value": 257.7,
+                  "unit": "亿美元",
+                  "year": 2024,
+                  "note": "QYResearch口径全球碳酸锂市场规模；预计2031年达900.3亿美元"
+                },
+                "cagr": {
+                  "value": 19.9,
+                  "unit": "%",
+                  "period": "2025-2031",
+                  "note": "QYResearch金额口径含价格修复假设；需求量口径CAGR约15-25%，储能为主要驱动"
+                },
+                "value_share": {
+                  "value": 20,
+                  "unit": "%",
+                  "relative_to": "LFP电芯成本",
+                  "note": "碳酸锂在LFP电芯成本中占比约15-25%（价格6万时低、20万时高），在正极材料成本中占比40-60%。电池领域占锂需求82%。"
+                }
+              },
+              "competition": {
+                "concentration": {
+                  "label": "全球CR3",
+                  "value": 40,
+                  "unit": "%",
+                  "note": "全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。"
+                },
+                "leader_share": {
+                  "company": "赣锋锂业",
+                  "value": null,
+                  "unit": null,
+                  "note": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                },
+                "tiers": "全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "被动去库存末期/主动补库存初期",
+                  "source": "锂资源产业投资研究报告",
+                  "evidence": "碳酸锂价格从2025年6月5.99万元/吨底部反弹超140%至15-17万元/吨；行业开工率从约50%升至80%+；库存从高位去化至接近正常水平（约10.3万吨）；资本开支2025H2起边际改善。2026年碳酸锂预计仅过剩约4万吨（过剩比例2%），供需偏紧。",
+                  "source_ref": "updates/updates-2026-06-27/锂资源.md",
+                  "indicators": {
+                    "库存": {
+                      "unit": "万吨",
+                      "latest": 10.3,
+                      "note": "2026年4月样本总库存，已从高点去化"
+                    },
+                    "需求": {
+                      "unit": "万吨LCE",
+                      "latest": 155,
+                      "note": "2025年全球碳酸锂需求约155万吨，储能出货同比+57.8%"
+                    },
+                    "价格": {
+                      "unit": "万元/吨",
+                      "latest": 15.5,
+                      "note": "2026年6月电池级碳酸锂约14.97-16.08万元/吨区间"
+                    },
+                    "开工率": {
+                      "unit": "%",
+                      "latest": 80,
+                      "note": "行业开工率从年中约50%提升至80%以上"
+                    },
+                    "资本开支": {
+                      "unit": null,
+                      "latest": null,
+                      "note": "2020-2024年周期性低迷，2025H2起随价格回升边际改善"
+                    }
+                  },
+                  "breakdown": [],
+                  "heatmap": {
+                    "granularity": "month",
+                    "timeline": [
+                      "2025-07",
+                      "2025-08",
+                      "2025-09",
+                      "2025-10",
+                      "2025-11",
+                      "2025-12",
+                      "2026-01",
+                      "2026-02",
+                      "2026-03",
+                      "2026-04",
+                      "2026-05",
+                      "2026-06"
+                    ],
+                    "dimensions": [
+                      {
+                        "key": "inventory",
+                        "name": "库存",
+                        "good_direction": "down",
+                        "values": [
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "up",
+                          null,
+                          "down",
+                          "up",
+                          "down",
+                          "up"
+                        ],
+                        "notes": [
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "累库初期11万吨",
+                          "数据暂缺",
+                          "港口矿去化",
+                          "微增至10.3万吨",
+                          "去库",
+                          "小幅累库"
+                        ]
+                      },
+                      {
+                        "key": "capex",
+                        "name": "资本开支",
+                        "good_direction": "up",
+                        "values": [
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "flat",
+                          "flat",
+                          "flat",
+                          "up",
+                          "up",
+                          "up"
+                        ],
+                        "notes": [
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位回升",
+                          "回升",
+                          "回升"
+                        ]
+                      },
+                      {
+                        "key": "demand",
+                        "name": "需求",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "flat"
+                        ],
+                        "notes": [
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "抢出口",
+                          "增加",
+                          "增加",
+                          "增加",
+                          "旺盛",
+                          "韧性"
+                        ]
+                      },
+                      {
+                        "key": "price",
+                        "name": "价格",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "flat",
+                          "flat",
+                          "up",
+                          "flat",
+                          "flat"
+                        ],
+                        "notes": [
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "大幅涨13→17万",
+                          "先抑后扬",
+                          "宽幅震荡~14.75万",
+                          "坚挺上涨~17.45万",
+                          "高位震荡18-19万",
+                          "回调震荡15-17万"
+                        ]
+                      },
+                      {
+                        "key": "utilization",
+                        "name": "开工率",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up"
+                        ],
+                        "notes": [
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "增加",
+                          "增加",
+                          "增加",
+                          "高位",
+                          "高位80%+",
+                          "高位"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "penetration_axis": {
+                  "stage": "成熟期/饱和期",
+                  "source": "新能源车渗透率（代理指标）",
+                  "evidence": "锂资源本身无渗透率概念，需求由下游NEV+储能渗透率驱动。中国NEV渗透率约50-53%高位震荡；储能出货量2026年预计同比+57.8%为核心增量引擎。固态电池渗透率极低（2025年仅~3.33GWh）。",
+                  "source_ref": "updates/updates-2026-06-27/锂资源.md",
+                  "rate": 53,
+                  "type": "新能源车渗透率(代理)",
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": {
+                    "granularity": "quarter",
+                    "timeline": [
+                      "2025Q1",
+                      "2025Q2",
+                      "2025Q3",
+                      "2025Q4",
+                      "2026Q1",
+                      "2026Q2"
+                    ],
+                    "values": [
+                      48,
+                      50,
+                      52,
+                      53,
+                      51,
+                      53
+                    ],
+                    "note": "中国新能源车渗透率代理指标，2026Q1因销量同比小降回落至51%。储能侧为真正增量引擎：2026全球储能出货预计同比+57.8%，对应碳酸锂需求增长40-50%。固态电池渗透率极低(2025~3.33GWh)，锂金属负极长期利好。"
+                  }
+                }
+              },
+              "companies": [
+                {
+                  "name": "赣锋锂业",
+                  "code": "002460.SZ",
+                  "role": "龙头",
+                  "purity": "高",
+                  "logic": "全球锂生态龙头，唯一同时实现卤水/矿石/回收三大技术产业化，资源折LCE约3640万吨，2025年自给率超50%，弹性大但杠杆偏高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂",
+                      "锂金属"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002460.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "天齐锂业",
+                  "code": "002466.SZ",
+                  "role": "龙头",
+                  "purity": "高",
+                  "logic": "控股格林布什锂辉石矿(~1600万吨LCE)+参股SQM，锂资源100%自给，成本与资源质量行业顶尖，上行弹性最大",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002466.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "盐湖股份",
+                  "code": "000792.SZ",
+                  "role": "龙头",
+                  "purity": "中",
+                  "logic": "依托察尔汗盐湖，吸附法现金成本仅约2万元/吨，五矿背景，跌时抗跌涨时弹性",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "000792.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "藏格矿业",
+                  "code": "000408.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "紫金矿业旗下，察尔汗东部及麻米错等盐湖，碳酸锂储量约781.74万吨，盐湖成本优势突出",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "000408.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "中矿资源",
+                  "code": "002738.SZ",
+                  "role": "主要参与者",
+                  "purity": "中高",
+                  "logic": "非洲锂辉石矿100%控股开发龙头，自给率提升明显",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002738.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "永兴材料",
+                  "code": "002756.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "云母提锂成本控制与盈利韧性龙头，宜春锂云母",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002756.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "盛新锂能",
+                  "code": "002240.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "锂盐产能扩张与长单绑定，矿石+盐湖+云母全覆盖，弹性高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002240.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "雅化集团",
+                  "code": "002497.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "电池级氢氧化锂出口供应龙头",
+                  "capability": {
+                    "materials": [
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002497.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "天华新能",
+                  "code": "300390.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "深度绑定宁德时代，主营电池级氢氧化锂+碳酸锂",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "300390.SZ",
+                  "listed": true
+                },
+                {
+                  "name": "融捷股份",
+                  "code": "002192.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "国内最纯锂矿标的，控股甲基卡高品位锂辉石矿，自给率70%+，对锂价敏感度高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  },
+                  "ticker": "002192.SZ",
+                  "listed": true
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "矿石提锂(锂辉石/锂云母)→当前主流",
+                  "盐湖提锂(DLE升级)→下一代",
+                  "回收提锂→远期供给平滑器"
+                ],
+                "current": "矿石提锂为主流（锂辉石占国内总产量约半壁江山），盐湖提锂正从传统蒸发法向DLE升级（回收率70-90% vs 传统40-60%，周期从12-24月压缩至数小时-数天），回收提锂2027年首轮EV退役潮启动。固态电池锂金属负极单位锂耗更高，长期利好。",
+                "note": "DLE关键玩家：Rio Tinto/Eramet/SQM/IBAT/EnergyX/Standard Lithium及国内九岭、藏格。吸附法（盐湖股份现金成本~2万元/吨）成本最优。固态电池2026-2027年小规模量产，锂金属负极路线锂耗更高。来源：锂资源产业投资研究报告，2026-06-27",
+                "risk_level": "中低"
+              },
+              "current_generation": null,
+              "bom_by_generation": [],
+              "upstream": []
+            }
+          ]
+        },
+        {
+          "id": "anode_material",
+          "name": "负极材料",
+          "layer_updated": "2026-06-28",
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "待补充"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "待补充"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": null,
+              "note": "待补充"
+            }
+          },
+          "competition": null,
+          "gap": {
+            "cycle_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "indicators": {},
+              "breakdown": [],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [],
+          "tech_evolution": {
+            "stages": [],
+            "current": "",
+            "note": "待补充",
+            "risk_level": null
+          },
+          "current_generation": null,
+          "bom_by_generation": [],
+          "upstream": []
+        },
+        {
+          "id": "electrolyte",
+          "name": "电解液",
+          "layer_updated": "2026-06-28",
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "待补充"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "待补充"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": null,
+              "note": "待补充"
+            }
+          },
+          "competition": null,
+          "gap": {
+            "cycle_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "indicators": {},
+              "breakdown": [],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [],
+          "tech_evolution": {
+            "stages": [],
+            "current": "",
+            "note": "待补充",
+            "risk_level": null
+          },
+          "current_generation": null,
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "lithium_resource",
+              "name": "锂资源",
+              "layer_updated": "2026-06-28",
+              "metrics": {
+                "market_size": {
+                  "value": 257.7,
+                  "unit": "亿美元",
+                  "year": 2024,
+                  "note": "QYResearch口径全球碳酸锂市场规模；预计2031年达900.3亿美元"
+                },
+                "cagr": {
+                  "value": 19.9,
+                  "unit": "%",
+                  "period": "2025-2031",
+                  "note": "QYResearch金额口径含价格修复假设；需求量口径CAGR约15-25%，储能为主要驱动"
+                },
+                "value_share": {
+                  "value": 20,
+                  "unit": "%",
+                  "relative_to": "LFP电芯成本",
+                  "note": "碳酸锂在LFP电芯成本中占比约15-25%（价格6万时低、20万时高），在正极材料成本中占比40-60%。电池领域占锂需求82%。"
+                }
+              },
+              "competition": {
+                "concentration": {
+                  "label": "全球CR3",
+                  "value": 40,
+                  "unit": "%",
+                  "note": "全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。"
+                },
+                "leader_share": {
+                  "company": "赣锋锂业",
+                  "value": null,
+                  "unit": null,
+                  "note": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                },
+                "tiers": "全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "被动去库存末期/主动补库存初期",
+                  "source": "锂资源产业投资研究报告",
+                  "evidence": "碳酸锂价格从2025年6月5.99万元/吨底部反弹超140%至15-17万元/吨；行业开工率从约50%升至80%+；库存从高位去化至接近正常水平（约10.3万吨）；资本开支2025H2起边际改善。2026年碳酸锂预计仅过剩约4万吨（过剩比例2%），供需偏紧。",
+                  "source_ref": "updates/updates-2026-06-27/锂资源.md",
+                  "indicators": {
+                    "库存": {
+                      "unit": "万吨",
+                      "latest": 10.3,
+                      "note": "2026年4月样本总库存，已从高点去化"
+                    },
+                    "需求": {
+                      "unit": "万吨LCE",
+                      "latest": 155,
+                      "note": "2025年全球碳酸锂需求约155万吨，储能出货同比+57.8%"
+                    },
+                    "价格": {
+                      "unit": "万元/吨",
+                      "latest": 15.5,
+                      "note": "2026年6月电池级碳酸锂约14.97-16.08万元/吨区间"
+                    },
+                    "开工率": {
+                      "unit": "%",
+                      "latest": 80,
+                      "note": "行业开工率从年中约50%提升至80%以上"
+                    },
+                    "资本开支": {
+                      "unit": null,
+                      "latest": null,
+                      "note": "2020-2024年周期性低迷，2025H2起随价格回升边际改善"
+                    }
+                  },
+                  "breakdown": [],
+                  "heatmap": {
+                    "granularity": "month",
+                    "timeline": [
+                      "2025-07",
+                      "2025-08",
+                      "2025-09",
+                      "2025-10",
+                      "2025-11",
+                      "2025-12",
+                      "2026-01",
+                      "2026-02",
+                      "2026-03",
+                      "2026-04",
+                      "2026-05",
+                      "2026-06"
+                    ],
+                    "dimensions": [
+                      {
+                        "key": "inventory",
+                        "name": "库存",
+                        "good_direction": "down",
+                        "values": [
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "up",
+                          null,
+                          "down",
+                          "up",
+                          "down",
+                          "up"
+                        ],
+                        "notes": [
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "去库",
+                          "累库初期11万吨",
+                          "数据暂缺",
+                          "港口矿去化",
+                          "微增至10.3万吨",
+                          "去库",
+                          "小幅累库"
+                        ]
+                      },
+                      {
+                        "key": "capex",
+                        "name": "资本开支",
+                        "good_direction": "up",
+                        "values": [
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "down",
+                          "flat",
+                          "flat",
+                          "flat",
+                          "up",
+                          "up",
+                          "up"
+                        ],
+                        "notes": [
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位",
+                          "低位回升",
+                          "回升",
+                          "回升"
+                        ]
+                      },
+                      {
+                        "key": "demand",
+                        "name": "需求",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "flat"
+                        ],
+                        "notes": [
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "储能驱动",
+                          "抢出口",
+                          "增加",
+                          "增加",
+                          "增加",
+                          "旺盛",
+                          "韧性"
+                        ]
+                      },
+                      {
+                        "key": "price",
+                        "name": "价格",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "flat",
+                          "flat",
+                          "up",
+                          "flat",
+                          "flat"
+                        ],
+                        "notes": [
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "底部回升",
+                          "大幅涨13→17万",
+                          "先抑后扬",
+                          "宽幅震荡~14.75万",
+                          "坚挺上涨~17.45万",
+                          "高位震荡18-19万",
+                          "回调震荡15-17万"
+                        ]
+                      },
+                      {
+                        "key": "utilization",
+                        "name": "开工率",
+                        "good_direction": "up",
+                        "values": [
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up",
+                          "up"
+                        ],
+                        "notes": [
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "回升中",
+                          "增加",
+                          "增加",
+                          "增加",
+                          "高位",
+                          "高位80%+",
+                          "高位"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "penetration_axis": {
+                  "stage": "成熟期/饱和期",
+                  "source": "新能源车渗透率（代理指标）",
+                  "evidence": "锂资源本身无渗透率概念，需求由下游NEV+储能渗透率驱动。中国NEV渗透率约50-53%高位震荡；储能出货量2026年预计同比+57.8%为核心增量引擎。固态电池渗透率极低（2025年仅~3.33GWh）。",
+                  "source_ref": "updates/updates-2026-06-27/锂资源.md",
+                  "rate": 53,
+                  "type": "新能源车渗透率(代理)",
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": {
+                    "granularity": "quarter",
+                    "timeline": [
+                      "2025Q1",
+                      "2025Q2",
+                      "2025Q3",
+                      "2025Q4",
+                      "2026Q1",
+                      "2026Q2"
+                    ],
+                    "values": [
+                      48,
+                      50,
+                      52,
+                      53,
+                      51,
+                      53
+                    ],
+                    "note": "中国新能源车渗透率代理指标，2026Q1因销量同比小降回落至51%。储能侧为真正增量引擎：2026全球储能出货预计同比+57.8%，对应碳酸锂需求增长40-50%。固态电池渗透率极低(2025~3.33GWh)，锂金属负极长期利好。"
+                  }
+                }
+              },
+              "companies": [
+                {
+                  "name": "赣锋锂业",
+                  "code": "002460.SZ",
+                  "role": "龙头",
+                  "purity": "高",
+                  "logic": "全球锂生态龙头，唯一同时实现卤水/矿石/回收三大技术产业化，资源折LCE约3640万吨，2025年自给率超50%，弹性大但杠杆偏高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂",
+                      "锂金属"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "天齐锂业",
+                  "code": "002466.SZ",
+                  "role": "龙头",
+                  "purity": "高",
+                  "logic": "控股格林布什锂辉石矿(~1600万吨LCE)+参股SQM，锂资源100%自给，成本与资源质量行业顶尖，上行弹性最大",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "盐湖股份",
+                  "code": "000792.SZ",
+                  "role": "龙头",
+                  "purity": "中",
+                  "logic": "依托察尔汗盐湖，吸附法现金成本仅约2万元/吨，五矿背景，跌时抗跌涨时弹性",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "藏格矿业",
+                  "code": "000408.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "紫金矿业旗下，察尔汗东部及麻米错等盐湖，碳酸锂储量约781.74万吨，盐湖成本优势突出",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "中矿资源",
+                  "code": "002738.SZ",
+                  "role": "主要参与者",
+                  "purity": "中高",
+                  "logic": "非洲锂辉石矿100%控股开发龙头，自给率提升明显",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "永兴材料",
+                  "code": "002756.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "云母提锂成本控制与盈利韧性龙头，宜春锂云母",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "盛新锂能",
+                  "code": "002240.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "锂盐产能扩张与长单绑定，矿石+盐湖+云母全覆盖，弹性高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "雅化集团",
+                  "code": "002497.SZ",
+                  "role": "主要参与者",
+                  "purity": "中",
+                  "logic": "电池级氢氧化锂出口供应龙头",
+                  "capability": {
+                    "materials": [
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "天华新能",
+                  "code": "300390.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "深度绑定宁德时代，主营电池级氢氧化锂+碳酸锂",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                },
+                {
+                  "name": "融捷股份",
+                  "code": "002192.SZ",
+                  "role": "主要参与者",
+                  "purity": "高",
+                  "logic": "国内最纯锂矿标的，控股甲基卡高品位锂辉石矿，自给率70%+，对锂价敏感度高",
+                  "capability": {
+                    "materials": [
+                      "碳酸锂",
+                      "氢氧化锂"
+                    ],
+                    "highest_grade": "电池级",
+                    "verification_status": null
+                  }
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "矿石提锂(锂辉石/锂云母)→当前主流",
+                  "盐湖提锂(DLE升级)→下一代",
+                  "回收提锂→远期供给平滑器"
+                ],
+                "current": "矿石提锂为主流（锂辉石占国内总产量约半壁江山），盐湖提锂正从传统蒸发法向DLE升级（回收率70-90% vs 传统40-60%，周期从12-24月压缩至数小时-数天），回收提锂2027年首轮EV退役潮启动。固态电池锂金属负极单位锂耗更高，长期利好。",
+                "note": "DLE关键玩家：Rio Tinto/Eramet/SQM/IBAT/EnergyX/Standard Lithium及国内九岭、藏格。吸附法（盐湖股份现金成本~2万元/吨）成本最优。固态电池2026-2027年小规模量产，锂金属负极路线锂耗更高。来源：锂资源产业投资研究报告，2026-06-27",
+                "risk_level": "中低"
+              },
+              "current_generation": null,
+              "bom_by_generation": [],
+              "upstream": []
+            }
+          ]
+        },
+        {
+          "id": "separator",
+          "name": "隔膜",
+          "layer_updated": "2026-06-28",
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "待补充"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "待补充"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": null,
+              "note": "待补充"
+            }
+          },
+          "competition": null,
+          "gap": {
+            "cycle_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "indicators": {},
+              "breakdown": [],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "",
+              "source_ref": "",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [],
+          "tech_evolution": {
+            "stages": [],
+            "current": "",
+            "note": "待补充",
+            "risk_level": null
+          },
+          "current_generation": null,
+          "bom_by_generation": [],
+          "upstream": []
+        }
+      ]
+    },
+    {
+      "id": "battery_structure",
+      "name": "结构件",
+      "layer_updated": "2026-06-28",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": null,
+          "year": null,
+          "note": "待补充"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "待补充"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": null,
+          "note": "待补充"
+        }
+      },
+      "competition": null,
+      "gap": {
+        "cycle_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "indicators": {},
+          "breakdown": [],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "rate": null,
+          "type": null,
+          "indicators": {},
+          "breakdown": [],
+          "trend": null
+        }
+      },
+      "companies": [],
+      "tech_evolution": {
+        "stages": [],
+        "current": "",
+        "note": "待补充",
+        "risk_level": null
+      },
+      "current_generation": null,
+      "bom_by_generation": [],
+      "upstream": []
+    },
+    {
+      "id": "battery_auxiliary",
+      "name": "辅材",
+      "layer_updated": "2026-06-28",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": null,
+          "year": null,
+          "note": "待补充"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "待补充"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": null,
+          "note": "待补充"
+        }
+      },
+      "competition": null,
+      "gap": {
+        "cycle_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "indicators": {},
+          "breakdown": [],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "rate": null,
+          "type": null,
+          "indicators": {},
+          "breakdown": [],
+          "trend": null
+        }
+      },
+      "companies": [],
+      "tech_evolution": {
+        "stages": [],
+        "current": "",
+        "note": "待补充",
+        "risk_level": null
+      },
+      "current_generation": null,
+      "bom_by_generation": [],
+      "upstream": []
+    },
+    {
+      "id": "battery_equipment",
+      "name": "锂电生产设备",
+      "layer_updated": "2026-06-28",
+      "metrics": {
+        "market_size": {
+          "value": null,
+          "unit": null,
+          "year": null,
+          "note": "待补充"
+        },
+        "cagr": {
+          "value": null,
+          "unit": "%",
+          "period": null,
+          "note": "待补充"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": null,
+          "note": "待补充"
+        }
+      },
+      "competition": null,
+      "gap": {
+        "cycle_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "indicators": {},
+          "breakdown": [],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": null,
+          "source": null,
+          "evidence": "",
+          "source_ref": "",
+          "rate": null,
+          "type": null,
+          "indicators": {},
+          "breakdown": [],
+          "trend": null
+        }
+      },
+      "companies": [],
+      "tech_evolution": {
+        "stages": [],
+        "current": "",
+        "note": "待补充",
+        "risk_level": null
+      },
+      "current_generation": null,
+      "bom_by_generation": [],
+      "upstream": []
+    }
+  ]
+}

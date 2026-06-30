@@ -1,4 +1,4 @@
-# FIELDS.md 字段总账
+﻿# FIELDS.md 字段总账
 
 ## 总规则
 
@@ -715,7 +715,7 @@ NaN
 ## 五处同步清单
 
 1. schema：`gap` 已升级为 `cycle_axis + penetration_axis` 双结构；新增 `current_generation`、`bom_by_generation`、`grades`、`companies[].capability`、`downstream_anchors` 与 `gap.cycle_axis.heatmap`、`gap.penetration_axis.trend` 作为库存景气、下游锚点和渗透率数值趋势结构。
-2. 数据：`data/ccl.json` 与 `data/pcb.json` 已迁移到双轴结构；`data/semiconductor.json` 已补充功率半导体本体、SiC衬底/外延、硅晶圆代工、功率封测及下游锚点；CCL 已填写 M7-M10 BOM、三个上游材料 grades 字典、公司 capability 和库存周期 heatmap 示例和渗透率 trend 示例，其他无代际节点以 `current_generation:null`、`bom_by_generation:[]` 占位，未补 heatmap 时缺省不报错。
+2. 数据：`data/ccl.json` 与 `data/pcb.json` 已迁移到双轴结构；`data/power_devices.json` 按功率器件重构，IGBT、MOSFET、SiC、GaN 四条独立产业链各含独立上下游串联，板块级汇总信息以容器概览展示；MOSFET 节点已按研报更新（五维库存周期+12月热力图+渗透率季度趋势+8家公司+capability+技术演进双路径）；`data/power_battery_lithium.json` 新增动力电池（锂）产业链，拓扑：电芯（正极/负极/电解液/隔膜）→结构件/辅材/设备，锂资源为上游（锂资源节点已按2026年6月研报填充：市场规模257.7亿美元/CAGR 19.9%/价值量占比20%/库存周期12月热力图/渗透率趋势/10家公司capability/竞争格局/技术演进三阶段），其余节点待补充；`data/mlcc.json` 新增MLCC（片式多层陶瓷电容器）产业链，拓扑：陶瓷粉体→电极材料/生产设备/离型膜载带四个上游，根节点MLCC生产厂商已按2026年6月研报填充（市场规模272.6亿美元/CAGR 8%/价值量占比/库存周期12月热力图/渗透率趋势/10家公司capability/竞争格局/技术演进5阶段，上游陶瓷粉体节点已按2026年6月研报填充：市场规模116亿元/CAGR 10%(高端17%+)/价值量占比35%/库存周期12月热力图/渗透率趋势/7家公司/竞争格局/技术演进5阶段，上游陶瓷粉体和电极材料节点已按2026年6月研报填充（电极材料：市场规模78亿元/CAGR 12.5%/价值量占比5-10%/库存周期12月热力图/渗透率趋势/5家公司/博迁全球第二），生产设备节点已按2026年6月研报填充（市场规模无权威数据/设备国产化率25-30%/库存周期以订单替代/渗透率趋势/7家公司含纯度标注），离型膜/载带节点已按2026年6月研报填充（市场规模200亿元/CAGR 8%/价值量占比10-20%/库存周期12月热力图/渗透率趋势30-39%/6家公司/耗材属性突出）；PCB 钻孔/电镀设备节点已按研报更新（五维库存周期+12月热力图+渗透率季度趋势+7家公司+capability+技术演进双路径）；CCL 已填写 M7-M10 BOM、三个上游材料 grades 字典、公司 capability 和库存周期 heatmap 示例和渗透率 trend 示例，其他无代际节点以 `current_generation:null`、`bom_by_generation:[]` 占位。
 3. 提取模板：`updates/数据提取模板.md` 必须按两轴采集阶段、来源、依据、五维库存周期指标、渗透率和类型；存在技术代际时还必须逐代采集 BOM 明细、当前主流代际、新增材料标记、材料牌号字典、公司牌号能力；库存周期可判断景气方向时按月填写 heatmap 的 up/down/flat/null；渗透率按季度填写 trend.values 数值序列。
-4. 规则代码：`js/gap-rules.js` 按七维词典投票与渗透率区间归类；主图价值量显示规则按父节点 `current_generation` 从 `bom_by_generation` 的 `node_id/material_id` 汇总当前代际占比；详情面板按 BOM `material_id` 匹配 capability，按 `data/config.json.heatmap` 渲染库存热力图，并按 `data/config.json.penetration_trend` 渲染渗透率阈值带趋势图。
+4. 规则代码：`js/gap-rules.js` 按五维库存周期词典投票与渗透率区间归类；主图价值量显示规则按父节点 `current_generation` 从 `bom_by_generation` 的 `node_id/material_id` 汇总当前代际占比；详情面板按 BOM `material_id` 匹配 capability，按 `data/config.json.heatmap` 渲染库存热力图，并按 `data/config.json.penetration_trend` 渲染渗透率阈值带趋势图。
 5. UI：节点缩略显示当前代际价值量占比；详情面板展示双轴定位、库存景气热力图、渗透率阈值带趋势图、下游锚点、代际 BOM 切换、BOM 明细、`is_new` 高亮、趋势速览和“点材料行展开牌号级龙头卡片”。

@@ -2,17 +2,30 @@
   "default_chain": "pcb",
   "chains": [
     {
-      "id": "semiconductor",
-      "name": "半导体",
-      "note": "大产业链入口；已补充功率半导体及 SiC衬底/外延、硅晶圆代工、功率封测三个一级上游。"
-    },
-    {
       "id": "pcb",
-      "name": "印制电路板 (PCB)"
+      "name": "印制电路板(PCB)"
     },
     {
       "id": "optical-module",
       "name": "光模块"
+    },
+    {
+      "id": "power_devices",
+      "name": "功率器件",
+      "dataFile": "power_devices.json",
+      "note": "四条独立产业链：IGBT、MOSFET、SiC、GaN，各自含上下游串联。"
+    },
+    {
+      "id": "power_battery_lithium",
+      "name": "动力电池（锂）",
+      "dataFile": "power_battery_lithium.json",
+      "note": "锂电产业链：电芯（正极/负极/电解液/隔膜）→结构件/辅材/设备，锂资源为上游。"
+    },
+    {
+      "id": "mlcc",
+      "name": "MLCC",
+      "dataFile": "mlcc.json",
+      "note": "片式多层陶瓷电容器，AI+新能源双核驱动上行周期，村田/三星/三环/风华等10家全球龙头"
     }
   ]
 }

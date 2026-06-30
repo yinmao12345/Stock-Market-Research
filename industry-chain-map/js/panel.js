@@ -1,8 +1,27 @@
 import { getPenetrationTypeLabel, getStageLabel } from './gap-rules.js';
 
+const CYCLE_DIMENSIONS = [
+  { key: 'inventory', name: '库存', good_direction: 'down' },
+  { key: 'capex', name: '资本开支', good_direction: 'up' },
+  { key: 'demand', name: '需求', good_direction: 'up' },
+  { key: 'price', name: '价格', good_direction: 'up' },
+  { key: 'utilization', name: '开工率', good_direction: 'up' },
+];
+
+const DEFAULT_HEATMAP_TIMELINE = ['待补1', '待补2', '待补3', '待补4', '待补5', '待补6'];
+
 export function renderPanel(container, node, config = {}) {
   if (!node) {
     container.innerHTML = '<div class="detail-panel__empty">点击左侧节点查看详情</div>';
+    return;
+  }
+
+  if (node.container) {
+    container.innerHTML = '';
+    const root = document.createElement('div');
+    root.className = 'detail';
+    root.append(containerOverview(node));
+    container.append(root);
     return;
   }
 
@@ -70,34 +89,25 @@ function axisBlock(kind, axis = {}, config = {}) {
   `;
   if (kind === 'cycle') {
     const heatmap = heatmapBlock(axis?.heatmap, config?.heatmap);
-    if (heatmap) block.append(heatmap);
+    block.append(heatmap);
   } else {
     const trend = penetrationTrendBlock(axis?.trend, config?.penetration_trend);
-    if (trend) block.append(trend);
+    block.append(trend);
   }
-  const breakdown = Array.isArray(axis?.breakdown) ? axis.breakdown : [];
-  if (breakdown.length) {
-    const list = document.createElement('div');
-    list.className = 'breakdown-list';
-    list.innerHTML = breakdown.map(item => `
-      <div class="breakdown-row">
-        <span>${escapeHtml(dimensionLabel(item.dimension))}</span>
-        <span>${escapeHtml(getStageLabel(kind === 'cycle' ? 'cycle' : 'penetration', item.stage))}</span>
-      </div>
-    `).join('');
-    block.append(list);
-  }
+  block.append(breakdownList(kind, axis));
   return block;
 }
 
 function penetrationTrendBlock(trend, config = {}) {
-  if (!trend || !Array.isArray(trend.timeline) || !Array.isArray(trend.values) || !trend.values.length) return null;
-  const values = trend.values.map(value => Number(value)).map(value => Number.isFinite(value) ? value : null);
-  const points = values.map((value, index) => ({ value, label: trend.timeline[index] || `T${index + 1}` })).filter(point => point.value != null);
-  if (!points.length) return null;
-
-  const thresholds = normalizeThresholds(trend.thresholds || config?.thresholds);
-  const unit = trend.unit || config?.unit || '%';
+  const thresholds = normalizeThresholds(trend?.thresholds || config?.thresholds);
+  const unit = trend?.unit || config?.unit || '%';
+  const timeline = Array.isArray(trend?.timeline) && trend.timeline.length ? trend.timeline : ['待补'];
+  const values = Array.isArray(trend?.values)
+    ? timeline.map((_, index) => Number(trend.values[index])).map(value => Number.isFinite(value) ? value : null)
+    : timeline.map(() => null);
+  const points = values
+    .map((value, index) => ({ value, index, label: timeline[index] || `T${index + 1}` }))
+    .filter(point => point.value != null);
   const riskLine = Number(config?.risk_line ?? 30);
   const maxThreshold = Math.max(...thresholds.map(item => Number(item.max) || 0), 100);
   const maxValue = Math.max(...points.map(point => point.value), riskLine, 50);
@@ -107,13 +117,13 @@ function penetrationTrendBlock(trend, config = {}) {
   const pad = { top: 18, right: 44, bottom: 44, left: 42 };
   const plotW = width - pad.left - pad.right;
   const plotH = height - pad.top - pad.bottom;
-  const x = index => pad.left + (points.length === 1 ? plotW : (index / (points.length - 1)) * plotW);
+  const x = index => pad.left + (timeline.length === 1 ? plotW / 2 : (index / (timeline.length - 1)) * plotW);
   const y = value => pad.top + plotH - (Math.max(0, Math.min(yMax, value)) / yMax) * plotH;
-  const linePoints = points.map((point, index) => `${x(index)},${y(point.value)}`).join(' ');
-  const current = points[points.length - 1];
-  const currentX = x(points.length - 1);
-  const currentY = y(current.value);
-  const currentStage = thresholdForValue(thresholds, current.value);
+  const linePoints = points.map(point => `${x(point.index)},${y(point.value)}`).join(' ');
+  const current = points[points.length - 1] || null;
+  const currentX = current ? x(current.index) : null;
+  const currentY = current ? y(current.value) : null;
+  const currentStage = current ? thresholdForValue(thresholds, current.value) : null;
   const riskY = y(riskLine);
 
   const bandRects = [];
@@ -132,13 +142,13 @@ function penetrationTrendBlock(trend, config = {}) {
   });
 
   const tickValues = [0, 10, 30, 50, yMax].filter((value, index, arr) => value <= yMax && arr.indexOf(value) === index);
-  const xLabels = trend.timeline.map((label, index) => ({ label, index })).filter((_, index, arr) => index === 0 || index === arr.length - 1 || index === Math.floor((arr.length - 1) / 2));
+  const xLabels = timeline.map((label, index) => ({ label, index })).filter((_, index, arr) => index === 0 || index === arr.length - 1 || index === Math.floor((arr.length - 1) / 2));
   const wrap = document.createElement('div');
-  wrap.className = 'penetration-trend';
+  wrap.className = `penetration-trend${points.length ? '' : ' penetration-trend--empty'}`;
   wrap.innerHTML = `
     <div class="penetration-trend__head">
       <span>渗透率趋势</span>
-      <span>${escapeHtml(current.value)}${escapeHtml(unit)} · ${escapeHtml(currentStage?.name || '阶段待判定')}</span>
+      <span>${current ? `${escapeHtml(current.value)}${escapeHtml(unit)} · ${escapeHtml(currentStage?.name || '阶段待判定')}` : '暂缺'}</span>
     </div>
     <svg class="penetration-trend__chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="渗透率阈值带趋势图">
       ${bandRects.join('')}
@@ -148,15 +158,15 @@ function penetrationTrendBlock(trend, config = {}) {
       `).join('')}
       <line class="penetration-trend__risk" x1="${pad.left}" x2="${pad.left + plotW}" y1="${riskY}" y2="${riskY}"></line>
       <text class="penetration-trend__risk-label" x="${pad.left + plotW - 86}" y="${riskY - 6}">30%见顶风险线</text>
-      <polyline class="penetration-trend__line" points="${linePoints}"></polyline>
-      ${points.map((point, index) => `<circle class="penetration-trend__dot" cx="${x(index)}" cy="${y(point.value)}" r="${index === points.length - 1 ? 4 : 2.5}"></circle>`).join('')}
-      <g class="penetration-trend__current">
+      ${linePoints ? `<polyline class="penetration-trend__line" points="${linePoints}"></polyline>` : ''}
+      ${points.map((point, index) => `<circle class="penetration-trend__dot" cx="${x(point.index)}" cy="${y(point.value)}" r="${index === points.length - 1 ? 4 : 2.5}"></circle>`).join('')}
+      ${current ? `<g class="penetration-trend__current">
         <circle cx="${currentX}" cy="${currentY}" r="6"></circle>
         <text x="${Math.min(currentX + 10, width - 92)}" y="${currentY - 10}">${escapeHtml(String(current.value))}${escapeHtml(unit)}</text>
-      </g>
+      </g>` : `<text class="penetration-trend__empty-label" x="${pad.left + plotW / 2}" y="${pad.top + plotH / 2}">渗透率序列暂缺</text>`}
       ${xLabels.map(item => `<text class="penetration-trend__x" x="${x(item.index)}" y="${height - 16}">${escapeHtml(formatQuarter(item.label))}</text>`).join('')}
     </svg>
-    <div class="penetration-trend__note">${escapeHtml(trend.note || '按季度渗透率数值序列定位所处阶段。')}</div>
+    <div class="penetration-trend__note">${escapeHtml(trend?.note || (points.length ? '按季度渗透率数值序列定位所处阶段。' : '渗透率季度数值序列暂缺，保留阈值带格式等待补数。'))}</div>
   `;
   return wrap;
 }
@@ -184,9 +194,9 @@ function formatQuarter(label) {
 }
 
 function heatmapBlock(heatmap, config = {}) {
-  if (!heatmap || !Array.isArray(heatmap.timeline) || !Array.isArray(heatmap.dimensions) || !heatmap.dimensions.length) return null;
+  const displayHeatmap = normalizeHeatmapForDisplay(heatmap);
   const wrap = document.createElement('div');
-  wrap.className = 'heatmap';
+  wrap.className = `heatmap${displayHeatmap.hasData ? '' : ' heatmap--empty'}`;
   const palette = config?.palette || {};
   wrap.style.setProperty('--heat-positive', palette.positive || '#b76f22');
   wrap.style.setProperty('--heat-negative', palette.negative || '#5f7f6b');
@@ -202,16 +212,68 @@ function heatmapBlock(heatmap, config = {}) {
     <div class="heatmap__grid"></div>
   `;
   const grid = wrap.querySelector('.heatmap__grid');
-  grid.style.setProperty('--heat-columns', heatmap.timeline.length);
-  grid.append(heatmapCorner(), ...heatmap.timeline.map(month => heatmapMonth(month)), heatmapTailHead());
-  heatmap.dimensions.forEach(dimension => {
+  grid.style.setProperty('--heat-columns', displayHeatmap.timeline.length);
+  grid.append(heatmapCorner(), ...displayHeatmap.timeline.map(month => heatmapMonth(month)), heatmapTailHead());
+  displayHeatmap.dimensions.forEach(dimension => {
     grid.append(
       heatmapLabel(dimension.name || dimension.key || '-'),
-      ...heatmap.timeline.map((month, index) => heatmapCell(dimension, month, index, mode)),
+      ...displayHeatmap.timeline.map((month, index) => heatmapCell(dimension, month, index, mode)),
       heatmapStreak(dimension)
     );
   });
+  if (!displayHeatmap.hasData) {
+    const note = document.createElement('div');
+    note.className = 'heatmap__empty-note';
+    note.textContent = '景气热力图方向数据暂缺，保留统一维度与时间轴占位。';
+    wrap.append(note);
+  }
   return wrap;
+}
+
+function normalizeHeatmapForDisplay(heatmap) {
+  const sourceTimeline = Array.isArray(heatmap?.timeline) && heatmap.timeline.length ? heatmap.timeline : DEFAULT_HEATMAP_TIMELINE;
+  const sourceDimensions = Array.isArray(heatmap?.dimensions) ? heatmap.dimensions : [];
+  const sourceByKey = new Map(sourceDimensions.map(item => [item?.key, item]));
+  const dimensions = CYCLE_DIMENSIONS.map(template => {
+    const source = sourceByKey.get(template.key) || {};
+    const values = sourceTimeline.map((_, index) => normalizedDirection(source.values?.[index]));
+    const notes = sourceTimeline.map((_, index) => Array.isArray(source.notes) ? source.notes[index] ?? null : null);
+    return {
+      key: template.key,
+      name: source.name || template.name,
+      good_direction: source.good_direction || template.good_direction,
+      values,
+      notes,
+    };
+  });
+  const hasData = dimensions.some(dimension => dimension.values.some(value => value != null));
+  return { timeline: sourceTimeline, dimensions, hasData };
+}
+
+function breakdownList(kind, axis = {}) {
+  const list = document.createElement('div');
+  list.className = 'breakdown-list';
+  const source = Array.isArray(axis?.breakdown) ? axis.breakdown : [];
+  const rows = kind === 'cycle'
+    ? CYCLE_DIMENSIONS.map(dimension => {
+        const matched = source.find(item => item.dimension === dimension.key);
+        return {
+          dimension: dimension.key,
+          stage: matched?.stage ?? null,
+          value: matched?.value ?? axis?.indicators?.[dimension.key] ?? null,
+        };
+      })
+    : (source.length ? source : [
+        { dimension: 'rate', stage: axis?.stage ?? null, value: axis?.rate ?? null },
+        { dimension: 'qualitative', stage: axis?.stage ?? null, value: axis?.indicators?.qualitative ?? null },
+      ]);
+  list.innerHTML = rows.map(item => `
+    <div class="breakdown-row">
+      <span>${escapeHtml(dimensionLabel(item.dimension))}</span>
+      <span>${escapeHtml(item.stage ? getStageLabel(kind === 'cycle' ? 'cycle' : 'penetration', item.stage) : '暂缺')}</span>
+    </div>
+  `).join('');
+  return list;
 }
 
 function heatmapLegend(mode) {
@@ -733,6 +795,37 @@ function leaderCard(company, status, precise) {
 
 function stripSource(value) {
   return String(value || '').replace(/来源[:：].*$/u, '').trim();
+}
+
+function containerOverview(node) {
+  const wrap = document.createElement('div');
+  wrap.className = 'container-overview';
+  const metrics = node.metrics || {};
+  const comp = node.competition;
+  const overviewNote = node.overview_note || '';
+  const description = describeMarketSize(metrics.market_size, node) + ' ' + describeCagr(metrics.cagr, node);
+  const compText = describeCompetition(comp, node);
+  const anchors = Array.isArray(node.downstream_anchors) ? node.downstream_anchors : [];
+  wrap.innerHTML =
+    '<div class="section__title">' + escapeHtml(node.name || '') + '板块概览</div>' +
+    '<div class="container-overview__desc">' + escapeHtml(overviewNote) + '</div>' +
+    '<div class="container-overview__metrics">' +
+      '<div class="container-overview__metric">' +
+        '<span class="container-overview__label">市场规模</span>' +
+        '<span>' + escapeHtml(description) + '</span>' +
+      '</div>' +
+      '<div class="container-overview__metric">' +
+        '<span class="container-overview__label">竞争格局</span>' +
+        '<span>' + escapeHtml(compText) + '</span>' +
+      '</div>' +
+    '</div>' +
+    (anchors.length ?
+      '<div class="section__title" style="margin-top:var(--space-4)">下游锚点</div>' +
+      '<div class="anchor-list">' +
+        anchors.map(function(a) { return '<div class="anchor-row"><span>' + escapeHtml(a.name) + '</span><span>' + escapeHtml(a.note || '') + '</span></div>'; }).join('') +
+      '</div>'
+    : '');
+  return wrap;
 }
 
 function escapeHtml(value) {

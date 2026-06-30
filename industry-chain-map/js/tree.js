@@ -31,7 +31,12 @@ export function createTreeRenderer({ host, onSelect, onReady }) {
     root.descendants().forEach((d, index) => {
       d.id = d.data.id || `${index}`;
       d._children = d.children;
-      if (d.depth > 0) d.children = null;
+      const isContainer = !!data.container;
+      if (isContainer) {
+        if (d.depth > 1) d.children = null;
+      } else {
+        if (d.depth > 0) d.children = null;
+      }
     });
     update();
     onSelect?.(data);
@@ -59,7 +64,7 @@ export function createTreeRenderer({ host, onSelect, onReady }) {
     }
 
     g.selectAll('path.link')
-      .data(links, d => d.target.id)
+      .data(links.filter(d => !d.source.data.container), d => d.target.id)
       .join(
         enter => enter.append('path').attr('class', 'link').attr('d', d => horizontalLink(d.source, d.target)),
         update => update.attr('d', d => horizontalLink(d.source, d.target)),
@@ -67,7 +72,8 @@ export function createTreeRenderer({ host, onSelect, onReady }) {
       );
 
     nodeMap = new Map(descendants.map(d => [d.id, d]));
-    const node = g.selectAll('g.node-card').data(descendants, d => d.id);
+    const visibleDescendants = descendants.filter(d => !d.data.container);
+    const node = g.selectAll('g.node-card').data(visibleDescendants, d => d.id);
     const nodeEnter = node.enter().append('g')
       .attr('class', d => nodeClasses(d))
       .attr('transform', d => `translate(${d.y},${d.x})`)

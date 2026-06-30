@@ -1,0 +1,3110 @@
+{
+  "id": "power_devices",
+  "name": "功率器件",
+  "container": true,
+  "layer_updated": "2026-06-27",
+  "metrics": {
+    "market_size": {
+      "value": 568.7,
+      "unit": "亿美元",
+      "year": 2025,
+      "note": "全球 2024 年器件口径约 323 亿美元、同比 -8.3%；2025 年含模块口径约 568.7 亿美元；中国 2024 年约 1752.55 亿元，中国约占全球 43%。多口径需区分。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+    },
+    "cagr": {
+      "value": 6,
+      "unit": "%",
+      "period": "2025-2030",
+      "note": "中国整体 CAGR 约 6%；结构上 SiC 35%+、GaN 25%+、汽车 IGBT 约 21.5%。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+    },
+    "value_share": {
+      "value": null,
+      "unit": "%",
+      "relative_to": "新能源车/光储/AI数据中心",
+      "note": "功率器件为跨下游基础器件，资料未给统一价值量占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+    }
+  },
+  "competition": {
+    "concentration": {
+      "label": "全球CR5",
+      "value": 60,
+      "unit": "%",
+      "note": "全球 CR5 约 60%，国内 CR5 约 28%。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+    },
+    "leader_share": {
+      "company": "英飞凌",
+      "value": 17.7,
+      "unit": "%",
+      "note": "英飞凌 2024 年全球第一约 17.7%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+    },
+    "tiers": "全球由英飞凌、安森美、ST、三菱、富士等主导；国内士兰微、斯达半导、时代电气、华润微、扬杰科技等在不同器件类型突破。"
+  },
+  "gap": {
+    "cycle_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "indicators": {},
+      "breakdown": [],
+      "heatmap": null
+    },
+    "penetration_axis": {
+      "stage": null,
+      "source": null,
+      "evidence": "",
+      "source_ref": "",
+      "rate": null,
+      "type": null,
+      "indicators": {},
+      "breakdown": [],
+      "trend": null
+    }
+  },
+  "companies": [],
+  "tech_evolution": {
+    "stages": [],
+    "current": "",
+    "note": "",
+    "risk_level": null
+  },
+  "bom_by_generation": [],
+  "downstream_anchors": [
+    {
+      "name": "新能源汽车",
+      "note": "单车功率价值量约 458 美元，纯电 SiC 占比约 55%。"
+    },
+    {
+      "name": "光伏储能",
+      "note": "逆变器和储能 PCS 拉动 IGBT、SiC MOSFET 与功率模块需求。"
+    },
+    {
+      "name": "AI数据中心",
+      "note": "800V 供电和高效电源成为新增第三极。"
+    },
+    {
+      "name": "工业控制/机器人",
+      "note": "工控为基本盘，机器人可能成为下一结构性增量。"
+    }
+  ],
+  "overview_note": "功率器件不能只用单一周期判断：MOSFET 和代工偏紧，SiC 衬底极紧，SiC 器件价格战，GaN 处于新场景放量。以下为 IGBT / MOSFET / SiC / GaN 四条独立产业链，各自含上下游串联。",
+  "upstream": [
+    {
+      "id": "igbt",
+      "name": "IGBT（绝缘栅双极型晶体管）",
+      "layer_updated": "2026-06-27",
+      "current_generation": null,
+      "metrics": {
+        "market_size": {
+          "value": 103.4,
+          "unit": "亿美元",
+          "year": 2024,
+          "note": "全球 IGBT 2024 年约 103.4 亿美元；中国汽车 IGBT 2024 年约 199 亿元、2025 年约 255 亿元。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "cagr": {
+          "value": 21.5,
+          "unit": "%",
+          "period": "2022-2026",
+          "note": "汽车 IGBT CAGR 约 21.5%。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": "功率半导体",
+          "note": "资料未给干净占比，按 null 留空。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        }
+      },
+      "competition": {
+        "concentration": {
+          "label": "全球分立IGBT CR10",
+          "value": 87,
+          "unit": "%",
+          "note": "英飞凌、富士、三菱主导；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "leader_share": {
+          "company": "英飞凌",
+          "value": null,
+          "unit": "%",
+          "note": "资料未给该口径精确份额；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "tiers": "全球分立 IGBT 由英飞凌、富士、三菱主导；模块 TOP10 中已有斯达半导、时代电气。车规 IGBT 模块国产化率 2024 年约 65%-70%。"
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "research",
+          "evidence": "车规 IGBT 供需紧平衡，但车规价格战使部分厂商增收不增利，呈结构分化；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "indicators": {
+            "inventory": "车规 IGBT 主力型号库存改善后偏紧。",
+            "capex": "国产车规模块和高压 IGBT 产能爬坡。",
+            "demand": "中低端新能源车、工控、风电和轨交维持基本盘。",
+            "price": "车规价格战压制部分盈利，价格不宜简单标全面上行。",
+            "utilization": "头部车规模块产线利用率较高，尾部存在分化。"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "车规 IGBT 主力型号库存改善后偏紧。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "capex",
+              "value": "国产车规模块和高压 IGBT 产能爬坡。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "中低端新能源车、工控、风电和轨交维持基本盘。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "price",
+              "value": "车规价格战压制部分盈利，价格不宜简单标全面上行。",
+              "stage": "flat"
+            },
+            {
+              "dimension": "utilization",
+              "value": "头部车规模块产线利用率较高，尾部存在分化。",
+              "stage": "uptrend"
+            }
+          ],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": "mature",
+          "source": "research",
+          "evidence": "IGBT 是成熟主力，未来五年仍承担约 55% 电动车电控；高压高端车型被 SiC 替代；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "rate": null,
+          "type": "structural",
+          "indicators": {
+            "qualitative": "成熟基本盘稳固，高压平台存在被 SiC 结构替代风险。"
+          },
+          "breakdown": [
+            {
+              "dimension": "qualitative",
+              "value": "成熟基本盘稳固，高压平台存在被 SiC 结构替代风险。",
+              "stage": "mature"
+            }
+          ],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "斯达半导",
+          "ticker": "603290.SH",
+          "role": "龙头",
+          "purity": 90,
+          "logic": "国内车规 IGBT 模块龙头，SiC 主驱模块也大批量装车。",
+          "capability": {
+            "materials": [
+              "igbt_module",
+              "sic_module"
+            ],
+            "highest_grade": "车规IGBT模块/SiC主驱模块",
+            "note": "IGBT 主业纯度高，SiC 为横向延伸。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "时代电气",
+          "ticker": "688187.SH",
+          "role": "龙头",
+          "purity": 75,
+          "logic": "高压 IGBT 国内领军，轨交和风电 IGBT 领先。",
+          "capability": {
+            "materials": [
+              "high_voltage_igbt"
+            ],
+            "highest_grade": "3300V+高压IGBT",
+            "note": "轨交和风电高压 IGBT 能力突出。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "士兰微",
+          "ticker": "600460.SH",
+          "role": "龙头",
+          "purity": 70,
+          "logic": "IDM 全平台，IGBT/IPM/车载主驱放量。",
+          "capability": {
+            "materials": [
+              "igbt",
+              "ipm",
+              "mosfet",
+              "sic_device",
+              "gan_device"
+            ],
+            "highest_grade": "IDM全平台功率器件",
+            "note": "跨 IGBT/MOSFET/SiC/GaN，按环节 purity 区分。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "华润微",
+          "ticker": "688396.SH",
+          "role": "主要参与者",
+          "purity": 65,
+          "logic": "IDM 龙头，IGBT 营收高增，12 英寸产线支撑。",
+          "capability": {
+            "materials": [
+              "igbt",
+              "mosfet",
+              "sic_device",
+              "wafer_foundry"
+            ],
+            "highest_grade": "IDM功率平台",
+            "note": "IGBT 与 MOSFET 均覆盖。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "比亚迪半导体",
+          "ticker": null,
+          "role": "主要参与者",
+          "purity": null,
+          "logic": "车企自研车规 IGBT，未独立上市，代码待核实。",
+          "capability": {
+            "materials": [
+              "automotive_igbt"
+            ],
+            "highest_grade": "车规IGBT",
+            "note": "ticker 留空。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+            "verification_status": "待核实"
+          }
+        },
+        {
+          "name": "宏微科技",
+          "ticker": "688711.SH",
+          "role": "主要参与者",
+          "purity": 80,
+          "logic": "车规 IGBT 产能爬坡。",
+          "capability": {
+            "materials": [
+              "igbt_module"
+            ],
+            "highest_grade": "车规IGBT模块",
+            "note": "IGBT 业务纯度较高。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "新洁能",
+          "ticker": "605111.SH",
+          "role": "主要参与者",
+          "purity": 75,
+          "logic": "MOSFET+IGBT，第七代 IGBT 导入光伏头部。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "igbt"
+            ],
+            "highest_grade": "第七代IGBT/SGT-MOS",
+            "note": "MOSFET 纯度更高，IGBT 为重要扩展。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "华微电子",
+          "ticker": "600360.SH",
+          "role": "主要参与者",
+          "purity": 70,
+          "logic": "工控和家电 IGBT 参与者。",
+          "capability": {
+            "materials": [
+              "igbt"
+            ],
+            "highest_grade": "工控/家电IGBT",
+            "note": "偏传统功率器件。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "平面栅",
+          "沟槽栅",
+          "场截止(Field Stop)",
+          "第七代车规模块"
+        ],
+        "current": "第七代沟槽场截止已量产，模块化与车规可靠性升级",
+        "note": "IGBT 在中低端车型和工控仍是基本盘，高压 800V 平台受 SiC 替代影响。",
+        "risk_level": "中"
+      },
+      "bom_by_generation": [],
+      "upstream": [
+        {
+          "id": "wafer_foundry",
+          "name": "硅晶圆代工",
+          "layer_updated": "2026-06-27",
+          "current_generation": null,
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "资料未给功率硅晶圆代工独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": "功率半导体",
+              "note": "IDM 内部制造和代工口径混杂，无干净价值量占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            }
+          },
+          "competition": {
+            "concentration": null,
+            "leader_share": {
+              "company": "华虹公司",
+              "value": null,
+              "unit": "%",
+              "note": "国内功率代工龙头，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "tiers": "国内功率代工核心参与者包括华虹公司、中芯国际、华润微。"
+          },
+          "gap": {
+            "cycle_axis": {
+              "stage": "peak",
+              "source": "research",
+              "evidence": "全球 8 英寸产能缩减 10%-15%，AI 挤占 12 英寸成熟制程，是本轮涨价核心供给侧之一；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "indicators": {
+                "inventory": "成熟制程代工产能偏紧。",
+                "capex": "成熟制程扩产有限，新产能释放滞后。",
+                "demand": "AI、汽车、光储共同挤占成熟制程。",
+                "price": "功率代工价格具备上行弹性。",
+                "utilization": "中芯、华虹、华润微产能利用率高位。"
+              },
+              "breakdown": [
+                {
+                  "dimension": "inventory",
+                  "value": "成熟制程代工产能偏紧。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "capex",
+                  "value": "成熟制程扩产有限，新产能释放滞后。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "demand",
+                  "value": "AI、汽车、光储共同挤占成熟制程。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "price",
+                  "value": "功率代工价格具备上行弹性。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "utilization",
+                  "value": "中芯、华虹、华润微产能利用率高位。",
+                  "stage": "peak"
+                }
+              ],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "硅晶圆代工为上游制造节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [
+            {
+              "name": "华虹公司",
+              "ticker": "688347.SH",
+              "role": "龙头",
+              "purity": 80,
+              "logic": "功率特色工艺代工龙头。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "power_process"
+                ],
+                "highest_grade": "功率特色工艺代工",
+                "note": "代工环节龙头。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "中芯国际",
+              "ticker": "688981.SH",
+              "role": "龙头",
+              "purity": 55,
+              "logic": "成熟制程龙头。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "mature_node"
+                ],
+                "highest_grade": "成熟制程代工",
+                "note": "功率只是成熟制程应用之一。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "华润微",
+              "ticker": "688396.SH",
+              "role": "主要参与者",
+              "purity": 75,
+              "logic": "IDM+代工，功率器件与制造能力协同。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "mosfet",
+                  "igbt",
+                  "sic_device"
+                ],
+                "highest_grade": "IDM+功率代工",
+                "note": "跨器件和制造环节。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            }
+          ],
+          "tech_evolution": {
+            "stages": [
+              "8英寸成熟制程",
+              "12英寸成熟制程",
+              "特色功率工艺",
+              "IDM+代工协同"
+            ],
+            "current": "8 英寸偏紧，12 英寸成熟制程被 AI 与功率需求共同挤占",
+            "note": "成熟制程在功率、模拟和电源管理中仍是关键供给瓶颈。",
+            "risk_level": "中"
+          },
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "power_packaging",
+              "name": "功率封测",
+              "layer_updated": "2026-06-27",
+              "current_generation": null,
+              "metrics": {
+                "market_size": {
+                  "value": null,
+                  "unit": null,
+                  "year": null,
+                  "note": "资料未给功率封测独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "cagr": {
+                  "value": null,
+                  "unit": "%",
+                  "period": null,
+                  "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "value_share": {
+                  "value": null,
+                  "unit": "%",
+                  "relative_to": "功率半导体",
+                  "note": "模块封装占比较高但无统一口径。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              },
+              "competition": {
+                "concentration": null,
+                "leader_share": {
+                  "company": "长电科技",
+                  "value": null,
+                  "unit": "%",
+                  "note": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "tiers": "通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "uptrend",
+                  "source": "research",
+                  "evidence": "先进封装、双面银烧结、PCB 嵌埋成为性能关键，封装材料银/铜/钯等涨价推升成本；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "indicators": {
+                    "inventory": "高端功率模块封装产能偏紧。",
+                    "capex": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                    "demand": "车规、AI 电源、光储推动功率封装需求。",
+                    "price": "封装材料涨价推升封测成本和报价。",
+                    "utilization": "头部高端封测产线景气上行。"
+                  },
+                  "breakdown": [
+                    {
+                      "dimension": "inventory",
+                      "value": "高端功率模块封装产能偏紧。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "capex",
+                      "value": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "demand",
+                      "value": "车规、AI 电源、光储推动功率封装需求。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "price",
+                      "value": "封装材料涨价推升封测成本和报价。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "utilization",
+                      "value": "头部高端封测产线景气上行。",
+                      "stage": "uptrend"
+                    }
+                  ],
+                  "heatmap": null
+                },
+                "penetration_axis": {
+                  "stage": null,
+                  "source": null,
+                  "evidence": "功率封测为上游封装节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "rate": null,
+                  "type": null,
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": null
+                }
+              },
+              "companies": [
+                {
+                  "name": "通富微电",
+                  "ticker": "002156.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "2.5D/Chiplet 能力可向功率封装外溢。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "2.5D/Chiplet+功率封装",
+                    "note": "先进封装平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华天科技",
+                  "ticker": "002185.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "封测三巨头之一。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging"
+                    ],
+                    "highest_grade": "功率封测",
+                    "note": "封测平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "长电科技",
+                  "ticker": "600584.SH",
+                  "role": "龙头",
+                  "purity": 75,
+                  "logic": "封测龙头，Chiplet、2.5D、3D 布局领先。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "Chiplet/2.5D/3D",
+                    "note": "功率封测为应用之一。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "中瓷电子",
+                  "ticker": "003031.SZ",
+                  "role": "材料参与者",
+                  "purity": 60,
+                  "logic": "陶瓷封装基板参与者。",
+                  "capability": {
+                    "materials": [
+                      "ceramic_substrate",
+                      "power_packaging_material"
+                    ],
+                    "highest_grade": "陶瓷封装基板",
+                    "note": "偏封装材料/基板环节。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华海诚科",
+                  "ticker": "688535.SH",
+                  "role": "材料参与者",
+                  "purity": 55,
+                  "logic": "封装材料供应商。",
+                  "capability": {
+                    "materials": [
+                      "packaging_material"
+                    ],
+                    "highest_grade": "高端封装材料",
+                    "note": "材料端受益封装升级。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "器件封装",
+                  "模块封装",
+                  "双面银烧结",
+                  "PCB嵌埋/铜夹",
+                  "系统级封装"
+                ],
+                "current": "模块封装和先进互连成为功率器件性能关键",
+                "note": "功率封装从单器件保护走向系统级热管理、可靠性和寄生参数优化。",
+                "risk_level": "中"
+              },
+              "bom_by_generation": [],
+              "upstream": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mosfet",
+      "name": "MOSFET（金属氧化物半导体场效应管）",
+      "layer_updated": "2026-06-27",
+      "current_generation": null,
+      "metrics": {
+        "market_size": {
+          "value": 288.9,
+          "unit": "亿美元",
+          "year": 2025,
+          "note": "全球Power MOSFET窄口径(Precedence Research 2026.01)约288.9亿美元，预计2035年达474亿美元；另有保守口径78-92亿美元；中国2024年约429.44亿元(智研咨询)。来源：MOSFET产业投资研究报告，2026-06-27"
+        },
+        "cagr": {
+          "value": 5.08,
+          "unit": "%",
+          "period": "2026-2035",
+          "note": "硅基存量市场约5-6%，叠加SiC/GaN增量后整体约6-8%；Precedence预计2026-2035 CAGR约5.08%。来源：MOSFET产业投资研究报告，2026-06-27"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": "功率器件",
+          "note": "价值量占比因下游而异：新能源车功率器件占每辆车半导体价值量增量80%+，电控系统中IGBT约占成本37%；SiC衬底+外延占器件成本70%；AI服务器电源/光伏逆变器中功率器件占电源BOM约10-20%。来源：MOSFET产业投资研究报告，2026-06-27"
+        }
+      },
+      "competition": {
+        "concentration": {
+          "label": "全球CR4",
+          "value": 50,
+          "unit": "%（近）",
+          "note": "中国CR4接近50%，CR8超过60%；英飞凌国内占20%+，安森美10%+。来源：MOSFET产业投资研究报告，2026-06-27"
+        },
+        "leader_share": {
+          "company": "英飞凌",
+          "value": 26,
+          "unit": "%",
+          "note": "英飞凌全球MOSFET市占约26%(Omdia 2022基准)；安森美14.1%、意法6.9%、华润微4.1%(全球第九)、士兰微3.3%(全球第十)。来源：MOSFET产业投资研究报告，2026-06-27"
+        },
+        "tiers": "全球前十：英飞凌(26%)、安森美(14.1%)、意法(6.9%)、恩智浦、安世、威世、东芝、万代、华润微(4.1%)、士兰微(3.3%)。格局特征为海外巨头主导、本土厂商崛起。"
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "research",
+          "evidence": "去库存末期→主动补库存切换：2022年高景气收尾→2023年去库→2024年部分回暖→2025Q4周期拐点→2026年量价齐升。全球8英寸晶圆厂稼动率从2025年75-80%升至2026年85-90%。来源：MOSFET产业投资研究报告，2026-06-27",
+          "source_ref": "MOSFET产业投资研究报告，2026-06-27",
+          "indicators": {
+            "inventory": "经过2024-2025年深度去库存，行业库存已回归健康水位，渠道出现买涨不买跌的提前备货补库存行为。",
+            "capex": "12英寸产线扩产推进，沟槽/屏蔽栅/超级结先进制程投入。",
+            "demand": "AI数据中心、新能源车、光伏储能、人形机器人三重驱动，高压MOSFET最先反映缺货。",
+            "price": "2026.02华润微提价10%起→03士兰微/新洁能涨10%起→04英飞凌最高涨25%、TI涨15-85%。",
+            "utilization": "中芯国际、华虹、华润微产能利用率高位运行；8英寸产线为本轮产能消耗主力。"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "库存去化完毕，进入主动补库早周期，渠道买涨不买跌。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "capex",
+              "value": "12英寸沟槽/屏蔽栅/超级结产能推进，8英寸扩产有限。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "AI数据中心+新能源车+光伏储能+人形机器人四重需求叠加。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "price",
+              "value": "2026Q1起华润微、士兰微、新洁能、英飞凌、TI陆续涨价10-85%。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "全球8英寸稼动率从2025年75-80%升至2026年85-90%，国内龙头高位。",
+              "stage": "peak"
+            }
+          ],
+          "heatmap": {
+            "granularity": "month",
+            "timeline": [
+              "2025-06",
+              "2025-07",
+              "2025-08",
+              "2025-09",
+              "2025-10",
+              "2025-11",
+              "2025-12",
+              "2026-01",
+              "2026-02",
+              "2026-03",
+              "2026-04",
+              "2026-05"
+            ],
+            "dimensions": [
+              {
+                "key": "inventory",
+                "name": "库存",
+                "good_direction": "down",
+                "values": [
+                  "down",
+                  "down",
+                  "down",
+                  "down",
+                  "down",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "持续去化",
+                  "去化",
+                  "去化",
+                  "去化",
+                  "去化",
+                  "趋于健康",
+                  "健康水位",
+                  "低位",
+                  "补库启动",
+                  "主动补库",
+                  "补库",
+                  "补库"
+                ]
+              },
+              {
+                "key": "capex",
+                "name": "资本开支",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "扩产推进",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产",
+                  "扩产"
+                ]
+              },
+              {
+                "key": "demand",
+                "name": "需求",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "AI+车规",
+                  "AI+车规",
+                  "AI+车规",
+                  "AI+车规",
+                  "AI+车规",
+                  "三重驱动",
+                  "三重驱动",
+                  "三重驱动",
+                  "涨价函发布前",
+                  "涨价潮",
+                  "涨价延续",
+                  "缺货反映"
+                ]
+              },
+              {
+                "key": "price",
+                "name": "价格",
+                "good_direction": "up",
+                "values": [
+                  "flat",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "flat",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "偏弱",
+                  "偏弱",
+                  "偏弱",
+                  "偏弱",
+                  "拐点酝酿",
+                  "拐点酝酿",
+                  "拐点酝酿",
+                  "涨价前",
+                  "华润微涨10%",
+                  "士兰微/新洁能涨10%",
+                  "英飞凌涨≤25%",
+                  "TI涨15-85%"
+                ]
+              },
+              {
+                "key": "utilization",
+                "name": "开工率",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "75-80%抬升",
+                  "抬升",
+                  "抬升",
+                  "抬升",
+                  "抬升",
+                  "抬升",
+                  "抬升",
+                  "抬升",
+                  "85-90%",
+                  "高位",
+                  "高位",
+                  "高位"
+                ]
+              }
+            ]
+          }
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "SiC MOSFET在新能源车主驱渗透率从2024年底约13%升至2026年中约22%。2025年1月主驱SiC占比18.9%，800V车型渗透率约15%，800V中SiC渗透率71%。来源：MOSFET产业投资研究报告，2026-06-27",
+          "source_ref": "MOSFET产业投资研究报告，2026-06-27",
+          "rate": 22,
+          "type": "structural",
+          "indicators": {
+            "qualitative": "SiC MOSFET替代硅基IGBT是增量主线，高压平台SiC几乎必选。2025年SiC MOSFET渗透率约20%，2030年800V平台渗透率预计33.5%。"
+          },
+          "breakdown": [
+            {
+              "dimension": "rate",
+              "value": 22,
+              "stage": "golden"
+            }
+          ],
+          "trend": {
+            "unit": "%",
+            "granularity": "month",
+            "timeline": [
+              "2025-06",
+              "2025-07",
+              "2025-08",
+              "2025-09",
+              "2025-10",
+              "2025-11",
+              "2025-12",
+              "2026-01",
+              "2026-02",
+              "2026-03"
+            ],
+            "values": [
+              16.5,
+              17,
+              17.5,
+              18,
+              18.5,
+              19,
+              19.5,
+              20,
+              20.5,
+              22
+            ],
+            "thresholds": [
+              {
+                "max": 10,
+                "stage": "intro",
+                "name": "导入期",
+                "color": "neutral"
+              },
+              {
+                "max": 30,
+                "stage": "golden",
+                "name": "黄金爆发期",
+                "color": "highlight"
+              },
+              {
+                "max": 50,
+                "stage": "mature",
+                "name": "成熟分化期",
+                "color": "caution"
+              },
+              {
+                "max": 100,
+                "stage": "decline",
+                "name": "衰退期",
+                "color": "danger"
+              }
+            ],
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27",
+            "note": "口径=SiC MOSFET在新能源车主驱模块占比；2025.01实测18.9%，后续为线性插值估算。真实曲线在新车型集中上市月会跳升。2030年800V平台渗透率预计33.5%。"
+          }
+        }
+      },
+      "companies": [
+        {
+          "name": "华润微",
+          "ticker": "688396.SH",
+          "role": "国内龙头(IDM)",
+          "purity": 85,
+          "logic": "IDM模式完整产品线，全球市占约4.1%排名前十；12英寸线支撑先进制程；本轮涨价主导者(2月1日提价10%起)。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "superjunction_mosfet",
+              "trench_mosfet",
+              "sgt_mosfet"
+            ],
+            "highest_grade": "全系列MOSFET/IDM平台",
+            "note": "沟槽/屏蔽栅/超结全覆盖，IDM制造能力全球前十。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "士兰微",
+          "ticker": "600460.SH",
+          "role": "国内龙头(IDM)",
+          "purity": 75,
+          "logic": "超结MOSFET与高密度沟槽栅技术领先，国内首家SiC芯片用于汽车主驱，月产6000片6英寸SiC MOS；3月1日提价10%起。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "superjunction_mosfet",
+              "sic_device",
+              "gan_device"
+            ],
+            "highest_grade": "超结MOS/SiC车规主驱",
+            "note": "功率+模拟+MEMS IDM平台，MOSFET纯度较高。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "新洁能",
+          "ticker": "605111.SH",
+          "role": "主要参与者(Fabless)",
+          "purity": 95,
+          "logic": "Fabless模式灵活，屏蔽栅MOSFET达国际先进水平；SGT-MOS为核心竞争力；3月1日对MOSFET涨价10%起。",
+          "capability": {
+            "materials": [
+              "sgt_mosfet",
+              "trench_mosfet",
+              "igbt"
+            ],
+            "highest_grade": "SGT-MOS/12英寸屏蔽栅",
+            "note": "MOSFET主业纯度高，Fabless模式聚焦设计。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "扬杰科技",
+          "ticker": "300373.SZ",
+          "role": "主要参与者(IDM+Fabless)",
+          "purity": 75,
+          "logic": "2026Q1归母净利预增20-40%，汽车电子业务收入预计同比翻倍，SiC车规主驱模块推进中。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "sic_sbd",
+              "sic_jbs",
+              "gan_hemt"
+            ],
+            "highest_grade": "功率器件组合平台",
+            "note": "多品类布局，汽车电子增速最快。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "东微半导",
+          "ticker": "688261.SH",
+          "role": "细分龙头(Fabless)",
+          "purity": 95,
+          "logic": "国内高压超级结MOSFET领先，国产充电桩MOSFET主要供应商之一；市值约75.82亿元，属高弹性标的。",
+          "capability": {
+            "materials": [
+              "superjunction_mosfet"
+            ],
+            "highest_grade": "高压超级结MOSFET",
+            "note": "高压MOS细分龙头，充电桩主供。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "闻泰科技",
+          "ticker": "600745.SH",
+          "role": "全球参与者(安世半导体)",
+          "purity": 40,
+          "logic": "通过安世半导体布局车规级产品，全球MOSFET市占约5%，全球化销售渠道；含消费电子ODM业务，功率占总营收比例较低。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "gan_fet"
+            ],
+            "highest_grade": "安世MOSFET/GaN FET",
+            "note": "集团功率纯度最低，需注意业务拆分。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "捷捷微电",
+          "ticker": "300623.SZ",
+          "role": "主要参与者(IDM)",
+          "purity": 95,
+          "logic": "MOSFET 2月1日提价10-20%，扩产与调价并举；功率器件纯度高，受益涨价周期弹性大。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "thyristor"
+            ],
+            "highest_grade": "晶闸管/MOS IDM",
+            "note": "功率器件纯度高，涨价弹性标的。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        },
+        {
+          "name": "芯联集成",
+          "ticker": "688469.SH",
+          "role": "制造代工",
+          "purity": 60,
+          "logic": "SiC与车规MOSFET代工产能，8英寸SiC外延/器件能力，车规出货百万级。",
+          "capability": {
+            "materials": [
+              "mosfet",
+              "sic_epitaxy",
+              "sic_device"
+            ],
+            "highest_grade": "SiC/车规MOSFET代工",
+            "note": "制造代工平台，非纯设计公司。",
+            "source_ref": "MOSFET产业投资研究报告，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "平面VDMOS",
+          "沟槽栅Trench MOSFET",
+          "屏蔽栅SGT-MOS(中低压主流)",
+          "超级结Super Junction(高压主流)",
+          "SiC MOSFET(800V)",
+          "GaN HEMT(低压高频)"
+        ],
+        "current": "硅基升级与宽禁带演进并行：SGT-MOS和超级结成熟，SiC/GaN在高压高频场景渗透",
+        "note": "硅基路线通过结构优化降损耗，宽禁带通过材料替代突破性能边界。晶圆从6英寸向8英寸过渡降低单位成本。",
+        "risk_level": "中"
+      },
+      "bom_by_generation": [],
+      "upstream": [
+        {
+          "id": "wafer_foundry",
+          "name": "硅晶圆代工",
+          "layer_updated": "2026-06-27",
+          "current_generation": null,
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "资料未给功率硅晶圆代工独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": "功率半导体",
+              "note": "IDM 内部制造和代工口径混杂，无干净价值量占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            }
+          },
+          "competition": {
+            "concentration": null,
+            "leader_share": {
+              "company": "华虹公司",
+              "value": null,
+              "unit": "%",
+              "note": "国内功率代工龙头，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "tiers": "国内功率代工核心参与者包括华虹公司、中芯国际、华润微。"
+          },
+          "gap": {
+            "cycle_axis": {
+              "stage": "peak",
+              "source": "research",
+              "evidence": "全球 8 英寸产能缩减 10%-15%，AI 挤占 12 英寸成熟制程，是本轮涨价核心供给侧之一；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "indicators": {
+                "inventory": "成熟制程代工产能偏紧。",
+                "capex": "成熟制程扩产有限，新产能释放滞后。",
+                "demand": "AI、汽车、光储共同挤占成熟制程。",
+                "price": "功率代工价格具备上行弹性。",
+                "utilization": "中芯、华虹、华润微产能利用率高位。"
+              },
+              "breakdown": [
+                {
+                  "dimension": "inventory",
+                  "value": "成熟制程代工产能偏紧。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "capex",
+                  "value": "成熟制程扩产有限，新产能释放滞后。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "demand",
+                  "value": "AI、汽车、光储共同挤占成熟制程。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "price",
+                  "value": "功率代工价格具备上行弹性。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "utilization",
+                  "value": "中芯、华虹、华润微产能利用率高位。",
+                  "stage": "peak"
+                }
+              ],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "硅晶圆代工为上游制造节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [
+            {
+              "name": "华虹公司",
+              "ticker": "688347.SH",
+              "role": "龙头",
+              "purity": 80,
+              "logic": "功率特色工艺代工龙头。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "power_process"
+                ],
+                "highest_grade": "功率特色工艺代工",
+                "note": "代工环节龙头。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "中芯国际",
+              "ticker": "688981.SH",
+              "role": "龙头",
+              "purity": 55,
+              "logic": "成熟制程龙头。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "mature_node"
+                ],
+                "highest_grade": "成熟制程代工",
+                "note": "功率只是成熟制程应用之一。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "华润微",
+              "ticker": "688396.SH",
+              "role": "主要参与者",
+              "purity": 75,
+              "logic": "IDM+代工，功率器件与制造能力协同。",
+              "capability": {
+                "materials": [
+                  "wafer_foundry",
+                  "mosfet",
+                  "igbt",
+                  "sic_device"
+                ],
+                "highest_grade": "IDM+功率代工",
+                "note": "跨器件和制造环节。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            }
+          ],
+          "tech_evolution": {
+            "stages": [
+              "8英寸成熟制程",
+              "12英寸成熟制程",
+              "特色功率工艺",
+              "IDM+代工协同"
+            ],
+            "current": "8 英寸偏紧，12 英寸成熟制程被 AI 与功率需求共同挤占",
+            "note": "成熟制程在功率、模拟和电源管理中仍是关键供给瓶颈。",
+            "risk_level": "中"
+          },
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "power_packaging",
+              "name": "功率封测",
+              "layer_updated": "2026-06-27",
+              "current_generation": null,
+              "metrics": {
+                "market_size": {
+                  "value": null,
+                  "unit": null,
+                  "year": null,
+                  "note": "资料未给功率封测独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "cagr": {
+                  "value": null,
+                  "unit": "%",
+                  "period": null,
+                  "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "value_share": {
+                  "value": null,
+                  "unit": "%",
+                  "relative_to": "功率半导体",
+                  "note": "模块封装占比较高但无统一口径。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              },
+              "competition": {
+                "concentration": null,
+                "leader_share": {
+                  "company": "长电科技",
+                  "value": null,
+                  "unit": "%",
+                  "note": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "tiers": "通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "uptrend",
+                  "source": "research",
+                  "evidence": "先进封装、双面银烧结、PCB 嵌埋成为性能关键，封装材料银/铜/钯等涨价推升成本；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "indicators": {
+                    "inventory": "高端功率模块封装产能偏紧。",
+                    "capex": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                    "demand": "车规、AI 电源、光储推动功率封装需求。",
+                    "price": "封装材料涨价推升封测成本和报价。",
+                    "utilization": "头部高端封测产线景气上行。"
+                  },
+                  "breakdown": [
+                    {
+                      "dimension": "inventory",
+                      "value": "高端功率模块封装产能偏紧。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "capex",
+                      "value": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "demand",
+                      "value": "车规、AI 电源、光储推动功率封装需求。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "price",
+                      "value": "封装材料涨价推升封测成本和报价。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "utilization",
+                      "value": "头部高端封测产线景气上行。",
+                      "stage": "uptrend"
+                    }
+                  ],
+                  "heatmap": null
+                },
+                "penetration_axis": {
+                  "stage": null,
+                  "source": null,
+                  "evidence": "功率封测为上游封装节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "rate": null,
+                  "type": null,
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": null
+                }
+              },
+              "companies": [
+                {
+                  "name": "通富微电",
+                  "ticker": "002156.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "2.5D/Chiplet 能力可向功率封装外溢。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "2.5D/Chiplet+功率封装",
+                    "note": "先进封装平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华天科技",
+                  "ticker": "002185.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "封测三巨头之一。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging"
+                    ],
+                    "highest_grade": "功率封测",
+                    "note": "封测平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "长电科技",
+                  "ticker": "600584.SH",
+                  "role": "龙头",
+                  "purity": 75,
+                  "logic": "封测龙头，Chiplet、2.5D、3D 布局领先。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "Chiplet/2.5D/3D",
+                    "note": "功率封测为应用之一。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "中瓷电子",
+                  "ticker": "003031.SZ",
+                  "role": "材料参与者",
+                  "purity": 60,
+                  "logic": "陶瓷封装基板参与者。",
+                  "capability": {
+                    "materials": [
+                      "ceramic_substrate",
+                      "power_packaging_material"
+                    ],
+                    "highest_grade": "陶瓷封装基板",
+                    "note": "偏封装材料/基板环节。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华海诚科",
+                  "ticker": "688535.SH",
+                  "role": "材料参与者",
+                  "purity": 55,
+                  "logic": "封装材料供应商。",
+                  "capability": {
+                    "materials": [
+                      "packaging_material"
+                    ],
+                    "highest_grade": "高端封装材料",
+                    "note": "材料端受益封装升级。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "器件封装",
+                  "模块封装",
+                  "双面银烧结",
+                  "PCB嵌埋/铜夹",
+                  "系统级封装"
+                ],
+                "current": "模块封装和先进互连成为功率器件性能关键",
+                "note": "功率封装从单器件保护走向系统级热管理、可靠性和寄生参数优化。",
+                "risk_level": "中"
+              },
+              "bom_by_generation": [],
+              "upstream": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sic",
+      "name": "碳化硅 (SiC) 功率器件",
+      "layer_updated": "2026-06-27",
+      "current_generation": null,
+      "metrics": {
+        "market_size": {
+          "value": 43,
+          "unit": "亿美元",
+          "year": 2025,
+          "note": "全球 SiC 器件 2024 年约 24 亿美元、2025 年约 43 亿美元、2026 年约 53.3 亿美元，2030 年有望突破 150 亿美元；中国 2025 年约 13 亿美元。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "cagr": {
+          "value": 35,
+          "unit": "%",
+          "period": "2025-2030",
+          "note": "SiC 器件 CAGR 35%+。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": "功率半导体",
+          "note": "资料未给功率半导体整体内干净占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        }
+      },
+      "competition": {
+        "concentration": {
+          "label": "器件全球龙头份额",
+          "value": 40,
+          "unit": "%",
+          "note": "ST 2021 口径约 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "leader_share": {
+          "company": "ST",
+          "value": 40,
+          "unit": "%",
+          "note": "SiC 器件全球龙头，2021 口径；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "tiers": "器件端一超多强，ST、Wolfspeed、罗姆、英飞凌领先；国产斯达半导、三安光电、士兰微、华润微、时代电气、芯联集成、扬杰科技快速切入。"
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "research",
+          "evidence": "SiC 呈显著分化：上游衬底紧缺且价格暴涨，但器件/外延端产能释放快、价格战激烈，部分售价接近成本；因此 SiC 器件不按全链条紧缺一刀切标红；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "indicators": {
+            "inventory": "器件端库存与订单分化，车规主驱模块需求强，但部分器件产能释放较快。",
+            "capex": "6 英寸向 8 英寸切换，器件厂和 IDM 扩产积极。",
+            "demand": "800V 平台、新能源车、光储和 AI 电源持续拉动。",
+            "price": "衬底价格暴涨，但器件端价格战激烈，部分售价接近成本。",
+            "utilization": "头部车规产线利用率较高，通用品和外延端存在分化。"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "器件端库存与订单分化，车规主驱模块需求强，但部分器件产能释放较快。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "capex",
+              "value": "6 英寸向 8 英寸切换，器件厂和 IDM 扩产积极。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "800V 平台、新能源车、光储和 AI 电源持续拉动。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "price",
+              "value": "衬底价格暴涨，但器件端价格战激烈，部分售价接近成本。",
+              "stage": "downtrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "头部车规产线利用率较高，通用品和外延端存在分化。",
+              "stage": "uptrend"
+            }
+          ],
+          "heatmap": {
+            "granularity": "month",
+            "timeline": [
+              "2025-12",
+              "2026-01",
+              "2026-02",
+              "2026-03",
+              "2026-04",
+              "2026-05"
+            ],
+            "dimensions": [
+              {
+                "key": "inventory",
+                "name": "库存",
+                "good_direction": "down",
+                "values": [
+                  "flat",
+                  "flat",
+                  "down",
+                  "flat",
+                  "flat",
+                  "flat"
+                ],
+                "notes": [
+                  "库存flat",
+                  "库存flat",
+                  "库存down",
+                  "库存flat",
+                  "库存flat",
+                  "库存flat"
+                ]
+              },
+              {
+                "key": "capex",
+                "name": "资本开支",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "资本开支up",
+                  "资本开支up",
+                  "资本开支up",
+                  "资本开支up",
+                  "资本开支up",
+                  "资本开支up"
+                ]
+              },
+              {
+                "key": "demand",
+                "name": "需求",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up",
+                  "up"
+                ],
+                "notes": [
+                  "需求up",
+                  "需求up",
+                  "需求up",
+                  "需求up",
+                  "需求up",
+                  "需求up"
+                ]
+              },
+              {
+                "key": "price",
+                "name": "价格",
+                "good_direction": "up",
+                "values": [
+                  "down",
+                  "down",
+                  "flat",
+                  "down",
+                  "down",
+                  "flat"
+                ],
+                "notes": [
+                  "价格down",
+                  "价格down",
+                  "价格flat",
+                  "价格down",
+                  "价格down",
+                  "价格flat"
+                ]
+              },
+              {
+                "key": "utilization",
+                "name": "开工率",
+                "good_direction": "up",
+                "values": [
+                  "up",
+                  "up",
+                  "up",
+                  "flat",
+                  "flat",
+                  "flat"
+                ],
+                "notes": [
+                  "开工率up",
+                  "开工率up",
+                  "开工率up",
+                  "开工率flat",
+                  "开工率flat",
+                  "开工率flat"
+                ]
+              }
+            ]
+          }
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "800V 平台拉动，20-30 万纯电 SiC 渗透 70%+；2026 年价差收窄至约 1.5 倍有望打开规模化空间；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "rate": 22.6,
+          "type": "structural",
+          "indicators": {
+            "qualitative": "SiC 替代高压 IGBT，是结构替代型渗透。"
+          },
+          "breakdown": [
+            {
+              "dimension": "rate",
+              "value": 22.6,
+              "stage": "golden"
+            }
+          ],
+          "trend": {
+            "unit": "%",
+            "granularity": "quarter",
+            "timeline": [
+              "2024-Q4",
+              "2025-Q1",
+              "2025-Q2",
+              "2025-Q3",
+              "2025-Q4",
+              "2026-Q1",
+              "2026-Q2"
+            ],
+            "values": [
+              6.5,
+              9,
+              12,
+              15,
+              18,
+              20,
+              22.6
+            ],
+            "thresholds": [
+              {
+                "max": 10,
+                "stage": "intro",
+                "name": "导入期",
+                "color": "neutral"
+              },
+              {
+                "max": 30,
+                "stage": "golden",
+                "name": "黄金爆发期",
+                "color": "highlight"
+              },
+              {
+                "max": 50,
+                "stage": "mature",
+                "name": "成熟分化期",
+                "color": "caution"
+              },
+              {
+                "max": 100,
+                "stage": "decline",
+                "name": "衰退期",
+                "color": "danger"
+              }
+            ],
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+            "note": "口径=SiC 在新能源车功率器件中的整体渗透率预测；20-30 万纯电细分已 70%+。"
+          }
+        }
+      },
+      "companies": [
+        {
+          "name": "斯达半导",
+          "ticker": "603290.SH",
+          "role": "龙头",
+          "purity": 85,
+          "logic": "国内车规 SiC 模块龙头，800V 定点。",
+          "capability": {
+            "materials": [
+              "sic_module",
+              "igbt_module"
+            ],
+            "highest_grade": "车规SiC主驱模块",
+            "note": "SiC 模块领先，同时 IGBT 主业纯度高。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "三安光电",
+          "ticker": "600703.SH",
+          "role": "龙头",
+          "purity": 70,
+          "logic": "SiC 衬底-外延-器件全产业链垂直整合 IDM。",
+          "capability": {
+            "materials": [
+              "sic_substrate_8inch",
+              "sic_epitaxy",
+              "sic_device"
+            ],
+            "highest_grade": "8英寸SiC全链条",
+            "note": "化合物半导体平台型公司。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "士兰微",
+          "ticker": "600460.SH",
+          "role": "主要参与者",
+          "purity": 60,
+          "logic": "6 英寸 SiC 产线量产，8 英寸通线。",
+          "capability": {
+            "materials": [
+              "sic_device",
+              "igbt",
+              "mosfet",
+              "gan_device"
+            ],
+            "highest_grade": "6英寸SiC量产/8英寸通线",
+            "note": "SiC 环节纯度低于 IGBT。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "华润微",
+          "ticker": "688396.SH",
+          "role": "主要参与者",
+          "purity": 60,
+          "logic": "SiC JBS/G3 性能领先，车规认证推进。",
+          "capability": {
+            "materials": [
+              "sic_jbs",
+              "sic_device",
+              "mosfet",
+              "wafer_foundry"
+            ],
+            "highest_grade": "SiC JBS/G3",
+            "note": "SiC 为 IDM 平台扩展方向。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "时代电气",
+          "ticker": "688187.SH",
+          "role": "主要参与者",
+          "purity": 60,
+          "logic": "自研 SiC MOSFET，配套主驱逆变器。",
+          "capability": {
+            "materials": [
+              "sic_mosfet",
+              "igbt"
+            ],
+            "highest_grade": "SiC MOSFET/高压IGBT",
+            "note": "轨交 IGBT 基本盘，SiC 为高压延伸。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "芯联集成",
+          "ticker": "688469.SH",
+          "role": "主要参与者",
+          "purity": 60,
+          "logic": "8 英寸 SiC 外延/器件，车规出货百万级。",
+          "capability": {
+            "materials": [
+              "sic_epitaxy",
+              "sic_device"
+            ],
+            "highest_grade": "8英寸SiC外延/器件",
+            "note": "制造平台属性明显。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "扬杰科技",
+          "ticker": "300373.SZ",
+          "role": "主要参与者",
+          "purity": 55,
+          "logic": "650V/1200V SBD/JBS 量产。",
+          "capability": {
+            "materials": [
+              "sic_sbd",
+              "sic_jbs",
+              "gan_hemt",
+              "mosfet"
+            ],
+            "highest_grade": "650V/1200V SiC SBD/JBS",
+            "note": "多品类平台。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "6英寸SiC",
+          "8英寸SiC",
+          "12英寸展望",
+          "1500V高压芯片",
+          "双面银烧结封装"
+        ],
+        "current": "8 英寸切换和车规主驱模块放量并行",
+        "note": "SiC 的核心矛盾不是单一紧缺：衬底短缺推升成本，器件端扩产与价格战压制盈利。",
+        "risk_level": "中"
+      },
+      "bom_by_generation": [],
+      "upstream": [
+        {
+          "id": "sic_substrate",
+          "name": "SiC衬底/外延",
+          "layer_updated": "2026-06-27",
+          "current_generation": null,
+          "metrics": {
+            "market_size": {
+              "value": 629,
+              "unit": "万片",
+              "year": 2026,
+              "note": "2026 年全球 SiC 衬底有效产能约 330 万片 vs 需求 629 万片，持续供不应求。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "cagr": {
+              "value": 35,
+              "unit": "%",
+              "period": "2025-2030",
+              "note": "受 SiC 器件 35%+ 高增带动。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "value_share": {
+              "value": 60,
+              "unit": "%",
+              "relative_to": "SiC器件",
+              "note": "SiC 衬底约占芯片成本 60%，海通口径接近 50%；外延约 20%+。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            }
+          },
+          "competition": {
+            "concentration": {
+              "label": "外延CR3",
+              "value": 74,
+              "unit": "%",
+              "note": "外延 CR3 约 74%，Wolfspeed 约 37%，瀚天天成第三约 15%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "leader_share": {
+              "company": "天岳先进",
+              "value": 27.6,
+              "unit": "%",
+              "note": "2025 年导电型 SiC 衬底全球市占 27.6%，8 英寸市占 51.3%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "tiers": "全球曾由 Wolfspeed 主导；天岳先进在导电型和 8 英寸衬底领先，三安光电具备垂直整合，天科合达、瀚天天成为待核实参与者。"
+          },
+          "gap": {
+            "cycle_axis": {
+              "stage": "peak",
+              "source": "research",
+              "evidence": "SiC 衬底是本轮核心紧缺点：6 英寸车规衬底价格从 2025 年底约 1500-1800 元/片飙至 4900-5000 元/片；2026 年有效产能 330 万片 vs 需求 629 万片；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "indicators": {
+                "inventory": "车规 SiC 衬底库存紧张，有效产能缺口明显。",
+                "capex": "8 英寸衬底扩产加速，但认证和良率限制短期供给。",
+                "demand": "800V 平台、光储和 AI 电源共同拉动衬底需求。",
+                "price": "6 英寸车规衬底价格三倍暴涨至 4900-5000 元/片。",
+                "utilization": "头部衬底产线满负荷，外延端亦受上游瓶颈制约。"
+              },
+              "breakdown": [
+                {
+                  "dimension": "inventory",
+                  "value": "车规 SiC 衬底库存紧张，有效产能缺口明显。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "capex",
+                  "value": "8 英寸衬底扩产加速，但认证和良率限制短期供给。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "demand",
+                  "value": "800V 平台、光储和 AI 电源共同拉动衬底需求。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "price",
+                  "value": "6 英寸车规衬底价格三倍暴涨至 4900-5000 元/片。",
+                  "stage": "peak"
+                },
+                {
+                  "dimension": "utilization",
+                  "value": "头部衬底产线满负荷，外延端亦受上游瓶颈制约。",
+                  "stage": "peak"
+                }
+              ],
+              "heatmap": {
+                "granularity": "month",
+                "timeline": [
+                  "2025-12",
+                  "2026-01",
+                  "2026-02",
+                  "2026-03",
+                  "2026-04",
+                  "2026-05"
+                ],
+                "dimensions": [
+                  {
+                    "key": "inventory",
+                    "name": "库存",
+                    "good_direction": "down",
+                    "values": [
+                      "flat",
+                      "down",
+                      "down",
+                      "down",
+                      "down",
+                      "down"
+                    ],
+                    "notes": [
+                      "库存flat",
+                      "库存down",
+                      "库存down",
+                      "库存down",
+                      "库存down",
+                      "库存down"
+                    ]
+                  },
+                  {
+                    "key": "capex",
+                    "name": "资本开支",
+                    "good_direction": "up",
+                    "values": [
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up"
+                    ],
+                    "notes": [
+                      "资本开支up",
+                      "资本开支up",
+                      "资本开支up",
+                      "资本开支up",
+                      "资本开支up",
+                      "资本开支up"
+                    ]
+                  },
+                  {
+                    "key": "demand",
+                    "name": "需求",
+                    "good_direction": "up",
+                    "values": [
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up"
+                    ],
+                    "notes": [
+                      "需求up",
+                      "需求up",
+                      "需求up",
+                      "需求up",
+                      "需求up",
+                      "需求up"
+                    ]
+                  },
+                  {
+                    "key": "price",
+                    "name": "价格",
+                    "good_direction": "up",
+                    "values": [
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up"
+                    ],
+                    "notes": [
+                      "价格up",
+                      "价格up",
+                      "价格up",
+                      "价格up",
+                      "价格up",
+                      "价格up"
+                    ]
+                  },
+                  {
+                    "key": "utilization",
+                    "name": "开工率",
+                    "good_direction": "up",
+                    "values": [
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up",
+                      "up"
+                    ],
+                    "notes": [
+                      "开工率up",
+                      "开工率up",
+                      "开工率up",
+                      "开工率up",
+                      "开工率up",
+                      "开工率up"
+                    ]
+                  }
+                ]
+              }
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "SiC 衬底/外延为上游材料节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [
+            {
+              "name": "天岳先进",
+              "ticker": "688234.SH",
+              "role": "龙头",
+              "purity": 95,
+              "logic": "全球导电型 SiC 衬底第一，8 英寸市占 51.3%。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_6inch",
+                  "sic_substrate_8inch",
+                  "sic_substrate_12inch"
+                ],
+                "highest_grade": "12英寸SiC衬底",
+                "note": "衬底主业纯度高。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "三安光电",
+              "ticker": "600703.SH",
+              "role": "龙头",
+              "purity": 70,
+              "logic": "衬底、外延、器件全垂直整合。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_8inch",
+                  "sic_epitaxy",
+                  "sic_device"
+                ],
+                "highest_grade": "8英寸SiC全链条",
+                "note": "化合物半导体平台型公司。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "露笑科技",
+              "ticker": "002617.SZ",
+              "role": "主要参与者",
+              "purity": 55,
+              "logic": "6 英寸导电型 SiC 衬底量产。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_6inch"
+                ],
+                "highest_grade": "6英寸导电型SiC衬底",
+                "note": "SiC 衬底业务仍需结合公司整体业务核实。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "东尼电子",
+              "ticker": "603595.SH",
+              "role": "主要参与者",
+              "purity": 55,
+              "logic": "6 英寸衬底批量供货，获比亚迪订单。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_6inch"
+                ],
+                "highest_grade": "6英寸SiC衬底",
+                "note": "客户订单驱动。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "晶盛机电",
+              "ticker": "300316.SZ",
+              "role": "主要参与者",
+              "purity": 60,
+              "logic": "6-8 英寸衬底量产并布局长晶/切割设备。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_8inch",
+                  "sic_equipment"
+                ],
+                "highest_grade": "6-8英寸衬底+设备",
+                "note": "同时出现在衬底和设备环节。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            },
+            {
+              "name": "天科合达",
+              "ticker": null,
+              "role": "主要参与者",
+              "purity": null,
+              "logic": "导电型衬底全球第五口径，上市状态和代码待核实。",
+              "capability": {
+                "materials": [
+                  "sic_substrate_6inch",
+                  "sic_substrate_8inch"
+                ],
+                "highest_grade": "SiC导电型衬底",
+                "note": "未上市/上市状态存疑，ticker 留空。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                "verification_status": "待核实"
+              }
+            },
+            {
+              "name": "瀚天天成",
+              "ticker": null,
+              "role": "主要参与者",
+              "purity": null,
+              "logic": "SiC 外延全球第三约 15%，上市状态和代码待核实。",
+              "capability": {
+                "materials": [
+                  "sic_epitaxy"
+                ],
+                "highest_grade": "SiC外延",
+                "note": "港股/上市状态存疑，ticker 留空。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                "verification_status": "待核实"
+              }
+            }
+          ],
+          "tech_evolution": {
+            "stages": [
+              "6英寸衬底",
+              "8英寸衬底",
+              "12英寸衬底展望",
+              "高良率车规外延"
+            ],
+            "current": "6 英寸车规衬底紧缺，8 英寸扩产爬坡",
+            "note": "衬底是 SiC 链条真实紧缺点，器件端价格战不能反推到衬底端。",
+            "risk_level": "中"
+          },
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "sic_equipment",
+              "name": "长晶/切割设备",
+              "layer_updated": "2026-06-27",
+              "current_generation": null,
+              "metrics": {
+                "market_size": {
+                  "value": null,
+                  "unit": null,
+                  "year": null,
+                  "note": "资料未给 SiC 长晶/切割设备独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "cagr": {
+                  "value": null,
+                  "unit": "%",
+                  "period": null,
+                  "note": "资料未给独立 CAGR，受 SiC 衬底扩产潮带动。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "value_share": {
+                  "value": null,
+                  "unit": "%",
+                  "relative_to": "SiC衬底/外延",
+                  "note": "设备价值量占比未给统一口径。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              },
+              "competition": {
+                "concentration": null,
+                "leader_share": {
+                  "company": "北方华创",
+                  "value": null,
+                  "unit": "%",
+                  "note": "供应国内衬底厂份额较高，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "tiers": "北方华创、晶升股份、晶盛机电、大族激光等受益 SiC 衬底扩产。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "uptrend",
+                  "source": "research",
+                  "evidence": "受益 SiC 衬底扩产潮，长晶炉、切割等关键设备景气上行；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "indicators": {
+                    "inventory": "长晶和切割设备订单随衬底扩产增加。",
+                    "capex": "SiC 衬底厂扩产带动设备资本开支上行。",
+                    "demand": "8 英寸衬底爬坡和国产替代拉动设备需求。",
+                    "price": "关键设备价格保持韧性。",
+                    "utilization": "头部设备厂交付和排产提升。"
+                  },
+                  "breakdown": [
+                    {
+                      "dimension": "inventory",
+                      "value": "长晶和切割设备订单随衬底扩产增加。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "capex",
+                      "value": "SiC 衬底厂扩产带动设备资本开支上行。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "demand",
+                      "value": "8 英寸衬底爬坡和国产替代拉动设备需求。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "price",
+                      "value": "关键设备价格保持韧性。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "utilization",
+                      "value": "头部设备厂交付和排产提升。",
+                      "stage": "uptrend"
+                    }
+                  ],
+                  "heatmap": null
+                },
+                "penetration_axis": {
+                  "stage": null,
+                  "source": null,
+                  "evidence": "长晶/切割设备为上游设备节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "rate": null,
+                  "type": null,
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": null
+                }
+              },
+              "companies": [
+                {
+                  "name": "北方华创",
+                  "ticker": "002371.SZ",
+                  "role": "龙头",
+                  "purity": 60,
+                  "logic": "受益长晶设备国产替代。",
+                  "capability": {
+                    "materials": [
+                      "sic_equipment",
+                      "crystal_growth_equipment"
+                    ],
+                    "highest_grade": "SiC长晶相关设备",
+                    "note": "半导体设备平台型公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "晶升股份",
+                  "ticker": "688478.SH",
+                  "role": "龙头",
+                  "purity": 80,
+                  "logic": "长晶炉龙头。",
+                  "capability": {
+                    "materials": [
+                      "crystal_growth_equipment"
+                    ],
+                    "highest_grade": "SiC长晶炉",
+                    "note": "长晶设备纯度较高。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "晶盛机电",
+                  "ticker": "300316.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "长晶、切割设备与 6-8 英寸衬底双布局。",
+                  "capability": {
+                    "materials": [
+                      "crystal_growth_equipment",
+                      "sic_substrate_8inch"
+                    ],
+                    "highest_grade": "长晶/切割+8英寸衬底",
+                    "note": "同时出现在设备与衬底环节。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "大族激光",
+                  "ticker": "002008.SZ",
+                  "role": "主要参与者",
+                  "purity": 45,
+                  "logic": "切割设备参与者。",
+                  "capability": {
+                    "materials": [
+                      "sic_cutting_equipment"
+                    ],
+                    "highest_grade": "SiC切割设备",
+                    "note": "激光设备平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "6英寸长晶",
+                  "8英寸长晶",
+                  "切割/研磨/抛光",
+                  "自动化检测"
+                ],
+                "current": "8 英寸长晶和硬脆材料切割能力升级",
+                "note": "设备端景气来自衬底短缺后的扩产潮。",
+                "risk_level": "中"
+              },
+              "bom_by_generation": [],
+              "upstream": [
+                {
+                  "id": "power_packaging",
+                  "name": "功率封测",
+                  "layer_updated": "2026-06-27",
+                  "current_generation": null,
+                  "metrics": {
+                    "market_size": {
+                      "value": null,
+                      "unit": null,
+                      "year": null,
+                      "note": "资料未给功率封测独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                    },
+                    "cagr": {
+                      "value": null,
+                      "unit": "%",
+                      "period": null,
+                      "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                    },
+                    "value_share": {
+                      "value": null,
+                      "unit": "%",
+                      "relative_to": "功率半导体",
+                      "note": "模块封装占比较高但无统一口径。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                    }
+                  },
+                  "competition": {
+                    "concentration": null,
+                    "leader_share": {
+                      "company": "长电科技",
+                      "value": null,
+                      "unit": "%",
+                      "note": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                    },
+                    "tiers": "通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+                  },
+                  "gap": {
+                    "cycle_axis": {
+                      "stage": "uptrend",
+                      "source": "research",
+                      "evidence": "先进封装、双面银烧结、PCB 嵌埋成为性能关键，封装材料银/铜/钯等涨价推升成本；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                      "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                      "indicators": {
+                        "inventory": "高端功率模块封装产能偏紧。",
+                        "capex": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                        "demand": "车规、AI 电源、光储推动功率封装需求。",
+                        "price": "封装材料涨价推升封测成本和报价。",
+                        "utilization": "头部高端封测产线景气上行。"
+                      },
+                      "breakdown": [
+                        {
+                          "dimension": "inventory",
+                          "value": "高端功率模块封装产能偏紧。",
+                          "stage": "uptrend"
+                        },
+                        {
+                          "dimension": "capex",
+                          "value": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                          "stage": "uptrend"
+                        },
+                        {
+                          "dimension": "demand",
+                          "value": "车规、AI 电源、光储推动功率封装需求。",
+                          "stage": "uptrend"
+                        },
+                        {
+                          "dimension": "price",
+                          "value": "封装材料涨价推升封测成本和报价。",
+                          "stage": "uptrend"
+                        },
+                        {
+                          "dimension": "utilization",
+                          "value": "头部高端封测产线景气上行。",
+                          "stage": "uptrend"
+                        }
+                      ],
+                      "heatmap": null
+                    },
+                    "penetration_axis": {
+                      "stage": null,
+                      "source": null,
+                      "evidence": "功率封测为上游封装节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                      "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                      "rate": null,
+                      "type": null,
+                      "indicators": {},
+                      "breakdown": [],
+                      "trend": null
+                    }
+                  },
+                  "companies": [
+                    {
+                      "name": "通富微电",
+                      "ticker": "002156.SZ",
+                      "role": "主要参与者",
+                      "purity": 65,
+                      "logic": "2.5D/Chiplet 能力可向功率封装外溢。",
+                      "capability": {
+                        "materials": [
+                          "power_packaging",
+                          "advanced_packaging"
+                        ],
+                        "highest_grade": "2.5D/Chiplet+功率封装",
+                        "note": "先进封装平台公司。",
+                        "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                      }
+                    },
+                    {
+                      "name": "华天科技",
+                      "ticker": "002185.SZ",
+                      "role": "主要参与者",
+                      "purity": 65,
+                      "logic": "封测三巨头之一。",
+                      "capability": {
+                        "materials": [
+                          "power_packaging"
+                        ],
+                        "highest_grade": "功率封测",
+                        "note": "封测平台公司。",
+                        "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                      }
+                    },
+                    {
+                      "name": "长电科技",
+                      "ticker": "600584.SH",
+                      "role": "龙头",
+                      "purity": 75,
+                      "logic": "封测龙头，Chiplet、2.5D、3D 布局领先。",
+                      "capability": {
+                        "materials": [
+                          "power_packaging",
+                          "advanced_packaging"
+                        ],
+                        "highest_grade": "Chiplet/2.5D/3D",
+                        "note": "功率封测为应用之一。",
+                        "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                      }
+                    },
+                    {
+                      "name": "中瓷电子",
+                      "ticker": "003031.SZ",
+                      "role": "材料参与者",
+                      "purity": 60,
+                      "logic": "陶瓷封装基板参与者。",
+                      "capability": {
+                        "materials": [
+                          "ceramic_substrate",
+                          "power_packaging_material"
+                        ],
+                        "highest_grade": "陶瓷封装基板",
+                        "note": "偏封装材料/基板环节。",
+                        "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                      }
+                    },
+                    {
+                      "name": "华海诚科",
+                      "ticker": "688535.SH",
+                      "role": "材料参与者",
+                      "purity": 55,
+                      "logic": "封装材料供应商。",
+                      "capability": {
+                        "materials": [
+                          "packaging_material"
+                        ],
+                        "highest_grade": "高端封装材料",
+                        "note": "材料端受益封装升级。",
+                        "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                      }
+                    }
+                  ],
+                  "tech_evolution": {
+                    "stages": [
+                      "器件封装",
+                      "模块封装",
+                      "双面银烧结",
+                      "PCB嵌埋/铜夹",
+                      "系统级封装"
+                    ],
+                    "current": "模块封装和先进互连成为功率器件性能关键",
+                    "note": "功率封装从单器件保护走向系统级热管理、可靠性和寄生参数优化。",
+                    "risk_level": "中"
+                  },
+                  "bom_by_generation": [],
+                  "upstream": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gan",
+      "name": "氮化镓 (GaN) 功率器件",
+      "layer_updated": "2026-06-27",
+      "current_generation": null,
+      "metrics": {
+        "market_size": {
+          "value": 18,
+          "unit": "亿美元",
+          "year": 2025,
+          "note": "全球 GaN 功率 2024 年约 10 亿美元、2025 年约 18 亿美元，2026 年约 9.2 亿美元口径不一，2030 年有望超 50 亿美元；国内快充 GaN 2026 年或超 70 亿元。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "cagr": {
+          "value": 25,
+          "unit": "%",
+          "period": "2025-2030",
+          "note": "GaN 功率整体 CAGR 25%+，快充口径近 70%。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "value_share": {
+          "value": null,
+          "unit": "%",
+          "relative_to": "功率半导体",
+          "note": "GaN 占比仍处早期爬升，资料未给统一占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        }
+      },
+      "competition": {
+        "concentration": {
+          "label": "英诺赛科全球硅基GaN份额",
+          "value": 40,
+          "unit": "%+",
+          "note": "英诺赛科硅基 GaN 功率市占超 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "leader_share": {
+          "company": "英诺赛科",
+          "value": 40,
+          "unit": "%+",
+          "note": "港股 02577.HK，非 A 股；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        },
+        "tiers": "快充 GaN 全球纳微半导体约 20%；英诺赛科为硅基 GaN 功率全球第一，闻泰科技、士兰微、扬杰科技等布局。"
+      },
+      "gap": {
+        "cycle_axis": {
+          "stage": "uptrend",
+          "source": "research",
+          "evidence": "GaN 从快充转向车规与 AI 电源，AI 数据中心 800V 需求迫切，新增量驱动景气上行；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "indicators": {
+            "inventory": "快充市场较成熟，AI 电源和车规产品仍处导入扩张。",
+            "capex": "GaN-on-Si 产线与全电压谱系量产能力扩张。",
+            "demand": "快充基本盘外，AI 数据中心和车规主驱打开新增场景。",
+            "price": "高端 AI 电源和车规产品价格支撑强于消费快充。",
+            "utilization": "头部 GaN 厂商产线随新场景导入提升。"
+          },
+          "breakdown": [
+            {
+              "dimension": "inventory",
+              "value": "快充市场较成熟，AI 电源和车规产品仍处导入扩张。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "capex",
+              "value": "GaN-on-Si 产线与全电压谱系量产能力扩张。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "demand",
+              "value": "快充基本盘外，AI 数据中心和车规主驱打开新增场景。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "price",
+              "value": "高端 AI 电源和车规产品价格支撑强于消费快充。",
+              "stage": "uptrend"
+            },
+            {
+              "dimension": "utilization",
+              "value": "头部 GaN 厂商产线随新场景导入提升。",
+              "stage": "uptrend"
+            }
+          ],
+          "heatmap": null
+        },
+        "penetration_axis": {
+          "stage": "golden",
+          "source": "research",
+          "evidence": "快充已主流，车规主驱和 AI 电源仍处新爆发点，属于黄金爆发期偏导入；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+          "rate": null,
+          "type": "space_creating",
+          "indicators": {
+            "qualitative": "GaN 在 AI 电源等新场景中创造新增空间。"
+          },
+          "breakdown": [
+            {
+              "dimension": "qualitative",
+              "value": "GaN 在 AI 电源等新场景中创造新增空间。",
+              "stage": "golden"
+            }
+          ],
+          "trend": null
+        }
+      },
+      "companies": [
+        {
+          "name": "英诺赛科",
+          "ticker": "02577.HK",
+          "role": "龙头（港股，非A股）",
+          "purity": 90,
+          "logic": "全球唯一量产全电压谱系硅基 GaN，市占超 40%，港股公司，非 A 股。",
+          "capability": {
+            "materials": [
+              "gan_on_si",
+              "gan_power_device"
+            ],
+            "highest_grade": "15V-1200V硅基GaN",
+            "note": "港股 02577.HK，非 A 股。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "闻泰科技",
+          "ticker": "600745.SH",
+          "role": "主要参与者",
+          "purity": 35,
+          "logic": "安世半导体有 GaN FET 布局。",
+          "capability": {
+            "materials": [
+              "gan_fet",
+              "mosfet"
+            ],
+            "highest_grade": "GaN FET",
+            "note": "通过安世布局，纯度低于 MOSFET。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "士兰微",
+          "ticker": "600460.SH",
+          "role": "主要参与者",
+          "purity": 45,
+          "logic": "布局 Si 基 GaN 功率器件。",
+          "capability": {
+            "materials": [
+              "gan_device",
+              "igbt",
+              "mosfet",
+              "sic_device"
+            ],
+            "highest_grade": "Si基GaN功率器件",
+            "note": "GaN 仍为扩展方向。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "扬杰科技",
+          "ticker": "300373.SZ",
+          "role": "主要参与者",
+          "purity": 45,
+          "logic": "布局 GaN HEMT、650V p-GaN 栅。",
+          "capability": {
+            "materials": [
+              "gan_hemt",
+              "sic_sbd",
+              "mosfet"
+            ],
+            "highest_grade": "650V p-GaN HEMT",
+            "note": "GaN 与 SiC/MOS 多品类布局。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        },
+        {
+          "name": "纳微半导体",
+          "ticker": "NVTS",
+          "role": "海外龙头（美股，非A股）",
+          "purity": 90,
+          "logic": "全球快充 GaN 约 20%，美股公司，非 A 股。",
+          "capability": {
+            "materials": [
+              "gan_power_device"
+            ],
+            "highest_grade": "快充GaN",
+            "note": "美股 NVTS，仅作格局参照。",
+            "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+          }
+        }
+      ],
+      "tech_evolution": {
+        "stages": [
+          "快充GaN",
+          "车规GaN",
+          "AI服务器电源",
+          "D-Mode高效率逆变",
+          "GaN-on-Si主流化"
+        ],
+        "current": "从快充基本盘向车规和 AI 电源拓展",
+        "note": "观察重点从消费快充转向 AI 数据中心 800V 供电和车规高频高效场景。",
+        "risk_level": "中"
+      },
+      "bom_by_generation": [],
+      "upstream": [
+        {
+          "id": "gan_epitaxy",
+          "name": "GaN外延",
+          "layer_updated": "2026-06-27",
+          "current_generation": null,
+          "metrics": {
+            "market_size": {
+              "value": null,
+              "unit": null,
+              "year": null,
+              "note": "资料未给 GaN 外延独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "cagr": {
+              "value": null,
+              "unit": "%",
+              "period": null,
+              "note": "资料未给独立 CAGR，受 GaN 器件 25%+ 高增带动。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            },
+            "value_share": {
+              "value": null,
+              "unit": "%",
+              "relative_to": "GaN器件",
+              "note": "GaN-on-Si 外延是器件核心上游，资料未给统一价值量占比。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            }
+          },
+          "competition": null,
+          "gap": {
+            "cycle_axis": {
+              "stage": "uptrend",
+              "source": "research",
+              "evidence": "GaN-on-Si 外延产能随器件需求扩张，英诺赛科等龙头扩产带动。来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "indicators": {
+                "inventory": "GaN 外延产能随需求增长扩张。",
+                "capex": "GaN-on-Si 外延产线投资增加。",
+                "demand": "快充、AI 电源和车规拉动外延需求。",
+                "price": "高端外延价格保持韧性。",
+                "utilization": "头部外延产线随新场景导入提升。"
+              },
+              "breakdown": [
+                {
+                  "dimension": "inventory",
+                  "value": "GaN 外延产能随需求增长扩张。",
+                  "stage": "uptrend"
+                },
+                {
+                  "dimension": "capex",
+                  "value": "GaN-on-Si 外延产线投资增加。",
+                  "stage": "uptrend"
+                },
+                {
+                  "dimension": "demand",
+                  "value": "快充、AI 电源和车规拉动外延需求。",
+                  "stage": "uptrend"
+                },
+                {
+                  "dimension": "price",
+                  "value": "高端外延价格保持韧性。",
+                  "stage": "uptrend"
+                },
+                {
+                  "dimension": "utilization",
+                  "value": "头部外延产线随新场景导入提升。",
+                  "stage": "uptrend"
+                }
+              ],
+              "heatmap": null
+            },
+            "penetration_axis": {
+              "stage": null,
+              "source": null,
+              "evidence": "GaN 外延为上游材料节点，不单独设置渗透率趋势。来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+              "rate": null,
+              "type": null,
+              "indicators": {},
+              "breakdown": [],
+              "trend": null
+            }
+          },
+          "companies": [
+            {
+              "name": "英诺赛科",
+              "ticker": "02577.HK",
+              "role": "龙头（港股，非A股）",
+              "purity": 90,
+              "logic": "硅基 GaN 外延与器件垂直整合，港股公司，非 A 股。",
+              "capability": {
+                "materials": [
+                  "gan_epitaxy",
+                  "gan_on_si"
+                ],
+                "highest_grade": "GaN-on-Si外延",
+                "note": "港股 02577.HK，非 A 股。",
+                "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+              }
+            }
+          ],
+          "tech_evolution": {
+            "stages": [
+              "GaN-on-Si外延",
+              "GaN-on-SiC外延"
+            ],
+            "current": "GaN-on-Si 外延主流化",
+            "note": "外延质量直接决定 GaN 器件性能和良率。",
+            "risk_level": "中"
+          },
+          "bom_by_generation": [],
+          "upstream": [
+            {
+              "id": "power_packaging",
+              "name": "功率封测",
+              "layer_updated": "2026-06-27",
+              "current_generation": null,
+              "metrics": {
+                "market_size": {
+                  "value": null,
+                  "unit": null,
+                  "year": null,
+                  "note": "资料未给功率封测独立市场规模。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "cagr": {
+                  "value": null,
+                  "unit": "%",
+                  "period": null,
+                  "note": "资料未给独立 CAGR。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "value_share": {
+                  "value": null,
+                  "unit": "%",
+                  "relative_to": "功率半导体",
+                  "note": "模块封装占比较高但无统一口径。来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              },
+              "competition": {
+                "concentration": null,
+                "leader_share": {
+                  "company": "长电科技",
+                  "value": null,
+                  "unit": "%",
+                  "note": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                },
+                "tiers": "通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+              },
+              "gap": {
+                "cycle_axis": {
+                  "stage": "uptrend",
+                  "source": "research",
+                  "evidence": "先进封装、双面银烧结、PCB 嵌埋成为性能关键，封装材料银/铜/钯等涨价推升成本；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "indicators": {
+                    "inventory": "高端功率模块封装产能偏紧。",
+                    "capex": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                    "demand": "车规、AI 电源、光储推动功率封装需求。",
+                    "price": "封装材料涨价推升封测成本和报价。",
+                    "utilization": "头部高端封测产线景气上行。"
+                  },
+                  "breakdown": [
+                    {
+                      "dimension": "inventory",
+                      "value": "高端功率模块封装产能偏紧。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "capex",
+                      "value": "双面银烧结、PCB 嵌埋等先进封装投入上行。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "demand",
+                      "value": "车规、AI 电源、光储推动功率封装需求。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "price",
+                      "value": "封装材料涨价推升封测成本和报价。",
+                      "stage": "uptrend"
+                    },
+                    {
+                      "dimension": "utilization",
+                      "value": "头部高端封测产线景气上行。",
+                      "stage": "uptrend"
+                    }
+                  ],
+                  "heatmap": null
+                },
+                "penetration_axis": {
+                  "stage": null,
+                  "source": null,
+                  "evidence": "功率封测为上游封装节点，不单独设置渗透率趋势；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+                  "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27",
+                  "rate": null,
+                  "type": null,
+                  "indicators": {},
+                  "breakdown": [],
+                  "trend": null
+                }
+              },
+              "companies": [
+                {
+                  "name": "通富微电",
+                  "ticker": "002156.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "2.5D/Chiplet 能力可向功率封装外溢。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "2.5D/Chiplet+功率封装",
+                    "note": "先进封装平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华天科技",
+                  "ticker": "002185.SZ",
+                  "role": "主要参与者",
+                  "purity": 65,
+                  "logic": "封测三巨头之一。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging"
+                    ],
+                    "highest_grade": "功率封测",
+                    "note": "封测平台公司。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "长电科技",
+                  "ticker": "600584.SH",
+                  "role": "龙头",
+                  "purity": 75,
+                  "logic": "封测龙头，Chiplet、2.5D、3D 布局领先。",
+                  "capability": {
+                    "materials": [
+                      "power_packaging",
+                      "advanced_packaging"
+                    ],
+                    "highest_grade": "Chiplet/2.5D/3D",
+                    "note": "功率封测为应用之一。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "中瓷电子",
+                  "ticker": "003031.SZ",
+                  "role": "材料参与者",
+                  "purity": 60,
+                  "logic": "陶瓷封装基板参与者。",
+                  "capability": {
+                    "materials": [
+                      "ceramic_substrate",
+                      "power_packaging_material"
+                    ],
+                    "highest_grade": "陶瓷封装基板",
+                    "note": "偏封装材料/基板环节。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                },
+                {
+                  "name": "华海诚科",
+                  "ticker": "688535.SH",
+                  "role": "材料参与者",
+                  "purity": 55,
+                  "logic": "封装材料供应商。",
+                  "capability": {
+                    "materials": [
+                      "packaging_material"
+                    ],
+                    "highest_grade": "高端封装材料",
+                    "note": "材料端受益封装升级。",
+                    "source_ref": "功率半导体详尽数据包_2026-06，2026-06-27"
+                  }
+                }
+              ],
+              "tech_evolution": {
+                "stages": [
+                  "器件封装",
+                  "模块封装",
+                  "双面银烧结",
+                  "PCB嵌埋/铜夹",
+                  "系统级封装"
+                ],
+                "current": "模块封装和先进互连成为功率器件性能关键",
+                "note": "功率封装从单器件保护走向系统级热管理、可靠性和寄生参数优化。",
+                "risk_level": "中"
+              },
+              "bom_by_generation": [],
+              "upstream": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
