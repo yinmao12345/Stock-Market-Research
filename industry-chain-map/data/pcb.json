@@ -575,25 +575,36 @@
       },
       "upstream": [],
       "competition": {
-        "concentration": {
-          "label": "国内CR5",
-          "value": 23.9,
-          "unit": "%",
-          "note": "国内PCB设备CR5合计23.9%，大族数控国内第一约10.1%（全球6.5%），高端PCB设备国产化率不足30%。钻孔：大族普通钻机40-50%、CCD背钻5-10%；电镀：东威VCP国内50%+。来源：PCB钻孔/电镀设备产业研究报告，2026-06-27"
+        "global": {
+          "companies": [],
+          "note": null
         },
-        "leader_share": {
-          "company": "大族数控",
-          "value": 10.1,
-          "unit": "%",
-          "note": "大族数控国内PCB设备市占约10.1%（全球6.5%），机械钻国内40-70%。东威科技VCP国内市占超50%，累计出货1200+台。来源：PCB钻孔/电镀设备产业研究报告，2026-06-27"
+        "domestic": {
+          "companies": [
+            {
+              "name": "大族数控",
+              "country": null,
+              "share": 10.1,
+              "share_unit": "%",
+              "description": "大族数控国内PCB设备市占约10.1%（全球6.5%），机械钻国内40-70%。东威科技VCP国内市占超50%，累计出货1200+台。来源：PCB钻孔/电镀设备产业研究报告，2026-06-27"
+            }
+          ],
+          "note": null
         },
-        "tiers": "钻孔：德国Schmoll/日本日立/大族数控/维嘉数控(未上市)/东台主导；电镀：东威科技VCP 50%+，竞铭/宇宙/安美特。高端超快激光钻由三菱/日立/Schmoll垄断全球约90%份额，单台300-450万元。"
+        "key_factors": [
+          "行业集中度：国内CR5 23.9%。国内PCB设备CR5合计23.9%，大族数控国内第一约10.1%（全球6.5%），高端PCB设备国产化率不足30%。钻孔：大族普通钻机40-50%、CCD背钻5-10%；电镀：东威VCP国内50%+。来源：PCB钻孔/电镀设备产业研究报告，2026-06-27",
+          "竞争梯队：钻孔：德国Schmoll/日本日立/大族数控/维嘉数控(未上市)/东台主导；电镀：东威科技VCP 50%+，竞铭/宇宙/安美特。高端超快激光钻由三菱/日立/Schmoll垄断全球约90%份额，单台300-450万元。"
+        ]
       },
       "current_generation": null,
-      "bom_by_generation": []
+      "bom_by_generation": [],
+      "market_size_forecast": [],
+      "growth_drivers": []
     }
   ],
   "competition": null,
   "current_generation": null,
-  "bom_by_generation": []
+  "bom_by_generation": [],
+  "market_size_forecast": [],
+  "growth_drivers": []
 }

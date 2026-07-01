@@ -87,19 +87,26 @@
         }
       },
       "competition": {
-        "concentration": {
-          "label": "全球CR5",
-          "value": 60,
-          "unit": "%",
-          "note": "全球 CR5 约 60%，国内 CR5 约 28%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        "global": {
+          "companies": [
+            {
+              "name": "英飞凌",
+              "country": null,
+              "share": 17.7,
+              "share_unit": "%",
+              "description": "英飞凌 2024 年全球第一约 17.7%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            }
+          ],
+          "note": null
         },
-        "leader_share": {
-          "company": "英飞凌",
-          "value": 17.7,
-          "unit": "%",
-          "note": "英飞凌 2024 年全球第一约 17.7%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+        "domestic": {
+          "companies": [],
+          "note": null
         },
-        "tiers": "全球由英飞凌、安森美、ST、三菱、富士等主导；国内士兰微、斯达半导、时代电气、华润微、扬杰科技、比亚迪半导体等在不同器件类型突破。"
+        "key_factors": [
+          "行业集中度：全球CR5 60%。全球 CR5 约 60%，国内 CR5 约 28%；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+          "竞争梯队：全球由英飞凌、安森美、ST、三菱、富士等主导；国内士兰微、斯达半导、时代电气、华润微、扬杰科技、比亚迪半导体等在不同器件类型突破。"
+        ]
       },
       "gap": {
         "cycle_axis": {
@@ -458,19 +465,26 @@
             }
           },
           "competition": {
-            "concentration": {
-              "label": "全球分立IGBT CR10",
-              "value": 87,
-              "unit": "%",
-              "note": "英飞凌、富士、三菱主导；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "英飞凌",
+                  "country": null,
+                  "share": null,
+                  "share_unit": "%",
+                  "description": "资料未给该口径精确份额；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "leader_share": {
-              "company": "英飞凌",
-              "value": null,
-              "unit": "%",
-              "note": "资料未给该口径精确份额；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "domestic": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "全球分立 IGBT 由英飞凌、富士、三菱主导；模块 TOP10 中已有斯达半导、时代电气。车规 IGBT 模块国产化率 2024 年约 65%-70%。"
+            "key_factors": [
+              "行业集中度：全球分立IGBT CR10 87%。英飞凌、富士、三菱主导；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "竞争梯队：全球分立 IGBT 由英飞凌、富士、三菱主导；模块 TOP10 中已有斯达半导、时代电气。车规 IGBT 模块国产化率 2024 年约 65%-70%。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -678,7 +692,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "mosfet",
@@ -706,19 +722,26 @@
             }
           },
           "competition": {
-            "concentration": {
-              "label": "大陆厂商合计份额",
-              "value": 11.3,
-              "unit": "%",
-              "note": "华润微 3.5%、闻泰科技 5%、士兰微 2.8%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "闻泰科技/安世",
+                  "country": null,
+                  "share": 5,
+                  "share_unit": "%",
+                  "description": "安世 MOSFET 全球份额约 5%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "leader_share": {
-              "company": "闻泰科技/安世",
-              "value": 5,
-              "unit": "%",
-              "note": "安世 MOSFET 全球份额约 5%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "domestic": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "全球 MOSFET 仍由海外大厂主导，大陆厂商以华润微、新洁能、东微半导、士兰微、扬杰科技、闻泰科技等追赶。"
+            "key_factors": [
+              "行业集中度：大陆厂商合计份额 11.3%。华润微 3.5%、闻泰科技 5%、士兰微 2.8%；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "竞争梯队：全球 MOSFET 仍由海外大厂主导，大陆厂商以华润微、新洁能、东微半导、士兰微、扬杰科技、闻泰科技等追赶。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -1029,7 +1052,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "sic",
@@ -1057,19 +1082,26 @@
             }
           },
           "competition": {
-            "concentration": {
-              "label": "器件全球龙头份额",
-              "value": 40,
-              "unit": "%",
-              "note": "ST 2021 口径约 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "ST",
+                  "country": null,
+                  "share": 40,
+                  "share_unit": "%",
+                  "description": "SiC 器件全球龙头，2021 口径；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "leader_share": {
-              "company": "ST",
-              "value": 40,
-              "unit": "%",
-              "note": "SiC 器件全球龙头，2021 口径；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "domestic": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "器件端一超多强，ST、Wolfspeed、罗姆、英飞凌领先；国产斯达半导、三安光电、士兰微、华润微、时代电气、芯联集成、扬杰科技快速切入。"
+            "key_factors": [
+              "行业集中度：器件全球龙头份额 40%。ST 2021 口径约 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "竞争梯队：器件端一超多强，ST、Wolfspeed、罗姆、英飞凌领先；国产斯达半导、三安光电、士兰微、华润微、时代电气、芯联集成、扬杰科技快速切入。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -1433,7 +1465,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "gan",
@@ -1461,19 +1495,26 @@
             }
           },
           "competition": {
-            "concentration": {
-              "label": "英诺赛科全球硅基GaN份额",
-              "value": 40,
-              "unit": "%+",
-              "note": "英诺赛科硅基 GaN 功率市占超 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "英诺赛科",
+                  "country": null,
+                  "share": 40,
+                  "share_unit": "%+",
+                  "description": "港股 02577.HK，非 A 股；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "leader_share": {
-              "company": "英诺赛科",
-              "value": 40,
-              "unit": "%+",
-              "note": "港股 02577.HK，非 A 股；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "domestic": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "快充 GaN 全球纳微半导体约 20%；英诺赛科为硅基 GaN 功率全球第一，闻泰科技、士兰微、扬杰科技等布局。"
+            "key_factors": [
+              "行业集中度：英诺赛科全球硅基GaN份额 40%+。英诺赛科硅基 GaN 功率市占超 40%；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "竞争梯队：快充 GaN 全球纳微半导体约 20%；英诺赛科为硅基 GaN 功率全球第一，闻泰科技、士兰微、扬杰科技等布局。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -1634,7 +1675,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "sic_substrate",
@@ -1662,19 +1705,26 @@
             }
           },
           "competition": {
-            "concentration": {
-              "label": "外延CR3",
-              "value": 74,
-              "unit": "%",
-              "note": "外延 CR3 约 74%，Wolfspeed 约 37%，瀚天天成第三约 15%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "天岳先进",
+                  "country": null,
+                  "share": 27.6,
+                  "share_unit": "%",
+                  "description": "2025 年导电型 SiC 衬底全球市占 27.6%，8 英寸市占 51.3%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "leader_share": {
-              "company": "天岳先进",
-              "value": 27.6,
-              "unit": "%",
-              "note": "2025 年导电型 SiC 衬底全球市占 27.6%，8 英寸市占 51.3%；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "domestic": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "全球曾由 Wolfspeed 主导；天岳先进在导电型和 8 英寸衬底领先，三安光电具备垂直整合，天科合达、瀚天天成为待核实参与者。"
+            "key_factors": [
+              "行业集中度：外延CR3 74%。外延 CR3 约 74%，Wolfspeed 约 37%，瀚天天成第三约 15%；来源：功率半导体详尽数据包_2026-06，2026-06-27",
+              "竞争梯队：全球曾由 Wolfspeed 主导；天岳先进在导电型和 8 英寸衬底领先，三安光电具备垂直整合，天科合达、瀚天天成为待核实参与者。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -1974,7 +2024,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "sic_equipment",
@@ -2002,14 +2054,25 @@
             }
           },
           "competition": {
-            "concentration": null,
-            "leader_share": {
-              "company": "北方华创",
-              "value": null,
-              "unit": "%",
-              "note": "供应国内衬底厂份额较高，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "北方华创、晶升股份、晶盛机电、大族激光等受益 SiC 衬底扩产。"
+            "domestic": {
+              "companies": [
+                {
+                  "name": "北方华创",
+                  "country": null,
+                  "share": null,
+                  "share_unit": "%",
+                  "description": "供应国内衬底厂份额较高，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
+            },
+            "key_factors": [
+              "竞争梯队：北方华创、晶升股份、晶盛机电、大族激光等受益 SiC 衬底扩产。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -2141,7 +2204,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "wafer_foundry",
@@ -2169,14 +2234,25 @@
             }
           },
           "competition": {
-            "concentration": null,
-            "leader_share": {
-              "company": "华虹公司",
-              "value": null,
-              "unit": "%",
-              "note": "国内功率代工龙头，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [],
+              "note": null
             },
-            "tiers": "国内功率代工核心参与者包括华虹公司、中芯国际、华润微。"
+            "domestic": {
+              "companies": [
+                {
+                  "name": "华虹公司",
+                  "country": null,
+                  "share": null,
+                  "share_unit": "%",
+                  "description": "国内功率代工龙头，资料未给标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
+            },
+            "key_factors": [
+              "竞争梯队：国内功率代工核心参与者包括华虹公司、中芯国际、华润微。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -2296,7 +2372,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "power_packaging",
@@ -2324,14 +2402,25 @@
             }
           },
           "competition": {
-            "concentration": null,
-            "leader_share": {
-              "company": "长电科技",
-              "value": null,
-              "unit": "%",
-              "note": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+            "global": {
+              "companies": [
+                {
+                  "name": "长电科技",
+                  "country": null,
+                  "share": null,
+                  "share_unit": "%",
+                  "description": "封测龙头，资料未给功率封测标准市占率；来源：功率半导体详尽数据包_2026-06，2026-06-27"
+                }
+              ],
+              "note": null
             },
-            "tiers": "通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+            "domestic": {
+              "companies": [],
+              "note": null
+            },
+            "key_factors": [
+              "竞争梯队：通富微电、华天科技、长电科技为封测核心参与者，中瓷电子布局陶瓷封装基板，华海诚科布局封装材料。"
+            ]
           },
           "gap": {
             "cycle_axis": {
@@ -2480,7 +2569,9 @@
             "risk_level": "中"
           },
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         }
       ],
       "downstream_anchors": [
@@ -2500,7 +2591,11 @@
           "name": "工业控制/机器人",
           "note": "工控为基本盘，机器人可能成为下一结构性增量。"
         }
-      ]
+      ],
+      "market_size_forecast": [],
+      "growth_drivers": []
     }
-  ]
+  ],
+  "market_size_forecast": [],
+  "growth_drivers": []
 }

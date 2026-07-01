@@ -1,0 +1,513 @@
+﻿类目编码,类目名称,终止日期,行业类型,行业类型编码,类目名称英文,父类编码,分级
+S,申银万国行业分类,,申银万国行业分类标准,008003,Shenyin Wanguo Industry Classification,008,0
+S11,农林牧渔,,申银万国行业分类标准,008003,"Agriculture, Forestry, Animal Husbandry and Fisheries",S,1
+S1101,种植业,,申银万国行业分类标准,008003,Crop Farming,S11,2
+S110101,种子,,申银万国行业分类标准,008003,Seed,S1101,3
+S110102,粮食种植,,申银万国行业分类标准,008003,Grain-growing,S1101,3
+S110103,其他种植业,,申银万国行业分类标准,008003,Other Crop Growing,S1101,3
+S110104,食用菌,,申银万国行业分类标准,008003,Edible fungus,S1101,3
+S1102,渔业,,申银万国行业分类标准,008003,Fishery,S11,2
+S110201,海洋捕捞,,申银万国行业分类标准,008003,Ocean Fishing,S1102,3
+S110202,水产养殖,,申银万国行业分类标准,008003,Aquaculture,S1102,3
+S1103,林业Ⅱ,,申银万国行业分类标准,008003,Forestry II,S11,2
+S110301,林业Ⅲ,,申银万国行业分类标准,008003,Forestry III,S1103,3
+S1104,饲料,,申银万国行业分类标准,008003,Feed,S11,2
+S110402,畜禽饲料,,申银万国行业分类标准,008003,Livestock Feed,S1104,3
+S110403,水产饲料,,申银万国行业分类标准,008003,Aquatic Feed,S1104,3
+S110404,宠物食品,,申银万国行业分类标准,008003,Pet Food,S1104,3
+S1105,农产品加工,,申银万国行业分类标准,008003,Processing of Agricultural Products,S11,2
+S110501,果蔬加工,,申银万国行业分类标准,008003,Fruit & Vegetable Processing,S1105,3
+S110502,粮油加工,,申银万国行业分类标准,008003,Grain & Oil Processing,S1105,3
+S110504,其他农产品加工,,申银万国行业分类标准,008003,Other Agricultural Products Processing,S1105,3
+S1107,养殖业,,申银万国行业分类标准,008003,Aquaculture,S11,2
+S110702,生猪养殖,,申银万国行业分类标准,008003,Pig Husbandry,S1107,3
+S110703,肉鸡养殖,,申银万国行业分类标准,008003,Broiler Husbandry,S1107,3
+S110704,其他养殖,,申银万国行业分类标准,008003,Other Husbandry,S1107,3
+S1108,动物保健Ⅱ,,申银万国行业分类标准,008003,Animal Health Ii,S11,2
+S110801,动物保健Ⅲ,,申银万国行业分类标准,008003,Animal Health III,S1108,3
+S1109,农业综合Ⅱ,,申银万国行业分类标准,008003,Agribusiness II,S11,2
+S110901,农业综合Ⅲ,,申银万国行业分类标准,008003,Comprehensive Agriculture III,S1109,3
+S22,基础化工,,申银万国行业分类标准,008003,Basic Chemicals,S,1
+S2202,化学原料,,申银万国行业分类标准,008003,Chemical Materials,S22,2
+S220201,纯碱,,申银万国行业分类标准,008003,Soda,S2202,3
+S220202,氯碱,,申银万国行业分类标准,008003,Chlor-alkali,S2202,3
+S220203,无机盐,,申银万国行业分类标准,008003,Inorganic Salt,S2202,3
+S220204,其他化学原料,,申银万国行业分类标准,008003,Other Chemical Products,S2202,3
+S220205,煤化工,,申银万国行业分类标准,008003,Coal Chemical Industry,S2202,3
+S220206,钛白粉,,申银万国行业分类标准,008003,Titanium Dioxide,S2202,3
+S2203,化学制品,,申银万国行业分类标准,008003,Chemicals,S22,2
+S220305,涂料油墨,,申银万国行业分类标准,008003,Coating Paint Inks Manufacturing,S2203,3
+S220307,民爆制品,,申银万国行业分类标准,008003,Civil Explosive Products,S2203,3
+S220308,纺织化学制品,,申银万国行业分类标准,008003,Textile Chemicals,S2203,3
+S220309,其他化学制品,,申银万国行业分类标准,008003,Other Chemical Products,S2203,3
+S220311,氟化工,,申银万国行业分类标准,008003,Fluorine Chemical,S2203,3
+S220313,聚氨酯,,申银万国行业分类标准,008003,Polyurethane,S2203,3
+S220315,食品及饲料添加剂,,申银万国行业分类标准,008003,Food & Feed Additives,S2203,3
+S220316,有机硅,,申银万国行业分类标准,008003,Silicone,S2203,3
+S220317,胶黏剂及胶带,,申银万国行业分类标准,008003,Adhesives & Tapes,S2203,3
+S2204,化学纤维,,申银万国行业分类标准,008003,Chemical Fiber,S22,2
+S220401,涤纶,,申银万国行业分类标准,008003,Terylene,S2204,3
+S220403,粘胶,,申银万国行业分类标准,008003,Viscose,S2204,3
+S220404,其他化学纤维,,申银万国行业分类标准,008003,Other Chemical Fibre,S2204,3
+S220405,氨纶,,申银万国行业分类标准,008003,Spandex,S2204,3
+S220406,锦纶,,申银万国行业分类标准,008003,Nylon,S2204,3
+S2205,塑料,,申银万国行业分类标准,008003,Plastic,S22,2
+S220501,其他塑料制品,,申银万国行业分类标准,008003,Other Plastic Products,S2205,3
+S220503,改性塑料,,申银万国行业分类标准,008003,Modified Plastic,S2205,3
+S220504,合成树脂,,申银万国行业分类标准,008003,Synthetic Resin,S2205,3
+S220505,膜材料,,申银万国行业分类标准,008003,Membrane material,S2205,3
+S2206,橡胶,,申银万国行业分类标准,008003,Rubber,S22,2
+S220602,其他橡胶制品,,申银万国行业分类标准,008003,Other Rubber Products,S2206,3
+S220603,炭黑,,申银万国行业分类标准,008003,Carbon Black,S2206,3
+S220604,橡胶助剂,,申银万国行业分类标准,008003,Rubber Additives,S2206,3
+S2208,农化制品,,申银万国行业分类标准,008003,Agrochemicals,S22,2
+S220801,氮肥,,申银万国行业分类标准,008003,Nitrogenous Fertilizer,S2208,3
+S220802,磷肥及磷化工,,申银万国行业分类标准,008003,Phosphate Fertilizer & Phosphorus Chemical Industry,S2208,3
+S220803,农药,,申银万国行业分类标准,008003,Pesticides,S2208,3
+S220804,钾肥,,申银万国行业分类标准,008003,Potash Fertilizer,S2208,3
+S220805,复合肥,,申银万国行业分类标准,008003,Compound Fertilizer,S2208,3
+S2209,非金属材料Ⅱ,,申银万国行业分类标准,008003,Non-Metallic Materials II,S22,2
+S220901,非金属材料Ⅲ,,申银万国行业分类标准,008003,Non-metallic Materials Ⅲ,S2209,3
+S23,钢铁,,申银万国行业分类标准,008003,Steel,S,1
+S2303,冶钢原料,,申银万国行业分类标准,008003,Steel Raw Materials,S23,2
+S230301,铁矿石,,申银万国行业分类标准,008003,Iron Ore,S2303,3
+S230302,冶钢辅料,,申银万国行业分类标准,008003,Steel Smelting Accessories,S2303,3
+S2304,普钢,,申银万国行业分类标准,008003,Plain Steel,S23,2
+S230401,长材,,申银万国行业分类标准,008003,Long Steel Materials,S2304,3
+S230402,板材,,申银万国行业分类标准,008003,Sheet Materials,S2304,3
+S230403,钢铁管材,,申银万国行业分类标准,008003,Steel pipes,S2304,3
+S2305,特钢Ⅱ,,申银万国行业分类标准,008003,Special Steel II,S23,2
+S230501,特钢Ⅲ,,申银万国行业分类标准,008003,Special Steel Ⅲ,S2305,3
+S24,有色金属,,申银万国行业分类标准,008003,Non-Ferrous Metals,S,1
+S2402,金属新材料,,申银万国行业分类标准,008003,New Metal Materials,S24,2
+S240201,其他金属新材料,,申银万国行业分类标准,008003,Other New Metal Materials,S2402,3
+S240202,磁性材料,,申银万国行业分类标准,008003,Magnetic Materials,S2402,3
+S2403,工业金属,,申银万国行业分类标准,008003,Industrial Metal,S24,2
+S240301,铝,,申银万国行业分类标准,008003,Aluminum,S2403,3
+S240302,铜,,申银万国行业分类标准,008003,Copper,S2403,3
+S240303,铅锌,,申银万国行业分类标准,008003,Lead & Zinc,S2403,3
+S2404,贵金属,,申银万国行业分类标准,008003,Precious Metal,S24,2
+S240401,黄金,,申银万国行业分类标准,008003,Gold,S2404,3
+S240402,白银,,申银万国行业分类标准,008003,Silver,S2404,3
+S2405,小金属,,申银万国行业分类标准,008003,Small Metal,S24,2
+S240501,稀土,,申银万国行业分类标准,008003,Rare Earths,S2405,3
+S240502,钨,,申银万国行业分类标准,008003,Tungsten,S2405,3
+S240504,其他小金属,,申银万国行业分类标准,008003,Other Rare Metal,S2405,3
+S240505,钼,,申银万国行业分类标准,008003,Molybdenum,S2405,3
+S2406,能源金属,,申银万国行业分类标准,008003,Energy Metal,S24,2
+S240601,钴,,申银万国行业分类标准,008003,Cobalt,S2406,3
+S240602,镍,,申银万国行业分类标准,008003,Nickel,S2406,3
+S240603,锂,,申银万国行业分类标准,008003,Lithium,S2406,3
+S27,电子,,申银万国行业分类标准,008003,Electronic,S,1
+S2701,半导体,,申银万国行业分类标准,008003,Semiconductor,S27,2
+S270102,分立器件,,申银万国行业分类标准,008003,Discrete Devices,S2701,3
+S270103,半导体材料,,申银万国行业分类标准,008003,Semiconductor Materials,S2701,3
+S270104,数字芯片设计,,申银万国行业分类标准,008003,Digital Chip Design,S2701,3
+S270105,模拟芯片设计,,申银万国行业分类标准,008003,Analog Chip Design,S2701,3
+S270106,集成电路制造,,申银万国行业分类标准,008003,Integrated Circuit Manufacturing,S2701,3
+S270107,集成电路封测,,申银万国行业分类标准,008003,Integrated Circuit Packaging & Testing,S2701,3
+S270108,半导体设备,,申银万国行业分类标准,008003,Semiconductor Equipment,S2701,3
+S2702,元件,,申银万国行业分类标准,008003,Element,S27,2
+S270202,印制电路板,,申银万国行业分类标准,008003,Printed-circuit Board,S2702,3
+S270203,被动元件,,申银万国行业分类标准,008003,Passive Components,S2702,3
+S2703,光学光电子,,申银万国行业分类标准,008003,Optoelectronics,S27,2
+S270301,面板,,申银万国行业分类标准,008003,Panels,S2703,3
+S270302,LED,,申银万国行业分类标准,008003,LEDs,S2703,3
+S270303,光学元件,,申银万国行业分类标准,008003,Optical Components,S2703,3
+S2704,其他电子Ⅱ,,申银万国行业分类标准,008003,Other Electronics II,S27,2
+S270401,其他电子Ⅲ,,申银万国行业分类标准,008003,Other Electronics III,S2704,3
+S2705,消费电子,,申银万国行业分类标准,008003,Consumer Electronics,S27,2
+S270503,品牌消费电子,,申银万国行业分类标准,008003,Brand Consumer Electronics,S2705,3
+S270504,消费电子零部件及组装,,申银万国行业分类标准,008003,Consumer Electronic Components & Assembly,S2705,3
+S2706,电子化学品Ⅱ,,申银万国行业分类标准,008003,Electronic Chemicals II,S27,2
+S270601,电子化学品Ⅲ,,申银万国行业分类标准,008003,Electronic Chemicals Ⅲ,S2706,3
+S28,汽车,,申银万国行业分类标准,008003,Car,S,1
+S2802,汽车零部件,,申银万国行业分类标准,008003,Car Parts,S28,2
+S280202,车身附件及饰件,,申银万国行业分类标准,008003,Body Accessories & Trims,S2802,3
+S280203,底盘与发动机系统,,申银万国行业分类标准,008003,Chassis & Engine Systems,S2802,3
+S280204,轮胎轮毂,,申银万国行业分类标准,008003,Tire Wheel,S2802,3
+S280205,其他汽车零部件,,申银万国行业分类标准,008003,Other Auto Parts,S2802,3
+S280206,汽车电子电气系统,,申银万国行业分类标准,008003,Automobile Electrical & Electronic Systems,S2802,3
+S2803,汽车服务,,申银万国行业分类标准,008003,Car Services,S28,2
+S280302,汽车经销商,,申银万国行业分类标准,008003,Automobile Dealers,S2803,3
+S280303,汽车综合服务,,申银万国行业分类标准,008003,Automobile Comprehensive Services,S2803,3
+S2804,摩托车及其他,,申银万国行业分类标准,008003,Motorcycles and Others,S28,2
+S280401,其他运输设备,,申银万国行业分类标准,008003,Other Transportation Equipment,S2804,3
+S280402,摩托车,,申银万国行业分类标准,008003,Motorcycles,S2804,3
+S2805,乘用车,,申银万国行业分类标准,008003,Passenger Car,S28,2
+S280501,电动乘用车,,申银万国行业分类标准,008003,Electric Passenger Cars,S2805,3
+S280502,综合乘用车,,申银万国行业分类标准,008003,Comprehensive Passenger Cars,S2805,3
+S2806,商用车,,申银万国行业分类标准,008003,Commercial Vehicle,S28,2
+S280601,商用载货车,,申银万国行业分类标准,008003,Commercial Trucks,S2806,3
+S280602,商用载客车,,申银万国行业分类标准,008003,Commercial Passenger Vehicles,S2806,3
+S33,家用电器,,申银万国行业分类标准,008003,Household Appliances,S,1
+S3301,白色家电,,申银万国行业分类标准,008003,White Appliances,S33,2
+S330102,空调,,申银万国行业分类标准,008003,Air Conditioners,S3301,3
+S330106,冰洗,,申银万国行业分类标准,008003,Ice Wash,S3301,3
+S3302,黑色家电,,申银万国行业分类标准,008003,Black Appliances,S33,2
+S330201,彩电,,申银万国行业分类标准,008003,Color Televisions,S3302,3
+S330202,其他黑色家电,,申银万国行业分类标准,008003,Other Black Appliances,S3302,3
+S3303,小家电,,申银万国行业分类标准,008003,Home Appliances,S33,2
+S330301,厨房小家电,,申银万国行业分类标准,008003,Kitchen Small Appliances,S3303,3
+S330302,清洁小家电,,申银万国行业分类标准,008003,Clean Small Appliances,S3303,3
+S330303,个护小家电,,申银万国行业分类标准,008003,Personal Care Small Appliances,S3303,3
+S3304,厨卫电器,,申银万国行业分类标准,008003,Kitchen and Bathroom Appliances,S33,2
+S330401,厨房电器,,申银万国行业分类标准,008003,Kitchen Appliances,S3304,3
+S330402,卫浴电器,,申银万国行业分类标准,008003,Bathroom Appliances,S3304,3
+S3305,照明设备Ⅱ,,申银万国行业分类标准,008003,Lighting Equipment II,S33,2
+S330501,照明设备Ⅲ,,申银万国行业分类标准,008003,Lighting Equipment Ⅲ,S3305,3
+S3306,家电零部件Ⅱ,,申银万国行业分类标准,008003,Home Appliance Parts II,S33,2
+S330601,家电零部件Ⅲ,,申银万国行业分类标准,008003,Home Appliance Parts Ⅲ,S3306,3
+S3307,其他家电Ⅱ,,申银万国行业分类标准,008003,Other Home Appliances II,S33,2
+S330701,其他家电Ⅲ,,申银万国行业分类标准,008003,Other Home Appliances,S3307,3
+S34,食品饮料,,申银万国行业分类标准,008003,Food and Drink,S,1
+S3404,食品加工,,申银万国行业分类标准,008003,Food Processing,S34,2
+S340401,肉制品,,申银万国行业分类标准,008003,Meat Products,S3404,3
+S340404,其他食品,,申银万国行业分类标准,008003,Comprehensive Food,S3404,3
+S340406,预加工食品,,申银万国行业分类标准,008003,Pre-processed Foods,S3404,3
+S340407,保健品,,申银万国行业分类标准,008003,Health Products,S3404,3
+S3405,白酒Ⅱ,,申银万国行业分类标准,008003,Liquor II,S34,2
+S340501,白酒Ⅲ,,申银万国行业分类标准,008003,White Spirit III,S3405,3
+S3406,非白酒,,申银万国行业分类标准,008003,Non-liquor Wine,S34,2
+S340601,啤酒,,申银万国行业分类标准,008003,Beer,S3406,3
+S340602,其他酒类,,申银万国行业分类标准,008003,Other Wine,S3406,3
+S3407,饮料乳品,,申银万国行业分类标准,008003,Beverage Dairy,S34,2
+S340701,软饮料,,申银万国行业分类标准,008003,Soft Drinks,S3407,3
+S340702,乳品,,申银万国行业分类标准,008003,Dairy Foods,S3407,3
+S3408,休闲食品,,申银万国行业分类标准,008003,Snack Foods,S34,2
+S340801,零食,,申银万国行业分类标准,008003,Snacks,S3408,3
+S340802,烘焙食品,,申银万国行业分类标准,008003,Baked Foods,S3408,3
+S340803,熟食,,申银万国行业分类标准,008003,Cooked Foods,S3408,3
+S3409,调味发酵品Ⅱ,,申银万国行业分类标准,008003,Seasoning And Fermented Products II,S34,2
+S340901,调味发酵品Ⅲ,,申银万国行业分类标准,008003,Seasoning & Fermented Products Ⅲ,S3409,3
+S35,纺织服饰,,申银万国行业分类标准,008003,Textile and Apparel,S,1
+S3501,纺织制造,,申银万国行业分类标准,008003,Textile Manufacturing,S35,2
+S350102,棉纺,,申银万国行业分类标准,008003,Cotton Spinning,S3501,3
+S350104,印染,,申银万国行业分类标准,008003,Printing & Dyeing,S3501,3
+S350105,辅料,,申银万国行业分类标准,008003,Auxiliary Materials,S3501,3
+S350106,其他纺织,,申银万国行业分类标准,008003,Other Textiles,S3501,3
+S350107,纺织鞋类制造,,申银万国行业分类标准,008003,Textile And Footwear Manufacturing,S3501,3
+S3502,服装家纺,,申银万国行业分类标准,008003,Apparel Home Textiles,S35,2
+S350205,鞋帽及其他,,申银万国行业分类标准,008003,Shoes & Hats & Others,S3502,3
+S350206,家纺,,申银万国行业分类标准,008003,Home Textiles,S3502,3
+S350208,运动服装,,申银万国行业分类标准,008003,Sportswear,S3502,3
+S350209,非运动服装,,申银万国行业分类标准,008003,Non-sportswear,S3502,3
+S3503,饰品,,申银万国行业分类标准,008003,Accessories,S35,2
+S350301,钟表珠宝,,申银万国行业分类标准,008003,Watches & Jewellery,S3503,3
+S350302,多品类奢侈品,,申银万国行业分类标准,008003,Multi-Category Luxury,S3503,3
+S350303,其他饰品,,申银万国行业分类标准,008003,Other Accessories,S3503,3
+S36,轻工制造,,申银万国行业分类标准,008003,Light Manufacturing,S,1
+S3601,造纸,,申银万国行业分类标准,008003,Papermaking,S36,2
+S360102,大宗用纸,,申银万国行业分类标准,008003,Bulk Paper,S3601,3
+S360103,特种纸,,申银万国行业分类标准,008003,Specialty Paper,S3601,3
+S3602,包装印刷,,申银万国行业分类标准,008003,Packaging and Printing,S36,2
+S360202,印刷,,申银万国行业分类标准,008003,Printing,S3602,3
+S360203,金属包装,,申银万国行业分类标准,008003,Metal Packaging,S3602,3
+S360204,塑料包装,,申银万国行业分类标准,008003,Plastic Packaging,S3602,3
+S360205,纸包装,,申银万国行业分类标准,008003,Paper Packaging,S3602,3
+S360206,综合包装,,申银万国行业分类标准,008003,Comprehensive Packaging,S3602,3
+S3603,家居用品,,申银万国行业分类标准,008003,Household Products,S36,2
+S360306,瓷砖地板,,申银万国行业分类标准,008003,Tile Floor,S3603,3
+S360307,成品家居,,申银万国行业分类标准,008003,Finished Home Furnishing,S3603,3
+S360308,定制家居,,申银万国行业分类标准,008003,Costumed Home Furnishing,S3603,3
+S360309,卫浴制品,,申银万国行业分类标准,008003,Bathroom Products,S3603,3
+S360311,其他家居用品,,申银万国行业分类标准,008003,Other Home Furnishing Products,S3603,3
+S3605,文娱用品,,申银万国行业分类标准,008003,Recreational Goods,S36,2
+S360501,文化用品,,申银万国行业分类标准,008003,Cultural Products,S3605,3
+S360502,娱乐用品,,申银万国行业分类标准,008003,Entertainment Products,S3605,3
+S37,医药生物,,申银万国行业分类标准,008003,Pharmaceutical Biology,S,1
+S3701,化学制药,,申银万国行业分类标准,008003,Chemical and Pharmaceutical,S37,2
+S370101,原料药,,申银万国行业分类标准,008003,Chemical APIs,S3701,3
+S370102,化学制剂,,申银万国行业分类标准,008003,Chemicals Agents,S3701,3
+S3702,中药Ⅱ,,申银万国行业分类标准,008003,Traditional Chinese Medicine II,S37,2
+S370201,中药Ⅲ,,申银万国行业分类标准,008003,Traditional Chinese Medicine III,S3702,3
+S3703,生物制品,,申银万国行业分类标准,008003,Biological Product,S37,2
+S370302,血液制品,,申银万国行业分类标准,008003,Blood Products,S3703,3
+S370303,疫苗,,申银万国行业分类标准,008003,Vaccines,S3703,3
+S370304,其他生物制品,,申银万国行业分类标准,008003,Other Biological Products,S3703,3
+S3704,医药商业,,申银万国行业分类标准,008003,Pharmaceutical Business,S37,2
+S370402,医药流通,,申银万国行业分类标准,008003,Medicine Circulation,S3704,3
+S370403,线下药店,,申银万国行业分类标准,008003,Offline Pharmacies,S3704,3
+S370404,互联网药店,,申银万国行业分类标准,008003,Internet Pharmacy,S3704,3
+S3705,医疗器械,,申银万国行业分类标准,008003,Medical Instruments,S37,2
+S370502,医疗设备,,申银万国行业分类标准,008003,Medical Equipment,S3705,3
+S370503,医疗耗材,,申银万国行业分类标准,008003,Medical Supplies,S3705,3
+S370504,体外诊断,,申银万国行业分类标准,008003,In Vitro Diagnosis,S3705,3
+S3706,医疗服务,,申银万国行业分类标准,008003,Medical Service,S37,2
+S370602,诊断服务,,申银万国行业分类标准,008003,Diagnosis Services,S3706,3
+S370603,医疗研发外包,,申银万国行业分类标准,008003,Medical R&D Outsourcing,S3706,3
+S370604,医院,,申银万国行业分类标准,008003,Hospitals,S3706,3
+S370605,其他医疗服务,,申银万国行业分类标准,008003,Other Medical Services,S3706,3
+S41,公用事业,,申银万国行业分类标准,008003,Utilities,S,1
+S4101,电力,,申银万国行业分类标准,008003,Electricity,S41,2
+S410101,火力发电,,申银万国行业分类标准,008003,Thermal Power Generation,S4101,3
+S410102,水力发电,,申银万国行业分类标准,008003,Hydroelectric Power Generation,S4101,3
+S410104,热力服务,,申银万国行业分类标准,008003,Thermal Services,S4101,3
+S410106,光伏发电,,申银万国行业分类标准,008003,Photovoltaic Power Generation,S4101,3
+S410107,风力发电,,申银万国行业分类标准,008003,Wind Power Generation,S4101,3
+S410108,核力发电,,申银万国行业分类标准,008003,Nuclear Power Generation,S4101,3
+S410109,其他能源发电,,申银万国行业分类标准,008003,Other Energy Generation,S4101,3
+S410110,电能综合服务,,申银万国行业分类标准,008003,Electric Energy Integrated Services,S4101,3
+S4103,燃气Ⅱ,,申银万国行业分类标准,008003,Gas II,S41,2
+S410301,燃气Ⅲ,,申银万国行业分类标准,008003,Gas III,S4103,3
+S42,交通运输,,申银万国行业分类标准,008003,Transportation,S,1
+S4208,物流,,申银万国行业分类标准,008003,Logistics,S42,2
+S420802,原材料供应链服务,,申银万国行业分类标准,008003,Raw Material Supply Chain Services,S4208,3
+S420803,中间产品及消费品供应链服务,,申银万国行业分类标准,008003,Intermediate Products & Consumer Goods Supply Chain Services,S4208,3
+S420804,快递,,申银万国行业分类标准,008003,Express Delivery,S4208,3
+S420805,跨境物流,,申银万国行业分类标准,008003,Cross-border Logistics,S4208,3
+S420806,仓储物流,,申银万国行业分类标准,008003,Warehouse Logistics,S4208,3
+S420807,公路货运,,申银万国行业分类标准,008003,Road Freight,S4208,3
+S4209,铁路公路,,申银万国行业分类标准,008003,Railway Road,S42,2
+S420901,高速公路,,申银万国行业分类标准,008003,Highways,S4209,3
+S420902,公交,,申银万国行业分类标准,008003,Buses,S4209,3
+S420903,铁路运输,,申银万国行业分类标准,008003,Railway Transportation,S4209,3
+S4210,航空机场,,申银万国行业分类标准,008003,Aviation Airport,S42,2
+S421001,航空运输,,申银万国行业分类标准,008003,Air Transportation,S4210,3
+S421002,机场,,申银万国行业分类标准,008003,Airports,S4210,3
+S4211,航运港口,,申银万国行业分类标准,008003,Shipping Port,S42,2
+S421101,航运,,申银万国行业分类标准,008003,Shipping,S4211,3
+S421102,港口,,申银万国行业分类标准,008003,Ports,S4211,3
+S43,房地产,,申银万国行业分类标准,008003,Real Estate,S,1
+S4301,房地产开发,,申银万国行业分类标准,008003,Real Estate Development,S43,2
+S430101,住宅开发,,申银万国行业分类标准,008003,Residential Development,S4301,3
+S430102,商业地产,,申银万国行业分类标准,008003,Commercial Real Estate,S4301,3
+S430103,产业地产,,申银万国行业分类标准,008003,Industrial Real Estate,S4301,3
+S4303,房地产服务,,申银万国行业分类标准,008003,Real Estate Services,S43,2
+S430301,物业管理,,申银万国行业分类标准,008003,Property Management,S4303,3
+S430302,房产租赁经纪,,申银万国行业分类标准,008003,Real Estate Leasing Broker,S4303,3
+S430303,房地产综合服务,,申银万国行业分类标准,008003,Comprehensive Real Estate Services,S4303,3
+S45,商贸零售,,申银万国行业分类标准,008003,Commercial Retail,S,1
+S4502,贸易Ⅱ,,申银万国行业分类标准,008003,Trade II,S45,2
+S450201,贸易Ⅲ,,申银万国行业分类标准,008003,Trade III,S4502,3
+S4503,一般零售,,申银万国行业分类标准,008003,General Retail,S45,2
+S450301,百货,,申银万国行业分类标准,008003,Department Store,S4503,3
+S450302,超市,,申银万国行业分类标准,008003,Supermarkets,S4503,3
+S450303,多业态零售,,申银万国行业分类标准,008003,Multi-format Retail,S4503,3
+S450304,商业物业经营,,申银万国行业分类标准,008003,Commercial Property Operation,S4503,3
+S4504,专业连锁Ⅱ,,申银万国行业分类标准,008003,Professional Chain II,S45,2
+S450401,专业连锁Ⅲ,,申银万国行业分类标准,008003,Specialty Chain III,S4504,3
+S4506,互联网电商,,申银万国行业分类标准,008003,Internet E-commerce,S45,2
+S450601,综合电商,,申银万国行业分类标准,008003,Comprehensive E-commerce,S4506,3
+S450602,跨境电商,,申银万国行业分类标准,008003,Cross-border E-commerce,S4506,3
+S450603,电商服务,,申银万国行业分类标准,008003,E-commerce Services,S4506,3
+S4507,旅游零售Ⅱ,,申银万国行业分类标准,008003,Travel Retail II,S45,2
+S450701,旅游零售Ⅲ,,申银万国行业分类标准,008003,Travel Retail Ⅲ,S4507,3
+S46,社会服务,,申银万国行业分类标准,008003,Social Service,S,1
+S4606,体育Ⅱ,,申银万国行业分类标准,008003,Sports II,S46,2
+S460601,体育Ⅲ,,申银万国行业分类标准,008003,Physical Education Ⅲ,S4606,3
+S4607,本地生活服务Ⅱ,,申银万国行业分类标准,008003,Local Life Service II,S46,2
+S460701,本地生活服务Ⅲ,,申银万国行业分类标准,008003,Local Life Service Ⅲ,S4607,3
+S4608,专业服务,,申银万国行业分类标准,008003,Professional Service,S46,2
+S460801,人力资源服务,,申银万国行业分类标准,008003,Human Resources Services,S4608,3
+S460802,检测服务,,申银万国行业分类标准,008003,Inspection Services,S4608,3
+S460803,会展服务,,申银万国行业分类标准,008003,Expo Services,S4608,3
+S460804,其他专业服务,,申银万国行业分类标准,008003,Other Professional Services,S4608,3
+S4609,酒店餐饮,,申银万国行业分类标准,008003,Hotel Dining,S46,2
+S460901,酒店,,申银万国行业分类标准,008003,Hotels,S4609,3
+S460902,餐饮,,申银万国行业分类标准,008003,Restaurants,S4609,3
+S4610,旅游及景区,,申银万国行业分类标准,008003,Tourism And Scenic Spots,S46,2
+S461001,博彩,,申银万国行业分类标准,008003,Gaming,S4610,3
+S461002,人工景区,,申银万国行业分类标准,008003,Artificial Scenic Spots,S4610,3
+S461003,自然景区,,申银万国行业分类标准,008003,Natural Scenic Spots,S4610,3
+S461004,旅游综合,,申银万国行业分类标准,008003,Integrated Tourism,S4610,3
+S4611,教育,,申银万国行业分类标准,008003,Education,S46,2
+S461101,学历教育,,申银万国行业分类标准,008003,Academic Education,S4611,3
+S461102,培训教育,,申银万国行业分类标准,008003,Training Education,S4611,3
+S461103,教育运营及其他,,申银万国行业分类标准,008003,Educational Operations & Others,S4611,3
+S48,银行,,申银万国行业分类标准,008003,Bank,S,1
+S4802,国有大型银行Ⅱ,,申银万国行业分类标准,008003,Large State-Owned Bank II,S48,2
+S480201,国有大型银行Ⅲ,,申银万国行业分类标准,008003,State-owned Large Banks Ⅲ,S4802,3
+S4803,股份制银行Ⅱ,,申银万国行业分类标准,008003,Joint-Stock Bank II,S48,2
+S480301,股份制银行Ⅲ,,申银万国行业分类标准,008003,Joint-stock Banks Ⅲ,S4803,3
+S4804,城商行Ⅱ,,申银万国行业分类标准,008003,City Commercial Bank II,S48,2
+S480401,城商行Ⅲ,,申银万国行业分类标准,008003,City Commercial Banks Ⅲ,S4804,3
+S4805,农商行Ⅱ,,申银万国行业分类标准,008003,Rural Commercial Bank II,S48,2
+S480501,农商行Ⅲ,,申银万国行业分类标准,008003,Rural Commercial Banks Ⅲ,S4805,3
+S4806,其他银行Ⅱ,,申银万国行业分类标准,008003,Other Bank Ii,S48,2
+S480601,其他银行Ⅲ,,申银万国行业分类标准,008003,Other Bank III,S4806,3
+S49,非银金融,,申银万国行业分类标准,008003,Non-bank Finance,S,1
+S4901,证券Ⅱ,,申银万国行业分类标准,008003,Securities II,S49,2
+S490101,证券Ⅲ,,申银万国行业分类标准,008003,Securities III,S4901,3
+S4902,保险Ⅱ,,申银万国行业分类标准,008003,Insurance II,S49,2
+S490201,保险Ⅲ,,申银万国行业分类标准,008003,Insurance III,S4902,3
+S4903,多元金融,,申银万国行业分类标准,008003,Diversified Finance,S49,2
+S490302,金融控股,,申银万国行业分类标准,008003,Financial Holdings,S4903,3
+S490303,期货,,申银万国行业分类标准,008003,Futures,S4903,3
+S490304,信托,,申银万国行业分类标准,008003,Trusts,S4903,3
+S490305,租赁,,申银万国行业分类标准,008003,Leases,S4903,3
+S490306,金融信息服务,,申银万国行业分类标准,008003,Financial Information Services,S4903,3
+S490307,资产管理,,申银万国行业分类标准,008003,Asset Management,S4903,3
+S490308,其他多元金融,,申银万国行业分类标准,008003,Other Diversified Finances,S4903,3
+S51,综合,,申银万国行业分类标准,008003,Comprehensive,S,1
+S5101,综合Ⅱ,,申银万国行业分类标准,008003,Comprehensive II,S51,2
+S510101,综合Ⅲ,,申银万国行业分类标准,008003,Comprehensive III,S5101,3
+S61,建筑材料,,申银万国行业分类标准,008003,Building Materials,S,1
+S6101,水泥,,申银万国行业分类标准,008003,Cement,S61,2
+S610101,水泥制造,,申银万国行业分类标准,008003,Cement Manufacturing,S6101,3
+S610102,水泥制品,,申银万国行业分类标准,008003,Cement Products,S6101,3
+S6102,玻璃玻纤,,申银万国行业分类标准,008003,Glass Fiber,S61,2
+S610201,玻璃制造,,申银万国行业分类标准,008003,Glass Manufacturing,S6102,3
+S610202,玻纤制造,,申银万国行业分类标准,008003,Glass Fiber Manufacturing,S6102,3
+S6103,装修建材,,申银万国行业分类标准,008003,Decoration Building Materials,S61,2
+S610301,耐火材料,,申银万国行业分类标准,008003,Refractory Material,S6103,3
+S610302,管材,,申银万国行业分类标准,008003,Pipes,S6103,3
+S610303,其他建材,,申银万国行业分类标准,008003,Other Construction Materials,S6103,3
+S610304,防水材料,,申银万国行业分类标准,008003,Waterproof Construction Materials,S6103,3
+S610305,涂料,,申银万国行业分类标准,008003,Coatings,S6103,3
+S62,建筑装饰,,申银万国行业分类标准,008003,Building Decoration,S,1
+S6201,房屋建设Ⅱ,,申银万国行业分类标准,008003,Housing Construction II,S62,2
+S620101,房屋建设Ⅲ,,申银万国行业分类标准,008003,House Construction III,S6201,3
+S6202,装修装饰Ⅱ,,申银万国行业分类标准,008003,Decoration II,S62,2
+S620201,装修装饰Ⅲ,,申银万国行业分类标准,008003,Decoration III,S6202,3
+S6203,基础建设,,申银万国行业分类标准,008003,Infrastructure,S62,2
+S620306,基建市政工程,,申银万国行业分类标准,008003,Infrastructure & Municipal Engineering,S6203,3
+S620307,园林工程,,申银万国行业分类标准,008003,Landscape Engineering,S6203,3
+S6204,专业工程,,申银万国行业分类标准,008003,Professional Engineering,S62,2
+S620401,钢结构,,申银万国行业分类标准,008003,Steel Structure,S6204,3
+S620402,化学工程,,申银万国行业分类标准,008003,Chemical Engineering,S6204,3
+S620403,国际工程,,申银万国行业分类标准,008003,International Project Contracting,S6204,3
+S620404,其他专业工程,,申银万国行业分类标准,008003,Other Specialized Engineering,S6204,3
+S6206,工程咨询服务Ⅱ,,申银万国行业分类标准,008003,Engineering Consulting Service II,S62,2
+S620601,工程咨询服务Ⅲ,,申银万国行业分类标准,008003,Engineering Consulting Services Ⅲ,S6206,3
+S63,电力设备,,申银万国行业分类标准,008003,Electric Equipment,S,1
+S6301,电机Ⅱ,,申银万国行业分类标准,008003,Motor II,S63,2
+S630101,电机Ⅲ,,申银万国行业分类标准,008003,Electric Motors III,S6301,3
+S6303,其他电源设备Ⅱ,,申银万国行业分类标准,008003,Other Power Equipment II,S63,2
+S630301,综合电力设备商,,申银万国行业分类标准,008003,Integrated Power Equipment Providers,S6303,3
+S630304,火电设备,,申银万国行业分类标准,008003,Thermal Power Equipment,S6303,3
+S630306,其他电源设备Ⅲ,,申银万国行业分类标准,008003,Other Power Supply Equipment III,S6303,3
+S6305,光伏设备,,申银万国行业分类标准,008003,Photovoltaic Equipment,S63,2
+S630501,硅料硅片,,申银万国行业分类标准,008003,Silicon Wafers,S6305,3
+S630502,光伏电池组件,,申银万国行业分类标准,008003,Photovoltaic Battery Modules,S6305,3
+S630503,逆变器,,申银万国行业分类标准,008003,Inverters,S6305,3
+S630504,光伏辅材,,申银万国行业分类标准,008003,Photovoltaic Auxiliary Materials,S6305,3
+S630505,光伏加工设备,,申银万国行业分类标准,008003,Photovoltaic Processing Equipment,S6305,3
+S6306,风电设备,,申银万国行业分类标准,008003,Wind Power Equipment,S63,2
+S630601,风电整机,,申银万国行业分类标准,008003,Wind Power Machine,S6306,3
+S630602,风电零部件,,申银万国行业分类标准,008003,Wind Power Components,S6306,3
+S6307,电池,,申银万国行业分类标准,008003,Battery,S63,2
+S630701,锂电池,,申银万国行业分类标准,008003,Lithium Batteries,S6307,3
+S630702,电池化学品,,申银万国行业分类标准,008003,Battery Chemicals,S6307,3
+S630703,锂电专用设备,,申银万国行业分类标准,008003,Lithium Batteries Special Equipment,S6307,3
+S630704,燃料电池,,申银万国行业分类标准,008003,The Fuel Cell,S6307,3
+S630705,蓄电池及其他电池,,申银万国行业分类标准,008003,Accumulators & Other Batteries,S6307,3
+S6308,电网设备,,申银万国行业分类标准,008003,Grid Equipment,S63,2
+S630801,输变电设备,,申银万国行业分类标准,008003,Transmission & Transformation Equipment,S6308,3
+S630802,配电设备,,申银万国行业分类标准,008003,Power Distribution Equipment,S6308,3
+S630803,电网自动化设备,,申银万国行业分类标准,008003,Power Grid Automation Equipment,S6308,3
+S630804,电工仪器仪表,,申银万国行业分类标准,008003,Electrical Instrumentations,S6308,3
+S630805,线缆部件及其他,,申银万国行业分类标准,008003,Cable Parts & Others,S6308,3
+S64,机械设备,,申银万国行业分类标准,008003,Equipment,S,1
+S6401,通用设备,,申银万国行业分类标准,008003,General Equipment,S64,2
+S640101,机床工具,,申银万国行业分类标准,008003,Machine Tools,S6401,3
+S640103,磨具磨料,,申银万国行业分类标准,008003,Sharpers & Abrasers,S6401,3
+S640105,制冷空调设备,,申银万国行业分类标准,008003,Refrigeration & Air Conditioning Equipment,S6401,3
+S640106,其他通用设备,,申银万国行业分类标准,008003,Other General Equipment,S6401,3
+S640107,仪器仪表,,申银万国行业分类标准,008003,Instruments & Meters,S6401,3
+S640108,金属制品,,申银万国行业分类标准,008003,Metal Products,S6401,3
+S6402,专用设备,,申银万国行业分类标准,008003,Professional Setting,S64,2
+S640203,能源及重型设备,,申银万国行业分类标准,008003,Energy & Heavy Equipment,S6402,3
+S640204,楼宇设备,,申银万国行业分类标准,008003,Building Equipment,S6402,3
+S640206,纺织服装设备,,申银万国行业分类标准,008003,Textiles & Apparel Equipment,S6402,3
+S640207,农用机械,,申银万国行业分类标准,008003,Agricultural Machinery,S6402,3
+S640208,印刷包装机械,,申银万国行业分类标准,008003,Printing & Packaging Machinery,S6402,3
+S640209,其他专用设备,,申银万国行业分类标准,008003,Other Special Equipment,S6402,3
+S6405,轨交设备Ⅱ,,申银万国行业分类标准,008003,Rail Transit Equipment Ⅱ,S64,2
+S640501,轨交设备Ⅲ,,申银万国行业分类标准,008003,Rail Transit Equipment Ⅲ,S6405,3
+S6406,工程机械,,申银万国行业分类标准,008003,Construction Machinery,S64,2
+S640601,工程机械整机,,申银万国行业分类标准,008003,Construction Machinery,S6406,3
+S640602,工程机械器件,,申银万国行业分类标准,008003,Construction Machinery Parts,S6406,3
+S6407,自动化设备,,申银万国行业分类标准,008003,Automation Equipment,S64,2
+S640701,机器人,,申银万国行业分类标准,008003,Robots,S6407,3
+S640702,工控设备,,申银万国行业分类标准,008003,Industrial Control Equipment,S6407,3
+S640703,激光设备,,申银万国行业分类标准,008003,Laser Equipment,S6407,3
+S640704,其他自动化设备,,申银万国行业分类标准,008003,Other Automation Equipment,S6407,3
+S65,国防军工,,申银万国行业分类标准,008003,National Defense Industry,S,1
+S6501,航天装备Ⅱ,,申银万国行业分类标准,008003,Aerospace Equipment II,S65,2
+S650101,航天装备Ⅲ,,申银万国行业分类标准,008003,Aerospace Equipment III,S6501,3
+S6502,航空装备Ⅱ,,申银万国行业分类标准,008003,Aviation Equipment Ii,S65,2
+S650201,航空装备Ⅲ,,申银万国行业分类标准,008003,Aviation Equipment III,S6502,3
+S6503,地面兵装Ⅱ,,申银万国行业分类标准,008003,Ground Armor II,S65,2
+S650301,地面兵装Ⅲ,,申银万国行业分类标准,008003,Ground Forces III,S6503,3
+S6504,航海装备Ⅱ,,申银万国行业分类标准,008003,Navigation Equipment II,S65,2
+S650401,航海装备Ⅲ,,申银万国行业分类标准,008003,Sailing Equipment Ⅲ,S6504,3
+S6505,军工电子Ⅱ,,申银万国行业分类标准,008003,Military Electronics II,S65,2
+S650501,军工电子Ⅲ,,申银万国行业分类标准,008003,Military Electronics Ⅲ,S6505,3
+S71,计算机,,申银万国行业分类标准,008003,Computer,S,1
+S7101,计算机设备,,申银万国行业分类标准,008003,Computer Equipment,S71,2
+S710102,安防设备,,申银万国行业分类标准,008003,Security Equipment,S7101,3
+S710103,其他计算机设备,,申银万国行业分类标准,008003,Other Computer Equipment,S7101,3
+S7103,IT服务Ⅱ,,申银万国行业分类标准,008003,IT Services II,S71,2
+S710301,IT服务Ⅲ,,申银万国行业分类标准,008003,IT Services III,S7103,3
+S7104,软件开发,,申银万国行业分类标准,008003,Software Development,S71,2
+S710401,垂直应用软件,,申银万国行业分类标准,008003,Vertical Application Software,S7104,3
+S710402,横向通用软件,,申银万国行业分类标准,008003,Horizontal General Software,S7104,3
+S72,传媒,,申银万国行业分类标准,008003,Media,S,1
+S7204,游戏Ⅱ,,申银万国行业分类标准,008003,Game II,S72,2
+S720401,游戏Ⅲ,,申银万国行业分类标准,008003,Games Ⅲ,S7204,3
+S7205,广告营销,,申银万国行业分类标准,008003,Advertisement Marketing,S72,2
+S720501,营销代理,,申银万国行业分类标准,008003,Marketing Agency,S7205,3
+S720502,广告媒体,,申银万国行业分类标准,008003,Advertising Media,S7205,3
+S7206,影视院线,,申银万国行业分类标准,008003,Movie Theater Line,S72,2
+S720601,影视动漫制作,,申银万国行业分类标准,008003,Film & Television Animation Production,S7206,3
+S720602,院线,,申银万国行业分类标准,008003,Theater Lines,S7206,3
+S7207,数字媒体,,申银万国行业分类标准,008003,Digital Media,S72,2
+S720701,视频媒体,,申银万国行业分类标准,008003,Video Media,S7207,3
+S720702,音频媒体,,申银万国行业分类标准,008003,Audio Media,S7207,3
+S720703,图片媒体,,申银万国行业分类标准,008003,Picture Media,S7207,3
+S720704,门户网站,,申银万国行业分类标准,008003,Web Portals,S7207,3
+S720705,文字媒体,,申银万国行业分类标准,008003,Text Media,S7207,3
+S720706,其他数字媒体,,申银万国行业分类标准,008003,Other Digital Media,S7207,3
+S7208,社交Ⅱ,,申银万国行业分类标准,008003,Social II,S72,2
+S720801,社交Ⅲ,,申银万国行业分类标准,008003,Social III,S7208,3
+S7209,出版,,申银万国行业分类标准,008003,Publishing,S72,2
+S720901,教育出版,,申银万国行业分类标准,008003,Educational Publishing,S7209,3
+S720902,大众出版,,申银万国行业分类标准,008003,Mass Publishing,S7209,3
+S720903,其他出版,,申银万国行业分类标准,008003,Other Publications,S7209,3
+S7210,电视广播Ⅱ,,申银万国行业分类标准,008003,TV Broadcast II,S72,2
+S721001,电视广播Ⅲ,,申银万国行业分类标准,008003,TV Broadcast Ⅲ,S7210,3
+S73,通信,,申银万国行业分类标准,008003,Communication,S,1
+S7301,通信服务,,申银万国行业分类标准,008003,Communication Service,S73,2
+S730102,电信运营商,,申银万国行业分类标准,008003,Telecom Operators,S7301,3
+S730103,通信工程及服务,,申银万国行业分类标准,008003,Communication Engineering & Services,S7301,3
+S730104,通信应用增值服务,,申银万国行业分类标准,008003,Communication Application Value-added Services,S7301,3
+S7302,通信设备,,申银万国行业分类标准,008003,Communication Device,S73,2
+S730204,通信网络设备及器件,,申银万国行业分类标准,008003,Communication Network Equipment & Devices,S7302,3
+S730205,通信线缆及配套,,申银万国行业分类标准,008003,Communication Cables & Supporting,S7302,3
+S730206,通信终端及配件,,申银万国行业分类标准,008003,Communication Terminal & Accessories,S7302,3
+S730207,其他通信设备,,申银万国行业分类标准,008003,Other Communication Equipment,S7302,3
+S74,煤炭,,申银万国行业分类标准,008003,Coal,S,1
+S7401,煤炭开采,,申银万国行业分类标准,008003,Coal Mining,S74,2
+S740101,动力煤,,申银万国行业分类标准,008003,Thermal Coal,S7401,3
+S740102,焦煤,,申银万国行业分类标准,008003,Coking Coal,S7401,3
+S7402,焦炭Ⅱ,,申银万国行业分类标准,008003,Coke II,S74,2
+S740201,焦炭Ⅲ,,申银万国行业分类标准,008003,Coke Ⅲ,S7402,3
+S75,石油石化,,申银万国行业分类标准,008003,Petroleum and Petrochemical,S,1
+S7501,油气开采Ⅱ,,申银万国行业分类标准,008003,Oil And Gas Exploitation II,S75,2
+S750101,油气开采Ⅲ,,申银万国行业分类标准,008003,Oil & Gas Exploitation Ⅲ,S7501,3
+S7502,油服工程,,申银万国行业分类标准,008003,Oil Service Engineering,S75,2
+S750201,油田服务,,申银万国行业分类标准,008003,Oilfield Services,S7502,3
+S750202,油气及炼化工程,,申银万国行业分类标准,008003,Oil & Gas & Refining Engineering,S7502,3
+S7503,炼化及贸易,,申银万国行业分类标准,008003,Refining and Trading,S75,2
+S750301,炼油化工,,申银万国行业分类标准,008003,Refining & Chemical Industry,S7503,3
+S750302,油品石化贸易,,申银万国行业分类标准,008003,Petrochemical Trade,S7503,3
+S750303,其他石化,,申银万国行业分类标准,008003,Other Petrochemicals,S7503,3
+S76,环保,,申银万国行业分类标准,008003,Environmental Protection,S,1
+S7601,环境治理,,申银万国行业分类标准,008003,Environmental Governance,S76,2
+S760101,大气治理,,申银万国行业分类标准,008003,Atmospheric Governance,S7601,3
+S760102,水务及水治理,,申银万国行业分类标准,008003,Water Affairs & Water Treatment,S7601,3
+S760103,固废治理,,申银万国行业分类标准,008003,Solid Waste Treatment,S7601,3
+S760104,综合环境治理,,申银万国行业分类标准,008003,Comprehensive Environmental Governance,S7601,3
+S7602,环保设备Ⅱ,,申银万国行业分类标准,008003,Environmental Protection Equipment Ⅱ,S76,2
+S760201,环保设备Ⅲ,,申银万国行业分类标准,008003,Environmental Protection Equipment Ⅲ,S7602,3
+S77,美容护理,,申银万国行业分类标准,008003,Beauty Care,S,1
+S7701,个护用品,,申银万国行业分类标准,008003,Personal Care Products,S77,2
+S770101,生活用纸,,申银万国行业分类标准,008003,Household Paper,S7701,3
+S770102,洗护用品,,申银万国行业分类标准,008003,Toiletries,S7701,3
+S7702,化妆品,,申银万国行业分类标准,008003,Cosmetic,S77,2
+S770201,化妆品制造及其他,,申银万国行业分类标准,008003,Cosmetics Manufacturing & Others,S7702,3
+S770202,品牌化妆品,,申银万国行业分类标准,008003,Brand Cosmetics,S7702,3
+S7703,医疗美容,,申银万国行业分类标准,008003,Medical Beauty,S77,2
+S770301,医美耗材,,申银万国行业分类标准,008003,Medical Beauty Supplies,S7703,3
+S770302,医美服务,,申银万国行业分类标准,008003,Medical Beauty Service,S7703,3

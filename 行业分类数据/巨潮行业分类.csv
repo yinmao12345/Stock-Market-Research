@@ -1,0 +1,295 @@
+﻿类目编码,类目名称,终止日期,行业类型,行业类型编码,类目名称英文,父类编码,分级
+Z,巨潮行业分类标准,,巨潮行业分类标准,008002,CNINF Industry Classification Standard,008,0
+Z01,能源,,巨潮行业分类标准,008002,Energy,Z,1
+Z0101,能源,,巨潮行业分类标准,008002,Energy,Z01,2
+Z010101,能源设备与服务,,巨潮行业分类标准,008002,Energy Equipment and Services,Z0101,3
+Z01010101,能源设备,,巨潮行业分类标准,008002,Energy Equipment,Z010101,4
+Z01010102,能源服务,,巨潮行业分类标准,008002,Energy Services,Z010101,4
+Z010102,石油天然气,,巨潮行业分类标准,008002,Oil and Gas,Z0101,3
+Z01010201,石油天然气的勘探与生产,,巨潮行业分类标准,008002,Oil and Gas Exploration and Production,Z010102,4
+Z01010202,石油天然气的炼制与销售,,巨潮行业分类标准,008002,Oil and Gas Refining and Marketing,Z010102,4
+Z01010203,石油天然气的储存与运输,,巨潮行业分类标准,008002,Oil and Gas Storage and Transportation,Z010102,4
+Z01010204,综合性石油天然气企业,,巨潮行业分类标准,008002,Integrated Oil and Gas,Z010102,4
+Z010103,煤炭,,巨潮行业分类标准,008002,Coal,Z0101,3
+Z01010301,煤炭开采,,巨潮行业分类标准,008002,Coal Mining,Z010103,4
+Z01010302,焦炭,,巨潮行业分类标准,008002,Coke,Z010103,4
+Z010104,可替代能源,,巨潮行业分类标准,008002,Alternative Energy,Z0101,3
+Z01010401,可替代能源,,巨潮行业分类标准,008002,Alternative Energy,Z010104,4
+Z02,原材料,,巨潮行业分类标准,008002,Materials,Z,1
+Z0201,基础化工,,巨潮行业分类标准,008002,Chemicals,Z02,2
+Z020101,化学原料,,巨潮行业分类标准,008002,Chemical Materials,Z0201,3
+Z02010101,化学原料,,巨潮行业分类标准,008002,Chemical Materials,Z020101,4
+Z020102,化学制品,,巨潮行业分类标准,008002,Chemical Products,Z0201,3
+Z02010201,涂料涂漆,,巨潮行业分类标准,008002,Coatings,Z020102,4
+Z02010202,塑料制品,,巨潮行业分类标准,008002,Plastic Products,Z020102,4
+Z02010203,印染化学品,,巨潮行业分类标准,008002,Dyeing and Printing Chemicals,Z020102,4
+Z02010204,其他化学制品,,巨潮行业分类标准,008002,Other Chemical Products,Z020102,4
+Z020103,农用化工,,巨潮行业分类标准,008002,Agro Chemicals,Z0201,3
+Z02010301,化肥,,巨潮行业分类标准,008002,Fertilizers,Z020103,4
+Z02010302,农药,,巨潮行业分类标准,008002,Pesticides,Z020103,4
+Z020104,合成纤维,,巨潮行业分类标准,008002,Synthetic Fiber,Z0201,3
+Z02010401,合成纤维,,巨潮行业分类标准,008002,Synthetic Fiber,Z020104,4
+Z0202,基础材料,,巨潮行业分类标准,008002,Basic Materials,Z02,2
+Z020201,建筑材料,,巨潮行业分类标准,008002,Construction Materials,Z0202,3
+Z02020101,建筑材料,,巨潮行业分类标准,008002,Construction Materials,Z020201,4
+Z020202,容器与包装,,巨潮行业分类标准,008002,Containers and Packaging,Z0202,3
+Z02020201,金属与破璃容器,,巨潮行业分类标准,008002,Metal and Glass Container,Z020202,4
+Z02020202,纸材料包装,,巨潮行业分类标准,008002,Paper Packaging,Z020202,4
+Z020203,黑色金属,,巨潮行业分类标准,008002,Ferrous Metals,Z0202,3
+Z02020301,钢铁,,巨潮行业分类标准,008002,Steel,Z020203,4
+Z02020302,钢铁制品,,巨潮行业分类标准,008002,Steel Products,Z020203,4
+Z020204,有色金属,,巨潮行业分类标准,008002,Non-ferrous Metals,Z0202,3
+Z02020401,基本金属,,巨潮行业分类标准,008002,Basic Metals,Z020204,4
+Z02020402,贵金属,,巨潮行业分类标准,008002,Precious Metals,Z020204,4
+Z02020403,稀有金属,,巨潮行业分类标准,008002,Rare Metals,Z020204,4
+Z020205,非金属材料与制品,,巨潮行业分类标准,008002,Non-metallic Materials and Products,Z0202,3
+Z02020501,非金属材料与制品,,巨潮行业分类标准,008002,Non-metallic Materials and Products,Z020205,4
+Z020206,纸类与林业产品,,巨潮行业分类标准,008002,Paper and Forest Products,Z0202,3
+Z02020601,林业产品,,巨潮行业分类标准,008002,Forest Products,Z020206,4
+Z02020602,纸制品,,巨潮行业分类标准,008002,Paper Products,Z020206,4
+Z020207,合成金属,,巨潮行业分类标准,008002,Synthetic Metal,Z0202,3
+Z02020701,合成金属,,巨潮行业分类标准,008002,Synthetic Metal,Z020207,4
+Z03,工业,,巨潮行业分类标准,008002,Industrials,Z,1
+Z0301,工业品,,巨潮行业分类标准,008002,Industrial Goods,Z03,2
+Z030101,航天航空,,巨潮行业分类标准,008002,Aerospace,Z0301,3
+Z03010101,航天航空,,巨潮行业分类标准,008002,Aerospace,Z030101,4
+Z030102,建筑产品,,巨潮行业分类标准,008002,Building Products,Z0301,3
+Z03010201,建筑产品,,巨潮行业分类标准,008002,Building Products,Z030102,4
+Z030103,电气部件与设备,,巨潮行业分类标准,008002,Electrical Components and Equipment,Z0301,3
+Z03010301,电气部件与设备,,巨潮行业分类标准,008002,Electrical Components and Equipment,Z030103,4
+Z030104,重型电气设备,,巨潮行业分类标准,008002,Heavy Electrical Equipment,Z0301,3
+Z03010401,重型电气设备,,巨潮行业分类标准,008002,Heavy Electrical Equipment,Z030104,4
+Z030105,通用机械,,巨潮行业分类标准,008002,General Machinery,Z0301,3
+Z03010501,机床,,巨潮行业分类标准,008002,Machine Tools,Z030105,4
+Z03010502,制冷设备,,巨潮行业分类标准,008002,Refrigeration Equipment,Z030105,4
+Z03010503,发动机与涡轮机,,巨潮行业分类标准,008002,Engines and Turbines,Z030105,4
+Z03010504,基础件,,巨潮行业分类标准,008002,Base Components,Z030105,4
+Z03010505,锅炉,,巨潮行业分类标准,008002,Boilers,Z030105,4
+Z03010506,其他通用机械,,巨潮行业分类标准,008002,Other General Machinery,Z030105,4
+Z030106,专用设备,,巨潮行业分类标准,008002,Special Equipment,Z0301,3
+Z03010601,农业与林业机械,,巨潮行业分类标准,008002,Agriculture and Forestry Machinery,Z030106,4
+Z03010602,建筑工程与运输机械,,巨潮行业分类标准,008002,Construction Engineering and Transport Machinery,Z030106,4
+Z03010603,纺织服装设备,,巨潮行业分类标准,008002,Textiles and Apparel Equipment,Z030106,4
+Z03010604,采矿采石冶金机械,,巨潮行业分类标准,008002,"Mining, Quarrying and Metallurgical Machinery",Z030106,4
+Z03010605,其他专用设备,,巨潮行业分类标准,008002,Other Special Equipment,Z030106,4
+Z03010606,环保设备,,巨潮行业分类标准,008002,Environmental Protection Equipment,Z030106,4
+Z030107,工业集团企业,,巨潮行业分类标准,008002,Trading Companies and Distributors,Z0301,3
+Z03010701,工业集团企业,,巨潮行业分类标准,008002,Trading Companies and Distributors,Z030107,4
+Z0302,工业服务,,巨潮行业分类标准,008002,Industrial Services,Z03,2
+Z030201,建筑与工程,,巨潮行业分类标准,008002,Building and Engineering,Z0302,3
+Z03020101,建筑施工,,巨潮行业分类标准,008002,Construction,Z030201,4
+Z03020102,装饰工程,,巨潮行业分类标准,008002,Decoration Engineering,Z030201,4
+Z03020103,园林工程,,巨潮行业分类标准,008002,Landscape Engineering,Z030201,4
+Z03020104,其他专业工程,,巨潮行业分类标准,008002,Other Specialized Engineering,Z030201,4
+Z030202,工业贸易经销商,,巨潮行业分类标准,008002,Trading Companies and Distributors,Z0302,3
+Z03020201,工业贸易经销商,,巨潮行业分类标准,008002,Trading Companies and Distributors,Z030202,4
+Z030203,商业用品与服务,,巨潮行业分类标准,008002,Commercial Goods and Professional Services,Z0302,3
+Z03020301,商业印刷,,巨潮行业分类标准,008002,Commercial Printing,Z030203,4
+Z03020302,环境与设施服务,,巨潮行业分类标准,008002,Environmental & Facilities Services,Z030203,4
+Z03020303,各种商业与专业服务,,巨潮行业分类标准,008002,Diversified Support Services,Z030203,4
+Z0303,运输,,巨潮行业分类标准,008002,Transportation,Z03,2
+Z030301,物流,,巨潮行业分类标准,008002,Logistics Companies,Z0303,3
+Z03030101,物流,,巨潮行业分类标准,008002,Logistics Companies,Z030301,4
+Z030302,航空运输,,巨潮行业分类标准,008002,Air Transport,Z0303,3
+Z03030201,航空运输,,巨潮行业分类标准,008002,Air Transport,Z030302,4
+Z030303,水上运输,,巨潮行业分类标准,008002,Water Transport,Z0303,3
+Z03030301,水上运输,,巨潮行业分类标准,008002,Water Transport,Z030303,4
+Z030304,陆运,,巨潮行业分类标准,008002,Road and Rail,Z0303,3
+Z03030401,铁路运输,,巨潮行业分类标准,008002,Railroads,Z030304,4
+Z03030402,公路运输,,巨潮行业分类标准,008002,Road Transport,Z030304,4
+Z030305,交通基本设施,,巨潮行业分类标准,008002,Transportation Infrastructure,Z0303,3
+Z03030501,机场服务,,巨潮行业分类标准,008002,Airport Service,Z030305,4
+Z03030502,公路与铁路,,巨潮行业分类标准,008002,Highways & Railtracks,Z030305,4
+Z03030503,港口服务,,巨潮行业分类标准,008002,Port Service,Z030305,4
+Z04,可选消费,,巨潮行业分类标准,008002,Consumer Discretionary,Z,1
+Z0401,汽车与汽车零配件,,巨潮行业分类标准,008002,Automobiles and Components,Z04,2
+Z040101,汽车零配件与设备,,巨潮行业分类标准,008002,Auto Parts and Equipment,Z0401,3
+Z04010101,汽车零配件,,巨潮行业分类标准,008002,Auto Components,Z040101,4
+Z04010102,轮胎,,巨潮行业分类标准,008002,Tires,Z040101,4
+Z040102,汽车,,巨潮行业分类标准,008002,Automobiles,Z0401,3
+Z04010201,轿车,,巨潮行业分类标准,008002,Car Manufacturers,Z040102,4
+Z04010202,商用车,,巨潮行业分类标准,008002,Commercial Vehicle Manufacturers,Z040102,4
+Z04010203,摩托车,,巨潮行业分类标准,008002,Motorcycles Manufacturers,Z040102,4
+Z0402,耐用消费品,,巨潮行业分类标准,008002,Consumer Durables,Z04,2
+Z040201,家用电器,,巨潮行业分类标准,008002,Household Appliances,Z0402,3
+Z04020101,视听器材,,巨潮行业分类标准,008002,Audio-visual Equipment,Z040201,4
+Z04020102,白色家电,,巨潮行业分类标准,008002,White Goods,Z040201,4
+Z04020103,小家电,,巨潮行业分类标准,008002,Small Appliances,Z040201,4
+Z04020104,照明电器及其他,,巨潮行业分类标准,008002,Lighting and other Electrical Appliances,Z040201,4
+Z040202,耐用家居用品,,巨潮行业分类标准,008002,Durable Household Products,Z0402,3
+Z04020201,家用器具与特殊消费品,,巨潮行业分类标准,008002,Housewares and Specialties,Z040202,4
+Z04020202,家庭装饰品,,巨潮行业分类标准,008002,Home Furnishings,Z040202,4
+Z040203,休闲设备与用品,,巨潮行业分类标准,008002,Leisure Equipment and Products,Z0402,3
+Z04020301,休闲设备与用品,,巨潮行业分类标准,008002,Leisure Equipment and Products,Z040203,4
+Z0403,纺织服装与奢侈品,,巨潮行业分类标准,008002,"Textiles, Apparel and Luxury Goods",Z04,2
+Z040301,服装与配饰,,巨潮行业分类标准,008002,Apparel and Accessories,Z0403,3
+Z04030101,服装,,巨潮行业分类标准,008002,Clothing,Z040301,4
+Z04030102,鞋类,,巨潮行业分类标准,008002,Footwear,Z040301,4
+Z040302,纺织品,,巨潮行业分类标准,008002,Textiles,Z0403,3
+Z04030201,棉纺,,巨潮行业分类标准,008002,Cotton Textiles,Z040302,4
+Z04030202,毛纺,,巨潮行业分类标准,008002,Wool Textiles,Z040302,4
+Z04030203,其他纺织品,,巨潮行业分类标准,008002,Other Textiles,Z040302,4
+Z040303,珠宝与奢侈品,,巨潮行业分类标准,008002,Jewelry and Luxury Goods,Z0403,3
+Z04030301,珠宝与奢侈品,,巨潮行业分类标准,008002,Jewelry and Luxury Goods,Z040303,4
+Z0404,消费者服务,,巨潮行业分类标准,008002,Consumer Services,Z04,2
+Z040401,酒店餐饮与休闲,,巨潮行业分类标准,008002,"Hotels, Restaurants and Leisure",Z0404,3
+Z04040101,旅游,,巨潮行业分类标准,008002,Travel & Tourism,Z040401,4
+Z04040102,酒店,,巨潮行业分类标准,008002,Hotels,Z040401,4
+Z04040103,餐饮,,巨潮行业分类标准,008002,Restaurants,Z040401,4
+Z04040104,休闲设施,,巨潮行业分类标准,008002,Leisure Facilities,Z040401,4
+Z040402,其他消费者服务,,巨潮行业分类标准,008002,Diversified Consumer Services,Z0404,3
+Z04040201,教育服务,,巨潮行业分类标准,008002,Education Services,Z040402,4
+Z04040202,特殊消费者服务,,巨潮行业分类标准,008002,Specialized Consumer Services,Z040402,4
+Z0405,传媒,,巨潮行业分类标准,008002,Media,Z04,2
+Z040501,传媒,,巨潮行业分类标准,008002,Media,Z0405,3
+Z04050101,广告,,巨潮行业分类标准,008002,Advertising,Z040501,4
+Z04050102,广播与有线电视,,巨潮行业分类标准,008002,Broadcasting and  Cable TV,Z040501,4
+Z04050103,电影与娱乐,,巨潮行业分类标准,008002,Movies and Entertainment,Z040501,4
+Z04050104,出版,,巨潮行业分类标准,008002,Publishing,Z040501,4
+Z0406,零售业,,巨潮行业分类标准,008002,Retailing,Z04,2
+Z040601,消费品经销商,,巨潮行业分类标准,008002,Distributors,Z0406,3
+Z04060101,消费品经销商,,巨潮行业分类标准,008002,Distributors,Z040601,4
+Z040602,网络零售,,巨潮行业分类标准,008002,Internet Retail,Z0406,3
+Z04060201,网络零售,,巨潮行业分类标准,008002,Internet Retail,Z040602,4
+Z040603,百货商店,,巨潮行业分类标准,008002,Department Stores,Z0406,3
+Z04060301,百货商店,,巨潮行业分类标准,008002,Department Stores,Z040603,4
+Z040604,专营零售,,巨潮行业分类标准,008002,Specialty Retail,Z0406,3
+Z04060401,电脑与电子产品零售,,巨潮行业分类标准,008002,Computer & Electronics Retail,Z040604,4
+Z04060402,汽车零售,,巨潮行业分类标准,008002,Automotive Retail,Z040604,4
+Z04060403,其他专营零售,,巨潮行业分类标准,008002,Other Specialized Stores,Z040604,4
+Z05,主要消费,,巨潮行业分类标准,008002,Consumer Staples,Z,1
+Z0501,食品与主要用品零售,,巨潮行业分类标准,008002,Food & Staples Retailing,Z05,2
+Z050101,食品与主要用品零售,,巨潮行业分类标准,008002,Food & Staples Retailing,Z0501,3
+Z05010102,食品与日用品零售,,巨潮行业分类标准,008002,Food and Non-durable household products Retail,Z050101,4
+Z05010103,食品分销商,,巨潮行业分类标准,008002,Food Distributors,Z050101,4
+Z0502,农牧渔产品,,巨潮行业分类标准,008002,"Agriculture, Animal husbandry, Fishery Products",Z05,2
+Z050201,农牧渔产品,,巨潮行业分类标准,008002,"Agriculture, Animal husbandry, Fishery Products",Z0502,3
+Z05020101,农业产品,,巨潮行业分类标准,008002,Agricultural Products,Z050201,4
+Z05020102,畜牧产品,,巨潮行业分类标准,008002,Livestock Products,Z050201,4
+Z05020103,渔业产品,,巨潮行业分类标准,008002,Fishery Products,Z050201,4
+Z0503,食品饮料与烟草,,巨潮行业分类标准,008002,"Food, Beverage and Tobacco",Z05,2
+Z050301,食品,,巨潮行业分类标准,008002,Food Products,Z0503,3
+Z05030101,包装食品与肉类,,巨潮行业分类标准,008002,Packaged Foods and Meats,Z050301,4
+Z05030102,调味品与食品添加剂,,巨潮行业分类标准,008002,Spices and Food Additives,Z050301,4
+Z05030103,乳制品,,巨潮行业分类标准,008002,Dairy Products,Z050301,4
+Z050302,饮料,,巨潮行业分类标准,008002,Beverages,Z0503,3
+Z05030201,白酒,,巨潮行业分类标准,008002,White Spirit,Z050302,4
+Z05030202,啤酒,,巨潮行业分类标准,008002,Brewers,Z050302,4
+Z05030203,其他酿酒商,,巨潮行业分类标准,008002,Other Distillers and Vintners,Z050302,4
+Z05030204,软饮料,,巨潮行业分类标准,008002,Soft Drinks,Z050302,4
+Z050303,烟草,,巨潮行业分类标准,008002,Tobacco,Z0503,3
+Z05030301,烟草,,巨潮行业分类标准,008002,Tobacco,Z050303,4
+Z0504,家庭与个人用品,,巨潮行业分类标准,008002,Household & Personal Products,Z05,2
+Z050401,家常用品,,巨潮行业分类标准,008002,Household Products,Z0504,3
+Z05040101,家常用品,,巨潮行业分类标准,008002,Household Products,Z050401,4
+Z050402,个人用品,,巨潮行业分类标准,008002,Personal Products,Z0504,3
+Z05040201,个人用品,,巨潮行业分类标准,008002,Personal Products,Z050402,4
+Z06,医药卫生,,巨潮行业分类标准,008002,Health Care,Z,1
+Z0601,医疗设备与服务,,巨潮行业分类标准,008002,Medical Equipment and Services,Z06,2
+Z060101,医疗设备与用品,,巨潮行业分类标准,008002,Medical Equipment and Supplies,Z0601,3
+Z06010101,医疗设备,,巨潮行业分类标准,008002,Medical Equipment,Z060101,4
+Z06010102,医疗用品,,巨潮行业分类标准,008002,Medical Supplies,Z060101,4
+Z060102,医疗保健提供商与服务,,巨潮行业分类标准,008002,Health Care Providers and Services,Z0601,3
+Z06010201,医疗保健机构与服务,,巨潮行业分类标准,008002,Health Care Facilities and Services,Z060102,4
+Z06010202,保健护理产品经销商,,巨潮行业分类标准,008002,Health Care Distributors,Z060102,4
+Z0602,制药,,巨潮行业分类标准,008002,Pharmaceuticals,Z06,2
+Z060201,化学原料药,,巨潮行业分类标准,008002,Pharmaceutical Raw Materials,Z0602,3
+Z06020101,化学原料药,,巨潮行业分类标准,008002,Pharmaceutical Raw Materials,Z060201,4
+Z060202,化学制剂,,巨潮行业分类标准,008002,Pharmaceutical Preparations,Z0602,3
+Z06020201,化学制剂,,巨潮行业分类标准,008002,Pharmaceutical Preparations,Z060202,4
+Z060203,中药,,巨潮行业分类标准,008002,Traditional Chinese Medicine,Z0602,3
+Z06020301,中药,,巨潮行业分类标准,008002,Traditional Chinese Medicine,Z060203,4
+Z060204,药品流通,,巨潮行业分类标准,008002,Drug Circulation,Z0602,3
+Z06020401,药品流通,,巨潮行业分类标准,008002,Drug Circulation,Z060204,4
+Z0603,生物科技,,巨潮行业分类标准,008002,Biotechnology,Z06,2
+Z060301,生物科技,,巨潮行业分类标准,008002,Biotechnology,Z0603,3
+Z06030101,生物制品,,巨潮行业分类标准,008002,Biological Products,Z060301,4
+Z06030102,生命科学工具和服务,,巨潮行业分类标准,008002,Life Sciences Tools & Services,Z060301,4
+Z07,金融,,巨潮行业分类标准,008002,Financial,Z,1
+Z0701,银行,,巨潮行业分类标准,008002,Banks,Z07,2
+Z070101,银行,,巨潮行业分类标准,008002,Banks,Z0701,3
+Z07010101,综合性银行,,巨潮行业分类标准,008002,Comprehensive Bank,Z070101,4
+Z07010102,区域性银行,,巨潮行业分类标准,008002,Regional Bank,Z070101,4
+Z07010103,其他商业银行,,巨潮行业分类标准,008002,Other Commercial Banks,Z070101,4
+Z0702,综合金融,,巨潮行业分类标准,008002,Diversified Financials,Z07,2
+Z070201,证券,,巨潮行业分类标准,008002,Securities,Z0702,3
+Z07020101,证券,,巨潮行业分类标准,008002,Securities,Z070201,4
+Z070202,保险,,巨潮行业分类标准,008002,Insurance,Z0702,3
+Z07020201,人身保险,,巨潮行业分类标准,008002,Life Insurance,Z070202,4
+Z07020202,财产保险,,巨潮行业分类标准,008002,Property Insurance,Z070202,4
+Z07020203,多元化保险,,巨潮行业分类标准,008002,Diversified Insurance,Z070202,4
+Z07020204,再保险,,巨潮行业分类标准,008002,Reinsurance,Z070202,4
+Z070203,投资信托,,巨潮行业分类标准,008002,Investment Trusts,Z0702,3
+Z07020301,投资信托,,巨潮行业分类标准,008002,Investment Trusts,Z070203,4
+Z070204,其他金融服务,,巨潮行业分类标准,008002,Other Financial Services,Z0702,3
+Z07020401,其他金融服务,,巨潮行业分类标准,008002,Other Financial Services,Z070204,4
+Z070205,消费金融,,巨潮行业分类标准,008002,Consumer Finance,Z0702,3
+Z07020501,消费金融,,巨潮行业分类标准,008002,Consumer Finance,Z070205,4
+Z0703,资本市场服务,,巨潮行业分类标准,008002,Capital Market Services,Z07,2
+Z070301,资本市场服务,,巨潮行业分类标准,008002,Capital Market Services,Z0703,3
+Z07030101,证券市场服务,,巨潮行业分类标准,008002,Securities Market Service,Z070301,4
+Z07030102,基金管理服务,,巨潮行业分类标准,008002,Fund Management Service,Z070301,4
+Z07030103,期货市场服务,,巨潮行业分类标准,008002,Futures Market Service,Z070301,4
+Z07030104,金融数据服务,,巨潮行业分类标准,008002,Financial Data Service,Z070301,4
+Z08,信息技术,,巨潮行业分类标准,008002,Information Technology,Z,1
+Z0801,软件与互联网,,巨潮行业分类标准,008002,Software and Internet,Z08,2
+Z080101,互联网软件与服务,,巨潮行业分类标准,008002,Internet Software & Services,Z0801,3
+Z08010101,互联网软件与服务,,巨潮行业分类标准,008002,Internet Software & Services,Z080101,4
+Z080102,信息技术服务,,巨潮行业分类标准,008002,IT Services,Z0801,3
+Z08010201,数据处理与外包服务,,巨潮行业分类标准,008002,Data Processing and Outsourced Services,Z080102,4
+Z08010202,信息科技咨询与其他服务,,巨潮行业分类标准,008002,IT Consulting and Other Services,Z080102,4
+Z080103,计算机软件,,巨潮行业分类标准,008002,Computer Software,Z0801,3
+Z08010301,应用软件,,巨潮行业分类标准,008002,Application Software,Z080103,4
+Z08010302,系统软件,,巨潮行业分类标准,008002,Systems Software,Z080103,4
+Z0802,技术硬件与设备,,巨潮行业分类标准,008002,Technology Hardware and Equipment,Z08,2
+Z080201,电脑与外围设备,,巨潮行业分类标准,008002,Computers and Peripherals,Z0802,3
+Z08020101,电脑硬件,,巨潮行业分类标准,008002,Computer Hardware,Z080201,4
+Z08020102,电脑存储与外围设备,,巨潮行业分类标准,008002,Computer Storage & Peripherals,Z080201,4
+Z080202,电子设备及服务,,巨潮行业分类标准,008002,Electronic Equipment and Services,Z0802,3
+Z08020201,电子设备与仪器,,巨潮行业分类标准,008002,Electronic Equipment and Instruments,Z080202,4
+Z08020202,电子制造服务,,巨潮行业分类标准,008002,Electronic Manufacturing Services,Z080202,4
+Z08020203,技术产品经销商,,巨潮行业分类标准,008002,Technology Distributors,Z080202,4
+Z080203,电子元器件,,巨潮行业分类标准,008002,Electronic Components,Z0802,3
+Z08020301,电子元器件,,巨潮行业分类标准,008002,Electronic Components,Z080203,4
+Z080204,光电子器件,,巨潮行业分类标准,008002,Optoelectronic Devices,Z0802,3
+Z08020401,光电子器件,,巨潮行业分类标准,008002,Optoelectronic Devices,Z080204,4
+Z0803,半导体,,巨潮行业分类标准,008002,Semiconductors,Z08,2
+Z080301,半导体,,巨潮行业分类标准,008002,Semiconductors,Z0803,3
+Z08030101,集成电路,,巨潮行业分类标准,008002,IC,Z080301,4
+Z08030102,分立器件,,巨潮行业分类标准,008002,Discrete Devices,Z080301,4
+Z09,电信业务,,巨潮行业分类标准,008002,Telecommunication Services,Z,1
+Z0901,电信服务,,巨潮行业分类标准,008002,Telecommunication Services,Z09,2
+Z090101,电信运营,,巨潮行业分类标准,008002,Telecommunications,Z0901,3
+Z09010101,电信运营,,巨潮行业分类标准,008002,Telecom Operation,Z090101,4
+Z090102,电信增值服务,,巨潮行业分类标准,008002,Telecom Value-added Services,Z0901,3
+Z09010201,电信增值服务,,巨潮行业分类标准,008002,Telecom Value-added Services,Z090102,4
+Z0902,通信设备及技术服务,,巨潮行业分类标准,008002,Communications Equipment and Technology Services,Z09,2
+Z090201,通信设备,,巨潮行业分类标准,008002,Communications Equipment,Z0902,3
+Z09020101,通信设备,,巨潮行业分类标准,008002,Communications Equipment,Z090201,4
+Z090202,通信技术服务,,巨潮行业分类标准,008002,Communications Technology Service,Z0902,3
+Z09020201,通信技术服务,,巨潮行业分类标准,008002,Communications Technology Service,Z090202,4
+Z10,公用事业,,巨潮行业分类标准,008002,Utilities,Z,1
+Z1001,公用事业,,巨潮行业分类标准,008002,Utilities,Z10,2
+Z100101,电力公用事业,,巨潮行业分类标准,008002,Electric Utilities,Z1001,3
+Z10010101,电力公用事业,,巨潮行业分类标准,008002,Electric Utilities,Z100101,4
+Z100102,燃气公用事业,,巨潮行业分类标准,008002,Gas Utilities,Z1001,3
+Z10010201,燃气公用事业,,巨潮行业分类标准,008002,Gas Utilities,Z100102,4
+Z100103,水公用事业,,巨潮行业分类标准,008002,Water Utilities,Z1001,3
+Z10010301,水公用事业,,巨潮行业分类标准,008002,Water Utilities,Z100103,4
+Z100104,复合型公用事业,,巨潮行业分类标准,008002,Multi-Utilities,Z1001,3
+Z10010401,复合型公用事业,,巨潮行业分类标准,008002,Multi-Utilities,Z100104,4
+Z11,房地产,,巨潮行业分类标准,008002,Real Estate,Z,1
+Z1101,房地产开发和管理,,巨潮行业分类标准,008002,Real Estate Management & Development,Z11,2
+Z110101,住宅地产开发和管理,,巨潮行业分类标准,008002,Residential Real Estate Development and Management,Z1101,3
+Z11010101,住宅地产开发和管理,,巨潮行业分类标准,008002,Residential Real Estate Development and Management,Z110101,4
+Z110102,商业地产开发和管理,,巨潮行业分类标准,008002,Commercial Real Estate Development and Management,Z1101,3
+Z11010201,商业地产开发和管理,,巨潮行业分类标准,008002,Commercial Real Estate Development and Management,Z110102,4
+Z110103,工业地产开发和管理,,巨潮行业分类标准,008002,Industrial Real Estate Development and Management,Z1101,3
+Z11010301,工业地产开发和管理,,巨潮行业分类标准,008002,Industrial Real Estate Development and Management,Z110103,4
+Z1102,房地产服务,,巨潮行业分类标准,008002,Real Estate Services,Z11,2
+Z110201,房地产信托,,巨潮行业分类标准,008002,Real Estate Investment Trusts,Z1102,3
+Z11020101,房地产信托,,巨潮行业分类标准,008002,Real Estate Investment Trusts,Z110201,4
+Z110202,房地产租赁,,巨潮行业分类标准,008002,Real Estate Rent and Leasing,Z1102,3
+Z11020201,房地产租赁,,巨潮行业分类标准,008002,Real Estate Rent and Leasing,Z110202,4
+Z110203,其他房地产服务,,巨潮行业分类标准,008002,Specialized  Real Estate Services,Z1102,3
+Z11020301,其他房地产服务,,巨潮行业分类标准,008002,Specialized  Real Estate Services,Z110203,4

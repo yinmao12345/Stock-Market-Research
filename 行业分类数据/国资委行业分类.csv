@@ -1,0 +1,26 @@
+﻿类目编码,类目名称,终止日期,行业类型,行业类型编码,类目名称英文,父类编码,分级
+W,国资委行业分类,,国资委行业分类标准,008005,SASAC Industry Classification,008,0
+W01,军工,,国资委行业分类标准,008005,Military Industry,W,1
+W02,石油石化,,国资委行业分类标准,008005,Petroleum and Petrochemicals,W,1
+W03,冶金,,国资委行业分类标准,008005,Metallurgy,W,1
+W04,机械,,国资委行业分类标准,008005,Machinery,W,1
+W05,矿业,,国资委行业分类标准,008005,Mining,W,1
+W06,电子,,国资委行业分类标准,008005,Electronic,W,1
+W07,电力,,国资委行业分类标准,008005,Electricity,W,1
+W08,化学,,国资委行业分类标准,008005,Chemicals,W,1
+W09,建材,,国资委行业分类标准,008005,Building Materials,W,1
+W10,医药,,国资委行业分类标准,008005,Medicine,W,1
+W11,纺织,,国资委行业分类标准,008005,Textile,W,1
+W12,建筑,,国资委行业分类标准,008005,Construction,W,1
+W13,地勘,,国资委行业分类标准,008005,Geological Survey,W,1
+W14,交通运输,,国资委行业分类标准,008005,Transportation,W,1
+W15,仓储,,国资委行业分类标准,008005,Warehousing,W,1
+W16,通信,,国资委行业分类标准,008005,Telecommunication,W,1
+W17,商贸,,国资委行业分类标准,008005,Commercial Trading,W,1
+W18,房地产,,国资委行业分类标准,008005,Real Estate,W,1
+W19,旅游,,国资委行业分类标准,008005,Travel and Tourism,W,1
+W20,服务,,国资委行业分类标准,008005,Services,W,1
+W21,科研设计,,国资委行业分类标准,008005,Scientific Research and Design,W,1
+W22,农林牧渔,,国资委行业分类标准,008005,"Agriculture, Forestry, Animal Husbandry and Fishery",W,1
+W23,投资,,国资委行业分类标准,008005,Investment,W,1
+W24,其他,,国资委行业分类标准,008005,Other,W,1

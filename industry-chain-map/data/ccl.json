@@ -520,7 +520,9 @@
           "name": "HVLP4/5铜箔",
           "intro_gen": "M9"
         }
-      ]
+      ],
+      "market_size_forecast": [],
+      "growth_drivers": []
     },
     {
       "id": "electronic_resin",
@@ -731,7 +733,9 @@
           "name": "增韧剂CSR(核壳橡胶)",
           "intro_gen": "M9"
         }
-      ]
+      ],
+      "market_size_forecast": [],
+      "growth_drivers": []
     },
     {
       "id": "fiberglass_cloth",
@@ -944,10 +948,76 @@
           "df": "0.0002-0.0009",
           "note": "石英纤维，价格250-300元/米，二代布6倍"
         }
-      ]
+      ],
+      "market_size_forecast": [],
+      "growth_drivers": []
     }
   ],
-  "competition": null,
+  "competition": {
+    "global": {
+      "companies": [
+        {
+          "name": "建滔积层板",
+          "country": "中国香港",
+          "share": null,
+          "share_unit": "%",
+          "description": "通用 FR-4 全球第一，垂直整合自供铜箔与树脂"
+        },
+        {
+          "name": "松下（Megtron系列）",
+          "country": "日本",
+          "share": null,
+          "share_unit": "%",
+          "description": "高速 CCL 分级标杆，Megtron 系列为行业技术参照标准"
+        },
+        {
+          "name": "生益科技",
+          "country": "中国",
+          "share": null,
+          "share_unit": "%",
+          "description": "大陆高端 CCL 国产化主角，M9 产品 2025/12 通过英伟达认证（大陆唯一），2024 覆铜板收入 149.64 亿元"
+        }
+      ],
+      "note": "全球竞争格局呈现日系高端主导、中系快速追赶态势；中国台湾（联茂、台光、台燿）亦为重要参与者"
+    },
+    "domestic": {
+      "companies": [
+        {
+          "name": "生益科技",
+          "share": null,
+          "share_unit": "%",
+          "description": "大陆高端 CCL 国产化龙头，M9 通过英伟达认证，大陆唯一"
+        },
+        {
+          "name": "南亚新材",
+          "share": null,
+          "share_unit": "%",
+          "description": "高端高速 CCL 主力，AI 服务器核心供应商，M6-M8 量产，2025Q4 推 M10"
+        },
+        {
+          "name": "华正新材",
+          "share": null,
+          "share_unit": "%",
+          "description": "高频高速+金属基板+BT 载板材料，Ultra low loss 通过认证"
+        },
+        {
+          "name": "金安国纪",
+          "share": null,
+          "share_unit": "%",
+          "description": "中高端 CCL，周期弹性大"
+        }
+      ],
+      "note": "国内格局以生益科技为第一梯队，南亚新材/华正新材/金安国纪紧随其后；来源：CCL数据包_2026-06，2026-06-25"
+    },
+    "key_factors": [
+      "技术壁垒：高速 CCL 认证周期长（1-2 年），M9 级材料需英伟达等终端客户认证，通过后护城河极深，龙头一旦跨过认证反而加固竞争壁垒",
+      "客户粘性：PCB 厂商更换 CCL 供应商需重新认证，转换成本高",
+      "产能壁垒：中高端 CCL 产能扩张周期长（18-24 个月），2025-2026 供需紧张格局预计维持到 2027 年",
+      "材料自供能力：垂直整合（自供铜箔、树脂、玻纤布）为龙头核心成本优势，建滔积层板、生益科技均布局上游",
+      "技术迭代加速：按 1-2 年周期从 M7→M8→M9 升级，跟不上迭代的企业被淘汰",
+      "日系高端材料垄断：海外核心材料（HVLP 铜箔、碳氢树脂、Low-Dk 玻纤布）约 70% 由日企控制，国产替代空间大但短期受限"
+    ]
+  },
   "current_generation": "M8",
   "bom_by_generation": [
     {
@@ -1094,5 +1164,35 @@
         }
       ]
     }
+  ],
+  "market_size_forecast": [
+    {
+      "source": "TPCA/工研院",
+      "base_year": 2025,
+      "base_value": 160.2,
+      "base_unit": "亿美元",
+      "forecast_value": 207,
+      "forecast_year": 2026,
+      "cagr": null,
+      "cagr_period": null
+    },
+    {
+      "source": "Prismark（高速CCL）",
+      "base_year": 2026,
+      "base_value": 80,
+      "base_unit": "亿美元",
+      "forecast_value": null,
+      "forecast_year": null,
+      "cagr": 11.1,
+      "cagr_period": "2025-2032"
+    }
+  ],
+  "growth_drivers": [
+    "AI 服务器：单台 AI 服务器 PCB/CCL 价值量可达传统服务器的 5-7 倍，M7/M8 向 M9 升级带动高端 CCL 渗透率持续上行，高端 CCL 售价为普通 FR-4 的 5 倍以上",
+    "高速数字 CCL 细分赛道年复合增速超 25%（AI 驱动），2026 为 M8 全面放量年",
+    "5G/6G 通信：基站和网络设备对高频高速材料的持续拉动",
+    "汽车电子：电动化 + 自动驾驶雷达推动高耐热、低损耗 CCL 需求增长",
+    "GaN/SiC 功率模块：800V 高压架构对高导热 CCL 的新增需求",
+    "供给端：产能扩张周期长，中高端 CCL 交货周期从常规 2 周延长至最长 6 周，高端产能偏紧持续到 2027 年甚至更久"
   ]
 }

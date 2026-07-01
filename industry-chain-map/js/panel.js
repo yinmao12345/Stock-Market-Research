@@ -1,4 +1,4 @@
-import { getPenetrationTypeLabel, getStageLabel } from './gap-rules.js';
+﻿import { getPenetrationTypeLabel, getStageLabel } from './gap-rules.js';
 
 const CYCLE_DIMENSIONS = [
   { key: 'inventory', name: '库存', good_direction: 'down' },
@@ -52,14 +52,213 @@ function titleBlock(node) {
 function metricsGrid(node) {
   const grid = document.createElement('div');
   grid.className = 'detail-grid';
-  const metrics = node.metrics || {};
-  grid.append(
-    card('市场规模', describeMarketSize(metrics.market_size, node)),
-    card('CAGR', describeCagr(metrics.cagr, node)),
-    card('价值量占比', describeValueShare(metrics.value_share, node)),
-    card('竞争格局', describeCompetition(node.competition, node))
-  );
+
+  // Section 1: 市场规模
+  grid.append(marketSizeSection(node));
+
+  // Section 2: 竞争格局
+  grid.append(competitionSection(node));
+
   return grid;
+}
+
+function marketSizeSection(node) {
+  const sec = document.createElement('section');
+  sec.className = 'section section--market-size';
+
+  const title = document.createElement('div');
+  title.className = 'section__title';
+  title.textContent = '市场规模';
+  sec.append(title);
+
+  // Part 1: Multi-source forecast table
+  const forecastTable = buildForecastTable(node);
+  sec.append(forecastTable);
+
+  // Part 2: Growth drivers
+  const driversBlock = buildGrowthDrivers(node);
+  sec.append(driversBlock);
+
+  return sec;
+}
+
+function buildForecastTable(node) {
+  const forecast = node.market_size_forecast;
+  const wrap = document.createElement('div');
+  wrap.className = 'forecast-block';
+
+  if (!Array.isArray(forecast) || forecast.length === 0) {
+    wrap.innerHTML = '<div class="forecast-block__note">暂缺</div>';
+    return wrap;
+  }
+
+  const tableWrap = document.createElement('div');
+  tableWrap.className = 'table-wrap';
+  tableWrap.innerHTML = '<table class="forecast-table"><thead><tr><th>来源</th><th>基准年</th><th>预测值</th><th>CAGR</th></tr></thead><tbody>' +
+    forecast.map(item => {
+      const source = item.source || '暂缺';
+      const baseYear = item.base_year != null ? item.base_year + ' 年' : '暂缺';
+      const baseValue = item.base_value != null ? formatCurrency(item.base_value, item.base_unit) : '—';
+      const forecastValue = item.forecast_value != null
+        ? formatCurrency(item.forecast_value, item.base_unit) + (item.forecast_year ? ' (' + item.forecast_year + ')' : '')
+        : '暂缺';
+      const cagr = item.cagr != null
+        ? item.cagr + '%' + (item.cagr_period ? ' (' + item.cagr_period + ')' : '')
+        : '暂缺';
+      return '<tr><td>' + escapeHtml(source) + '</td><td>' + escapeHtml(baseYear) + '<br><span class="forecast-table__sub">' + escapeHtml(baseValue) + '</span></td><td>' + escapeHtml(forecastValue) + '</td><td>' + escapeHtml(cagr) + '</td></tr>';
+    }).join('') +
+    '</tbody></table>';
+  wrap.append(tableWrap);
+  return wrap;
+}
+
+function buildGrowthDrivers(node) {
+  const drivers = node.growth_drivers;
+  const wrap = document.createElement('div');
+  wrap.className = 'drivers-block';
+
+  const label = document.createElement('div');
+  label.className = 'drivers-block__label';
+  label.textContent = '增长驱动力';
+  wrap.append(label);
+
+  if (!Array.isArray(drivers) || drivers.length === 0) {
+    const note = document.createElement('div');
+    note.className = 'drivers-block__note';
+    note.textContent = '暂缺';
+    wrap.append(note);
+    return wrap;
+  }
+
+  const list = document.createElement('ul');
+  list.className = 'drivers-list';
+  drivers.forEach(driver => {
+    const li = document.createElement('li');
+    li.className = 'drivers-list__item';
+    li.textContent = driver;
+    list.append(li);
+  });
+  wrap.append(list);
+  return wrap;
+}
+
+function competitionSection(node) {
+  const sec = document.createElement('section');
+  sec.className = 'section section--competition';
+
+  const title = document.createElement('div');
+  title.className = 'section__title';
+  title.textContent = '竞争格局';
+  sec.append(title);
+
+  const competition = node.competition;
+
+  if (!competition || (isEmptyComp(competition.global) && isEmptyComp(competition.domestic) && isEmptyFactors(competition.key_factors))) {
+    const body = document.createElement('div');
+    body.className = 'competition-body__note';
+    body.textContent = '暂缺';
+    sec.append(body);
+    return sec;
+  }
+
+  if (competition.global && !isEmptyComp(competition.global)) {
+    sec.append(compTableBlock('全球市场', competition.global, true));
+  }
+
+  if (competition.domestic && !isEmptyComp(competition.domestic)) {
+    sec.append(compTableBlock('国内市场', competition.domestic, false));
+  }
+
+  if (competition.key_factors && Array.isArray(competition.key_factors) && competition.key_factors.length > 0) {
+    sec.append(keyFactorsBlock(competition.key_factors));
+  }
+
+  return sec;
+}
+
+function isEmptyComp(comp) {
+  return !comp || !Array.isArray(comp.companies) || comp.companies.length === 0;
+}
+
+function isEmptyFactors(factors) {
+  return !Array.isArray(factors) || factors.length === 0;
+}
+
+function compTableBlock(title, comp, isGlobal) {
+  const block = document.createElement('div');
+  block.className = 'comp-table-block';
+
+  const head = document.createElement('div');
+  head.className = 'comp-table-block__head';
+  head.textContent = title;
+  block.append(head);
+
+  const tableWrap = document.createElement('div');
+  tableWrap.className = 'table-wrap';
+
+  let html = '<table class="comp-table"><thead><tr>';
+  if (isGlobal) {
+    html += '<th>公司名称</th><th>国家</th><th>全球市占率</th><th>简要介绍</th>';
+  } else {
+    html += '<th>公司名称</th><th>国内市占率</th><th>简要介绍</th>';
+  }
+  html += '</tr></thead><tbody>';
+
+  comp.companies.forEach(function(c) {
+    const shareCell = c.share != null
+      ? escapeHtml(String(c.share) + (c.share_unit || '%'))
+      : '<span class="comp-table__missing">暂缺</span>';
+    const descCell = c.description || '<span class="comp-table__missing">暂缺</span>';
+
+    if (isGlobal) {
+      html += '<tr><td>' + escapeHtml(c.name || '暂缺') + '</td><td>' + escapeHtml(c.country || '暂缺') + '</td><td>' + shareCell + '</td><td>' + descCell + '</td></tr>';
+    } else {
+      html += '<tr><td>' + escapeHtml(c.name || '暂缺') + '</td><td>' + shareCell + '</td><td>' + descCell + '</td></tr>';
+    }
+  });
+
+  html += '</tbody></table>';
+  tableWrap.innerHTML = html;
+  block.append(tableWrap);
+
+  if (comp.note) {
+    const note = document.createElement('div');
+    note.className = 'comp-table-block__note';
+    note.textContent = comp.note;
+    block.append(note);
+  }
+
+  return block;
+}
+
+function keyFactorsBlock(factors) {
+  const block = document.createElement('div');
+  block.className = 'key-factors-block';
+
+  const head = document.createElement('div');
+  head.className = 'key-factors-block__head';
+  head.textContent = '竞争格局关键成因';
+  block.append(head);
+
+  const list = document.createElement('ul');
+  list.className = 'key-factors-list';
+  factors.forEach(function(f) {
+    const li = document.createElement('li');
+    li.className = 'key-factors-list__item';
+    li.textContent = f;
+    list.append(li);
+  });
+  block.append(list);
+
+  return block;
+}
+
+
+
+function formatCurrency(value, unit) {
+  if (value == null) return '—';
+  const unitStr = unit || '';
+  return '$' + value + ' ' + unitStr;
 }
 
 function gapSection(node, config) {

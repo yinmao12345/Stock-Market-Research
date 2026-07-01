@@ -194,19 +194,26 @@
                 }
               },
               "competition": {
-                "concentration": {
-                  "label": "全球CR3",
-                  "value": 40,
-                  "unit": "%",
-                  "note": "全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。"
+                "global": {
+                  "companies": [
+                    {
+                      "name": "赣锋锂业",
+                      "country": null,
+                      "share": null,
+                      "share_unit": "%",
+                      "description": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                    }
+                  ],
+                  "note": null
                 },
-                "leader_share": {
-                  "company": "赣锋锂业",
-                  "value": null,
-                  "unit": null,
-                  "note": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                "domestic": {
+                  "companies": [],
+                  "note": null
                 },
-                "tiers": "全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+                "key_factors": [
+                  "行业集中度：全球CR3 40%。全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。",
+                  "竞争梯队：全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+                ]
               },
               "gap": {
                 "cycle_axis": {
@@ -639,9 +646,13 @@
               },
               "current_generation": null,
               "bom_by_generation": [],
-              "upstream": []
+              "upstream": [],
+              "market_size_forecast": [],
+              "growth_drivers": []
             }
-          ]
+          ],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "anode_material",
@@ -699,7 +710,9 @@
           },
           "current_generation": null,
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "electrolyte",
@@ -783,19 +796,26 @@
                 }
               },
               "competition": {
-                "concentration": {
-                  "label": "全球CR3",
-                  "value": 40,
-                  "unit": "%",
-                  "note": "全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。"
+                "global": {
+                  "companies": [
+                    {
+                      "name": "赣锋锂业",
+                      "country": null,
+                      "share": null,
+                      "share_unit": "%",
+                      "description": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                    }
+                  ],
+                  "note": null
                 },
-                "leader_share": {
-                  "company": "赣锋锂业",
-                  "value": null,
-                  "unit": null,
-                  "note": "赣锋锂业资源折LCE约3640万吨全球领先；天齐锂业控股格林布什矿(~1600万吨LCE)+参股SQM，100%自给；盐湖股份吸附法现金成本仅约2万元/吨。"
+                "domestic": {
+                  "companies": [],
+                  "note": null
                 },
-                "tiers": "全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+                "key_factors": [
+                  "行业集中度：全球CR3 40%。全球碳酸锂前三大厂商SQM/Albemarle/FMC合计约40%市场份额。中国占全球约83%销售收入份额，70%以上锂盐产能集中在中国，形成'海外资源+国内加工'模式。",
+                  "竞争梯队：全球：SQM/Albemarle/FMC为第一梯队（盐湖+矿石）；国内：赣锋锂业/天齐锂业/盐湖股份为第一梯队，藏格矿业/中矿资源/永兴材料/盛新锂能/雅化集团/天华新能/融捷股份为主要参与者。资源端寡头格局，加工端中国企业主导。"
+                ]
               },
               "gap": {
                 "cycle_axis": {
@@ -1208,9 +1228,13 @@
               },
               "current_generation": null,
               "bom_by_generation": [],
-              "upstream": []
+              "upstream": [],
+              "market_size_forecast": [],
+              "growth_drivers": []
             }
-          ]
+          ],
+          "market_size_forecast": [],
+          "growth_drivers": []
         },
         {
           "id": "separator",
@@ -1268,9 +1292,13 @@
           },
           "current_generation": null,
           "bom_by_generation": [],
-          "upstream": []
+          "upstream": [],
+          "market_size_forecast": [],
+          "growth_drivers": []
         }
-      ]
+      ],
+      "market_size_forecast": [],
+      "growth_drivers": []
     },
     {
       "id": "battery_structure",
@@ -1328,7 +1356,9 @@
       },
       "current_generation": null,
       "bom_by_generation": [],
-      "upstream": []
+      "upstream": [],
+      "market_size_forecast": [],
+      "growth_drivers": []
     },
     {
       "id": "battery_auxiliary",
@@ -1386,7 +1416,9 @@
       },
       "current_generation": null,
       "bom_by_generation": [],
-      "upstream": []
+      "upstream": [],
+      "market_size_forecast": [],
+      "growth_drivers": []
     },
     {
       "id": "battery_equipment",
@@ -1444,7 +1476,11 @@
       },
       "current_generation": null,
       "bom_by_generation": [],
-      "upstream": []
+      "upstream": [],
+      "market_size_forecast": [],
+      "growth_drivers": []
     }
-  ]
+  ],
+  "market_size_forecast": [],
+  "growth_drivers": []
 }

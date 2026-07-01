@@ -1,0 +1,578 @@
+﻿类目编码,类目名称,终止日期,行业类型,行业类型编码,类目名称英文,父类编码,分级
+0,中国上市公司协会上市公司行业分类,,中国上市公司协会上市公司行业分类标准,008001,CAPCO Industry Classification,008,0
+A,农、林、牧、渔业,,中国上市公司协会上市公司行业分类标准,008001,"Agriculture, Forestry, Animal Husbandry and Fishery",0,0
+A01,农业,,中国上市公司协会上市公司行业分类标准,008001,Agriculture,A,2
+A011,谷物种植,,中国上市公司协会上市公司行业分类标准,008001,Grain Planting,A01,3
+A012,豆类、油料和薯类种植,,中国上市公司协会上市公司行业分类标准,008001,"Bean, Oil Crops and Potato Planting",A01,3
+A013,棉、麻、糖、烟草种植,,中国上市公司协会上市公司行业分类标准,008001,"Cotton, Hemp, Sugar and Tobacco Planting",A01,3
+A014,蔬菜、食用菌及园艺作物种植,,中国上市公司协会上市公司行业分类标准,008001,"Vegetables, Edible Fungi and Horticultural Crops Planting",A01,3
+A015,水果种植,,中国上市公司协会上市公司行业分类标准,008001,Fruit Planting,A01,3
+A016,坚果、含油果、香料和饮料作物种植,,中国上市公司协会上市公司行业分类标准,008001,"Nuts, Oily Fruits, Spices and Beverage Crops Planting",A01,3
+A017,中药材种植,,中国上市公司协会上市公司行业分类标准,008001,Traditional Chinese Medicine Planting,A01,3
+A018,草种植及割草,,中国上市公司协会上市公司行业分类标准,008001,Grass Planting and Mowing,A01,3
+A019,其他农业,,中国上市公司协会上市公司行业分类标准,008001,Other Agriculture,A01,3
+A02,林业,,中国上市公司协会上市公司行业分类标准,008001,Forestry,A,2
+A021,林木育种和育苗,,中国上市公司协会上市公司行业分类标准,008001,Forest Tree Breeding and Seedling Cultivation,A02,3
+A022,造林和更新,,中国上市公司协会上市公司行业分类标准,008001,Afforestation and Regeneration,A02,3
+A023,森林经营、管护和改培,,中国上市公司协会上市公司行业分类标准,008001,"Forest Management, Conservation, Improvement and Cultivation",A02,3
+A024,木材和竹材采运,,中国上市公司协会上市公司行业分类标准,008001,Timber and Bamboo Harvesting and Transportation,A02,3
+A025,林产品采集,,中国上市公司协会上市公司行业分类标准,008001,Forest Product Collection,A02,3
+A03,畜牧业,,中国上市公司协会上市公司行业分类标准,008001,Animal Husbandry,A,2
+A031,牲畜饲养,,中国上市公司协会上市公司行业分类标准,008001,Livestock Husbandry,A03,3
+A032,家禽饲养,,中国上市公司协会上市公司行业分类标准,008001,Poultry Husbandry,A03,3
+A033,狩猎和捕捉动物,,中国上市公司协会上市公司行业分类标准,008001,Animal Hunting and Trapping,A03,3
+A039,其他畜牧业,,中国上市公司协会上市公司行业分类标准,008001,Other Animal Husbandry,A03,3
+A04,渔业,,中国上市公司协会上市公司行业分类标准,008001,Fishery,A,2
+A041,水产养殖,,中国上市公司协会上市公司行业分类标准,008001,Aquaculture,A04,3
+A042,水产捕捞,,中国上市公司协会上市公司行业分类标准,008001,Aquatic Fishing,A04,3
+A05,农、林、牧、渔专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,"Agriculture, Forestry, Animal Husbandry, Fishery and Auxiliary Activities",A,2
+A051,农业专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Agriculture and Auxiliary Activities,A05,3
+A052,林业专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Forestry and Auxiliary Activities,A05,3
+A053,畜牧专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Animal Husbandry and Auxiliary Activities,A05,3
+A054,渔业专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Fishery and Auxiliary Activities,A05,3
+B,采矿业,,中国上市公司协会上市公司行业分类标准,008001,Mining,0,0
+B06,煤炭开采和洗选业,,中国上市公司协会上市公司行业分类标准,008001,Coal Mining and Dressing,B,2
+B061,烟煤和无烟煤开采洗选,,中国上市公司协会上市公司行业分类标准,008001,Bitumite and Anthracite Mining and Dressing,B06,3
+B062,褐煤开采洗选,,中国上市公司协会上市公司行业分类标准,008001,Lignite Mining and Dressing,B06,3
+B069,其他煤炭采选,,中国上市公司协会上市公司行业分类标准,008001,Other Coal Mining and Dressing,B06,3
+B07,石油和天然气开采业,,中国上市公司协会上市公司行业分类标准,008001,Petroleum and Natural Gas Extraction,B,2
+B071,石油开采,,中国上市公司协会上市公司行业分类标准,008001,Petroleum Extraction,B07,3
+B072,天然气开采,,中国上市公司协会上市公司行业分类标准,008001,Natural Gas Extraction,B07,3
+B08,黑色金属矿采选业,,中国上市公司协会上市公司行业分类标准,008001,Ferrous Metals Mining and Dressing,B,2
+B081,铁矿采选,,中国上市公司协会上市公司行业分类标准,008001,Iron Ores Mining and Dressing,B08,3
+B082,锰矿、铬矿采选,,中国上市公司协会上市公司行业分类标准,008001,Manganese and Chromium Ores Mining and Dressing,B08,3
+B089,其他黑色金属矿采选,,中国上市公司协会上市公司行业分类标准,008001,Other Ferrous Metals Mining and Dressing,B08,3
+B09,有色金属矿采选业,,中国上市公司协会上市公司行业分类标准,008001,Nonferrous Metals Mining and Dressing,B,2
+B091,常用有色金属矿采选,,中国上市公司协会上市公司行业分类标准,008001,Common Nonferrous Metals Mining and Dressing,B09,3
+B092,贵金属矿采选,,中国上市公司协会上市公司行业分类标准,008001,Precious Metal Mining and Dressing,B09,3
+B093,稀有稀土金属矿采选,,中国上市公司协会上市公司行业分类标准,008001,Rare Earth Metal Mining and Dressing,B09,3
+B10,非金属矿采选业,,中国上市公司协会上市公司行业分类标准,008001,Nonmetal Minerals Mining and Dressing,B,2
+B101,土砂石开采,,中国上市公司协会上市公司行业分类标准,008001,"Soil, Sand and Stone Mining",B10,3
+B102,化学矿开采,,中国上市公司协会上市公司行业分类标准,008001,Chemical Ores Mining,B10,3
+B103,采盐,,中国上市公司协会上市公司行业分类标准,008001,Salt Mining,B10,3
+B109,石棉及其他非金属矿采选,,中国上市公司协会上市公司行业分类标准,008001,Asbestos and Other Nonmetal Minerals Mining and Dressing,B10,3
+B11,开采专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Mining and Auxiliary Activities,B,2
+B111,煤炭开采和洗选专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Coal Mining and Dressing and Auxiliary Activities,B11,3
+B112,石油和天然气开采专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Petroleum and Natural Gas Extraction and Auxiliary Activities,B11,3
+B119,其他开采专业及辅助性活动,,中国上市公司协会上市公司行业分类标准,008001,Other Mining and Auxiliary Activities,B11,3
+B12,其他采矿业,,中国上市公司协会上市公司行业分类标准,008001,Other Minerals Mining,B,2
+B120,其他采矿业,,中国上市公司协会上市公司行业分类标准,008001,Other Minerals Mining,B12,3
+C,制造业,,中国上市公司协会上市公司行业分类标准,008001,Manufacturing,0,0
+C13,农副食品加工业,,中国上市公司协会上市公司行业分类标准,008001,Agricultural and Sideline Products Processing,CA,2
+C131,谷物磨制,,中国上市公司协会上市公司行业分类标准,008001,Grain Milling,C13,3
+C132,饲料加工,,中国上市公司协会上市公司行业分类标准,008001,Feed Processing,C13,3
+C133,植物油加工,,中国上市公司协会上市公司行业分类标准,008001,Vegetable Oil Processing,C13,3
+C134,制糖业,,中国上市公司协会上市公司行业分类标准,008001,Sugar Refining,C13,3
+C135,屠宰及肉类加工,,中国上市公司协会上市公司行业分类标准,008001,Slaughtering and Meat Processing,C13,3
+C136,水产品加工,,中国上市公司协会上市公司行业分类标准,008001,Aquatic Product Processing,C13,3
+C137,蔬菜、菌类、水果和坚果加工,,中国上市公司协会上市公司行业分类标准,008001,"Vegetable, Fungus, Fruit and Nut Processing",C13,3
+C139,其他农副食品加工,,中国上市公司协会上市公司行业分类标准,008001,Other Agricultural and Sideline Food Processing,C13,3
+C14,食品制造业,,中国上市公司协会上市公司行业分类标准,008001,Food Manufacturing,CA,2
+C141,焙烤食品制造,,中国上市公司协会上市公司行业分类标准,008001,Baking Food Manufacturing,C14,3
+C142,糖果、巧克力及蜜饯制造,,中国上市公司协会上市公司行业分类标准,008001,"Candy, Chocolate, and Preserves Manufacturing",C14,3
+C143,方便食品制造,,中国上市公司协会上市公司行业分类标准,008001,Convenience Food Manufacturing,C14,3
+C144,乳制品制造,,中国上市公司协会上市公司行业分类标准,008001,Dairy Products Manufacturing,C14,3
+C145,罐头食品制造,,中国上市公司协会上市公司行业分类标准,008001,Canned Food Manufacturing,C14,3
+C146,调味品、发酵制品制造,,中国上市公司协会上市公司行业分类标准,008001,Condiments and Fermented Products Manufacturing,C14,3
+C149,其他食品制造,,中国上市公司协会上市公司行业分类标准,008001,Other Food Manufacturing,C14,3
+C15,酒、饮料和精制茶制造业,,中国上市公司协会上市公司行业分类标准,008001,"Wine, Beverage and Refined Tea Manufacturing",CA,2
+C151,酒的制造,,中国上市公司协会上市公司行业分类标准,008001,Wine Production,C15,3
+C152,饮料制造,,中国上市公司协会上市公司行业分类标准,008001,Beverage Manufacturing,C15,3
+C153,精制茶加工,,中国上市公司协会上市公司行业分类标准,008001,Refined Tea Processing,C15,3
+C16,烟草制品业,,中国上市公司协会上市公司行业分类标准,008001,Tobacco Processing,CA,2
+C161,烟叶复烤,,中国上市公司协会上市公司行业分类标准,008001,Tobacco Redrying,C16,3
+C162,卷烟制造,,中国上市公司协会上市公司行业分类标准,008001,Cigarette Manufacturing,C16,3
+C169,其他烟草制品制造,,中国上市公司协会上市公司行业分类标准,008001,Other Tobacco Processing,C16,3
+C17,纺织业,,中国上市公司协会上市公司行业分类标准,008001,Textile,CB,2
+C171,棉纺织及印染精加工,,中国上市公司协会上市公司行业分类标准,008001,"Cotton Textile, Dyeing and Finishing",C17,3
+C172,毛纺织及染整精加工,,中国上市公司协会上市公司行业分类标准,008001,"Wool Textile, Dyeing and Finishing",C17,3
+C173,麻纺织及染整精加工,,中国上市公司协会上市公司行业分类标准,008001,"Linen Textile, Dyeing and Finishing",C17,3
+C174,丝绢纺织及印染精加工,,中国上市公司协会上市公司行业分类标准,008001,"Silk Spinning, Dyeing and Finishing",C17,3
+C175,化纤织造及印染精加工,,中国上市公司协会上市公司行业分类标准,008001,"Chemical Fiber Weaving, Dyeing and Finishing",C17,3
+C176,针织或钩针编织物及其制品制造,,中国上市公司协会上市公司行业分类标准,008001,Knitted or Crocheted Fabrics and Articles Manufacturing,C17,3
+C177,家用纺织制成品制造,,中国上市公司协会上市公司行业分类标准,008001,Household Textile Products Manufacturing,C17,3
+C178,产业用纺织制成品制造,,中国上市公司协会上市公司行业分类标准,008001,Industrial Textile Products Manufacturing,C17,3
+C18,纺织服装、服饰业,,中国上市公司协会上市公司行业分类标准,008001,Textile Garments and Clothing,CB,2
+C181,机织服装制造,,中国上市公司协会上市公司行业分类标准,008001,Woven Garment Manufacturing,C18,3
+C182,针织或钩针编织服装制造,,中国上市公司协会上市公司行业分类标准,008001,Knitted or Crocheted Garment Manufacturing,C18,3
+C183,服饰制造,,中国上市公司协会上市公司行业分类标准,008001,Clothing Manufacturing,C18,3
+C19,皮革、毛皮、羽毛及其制品和制鞋业,,中国上市公司协会上市公司行业分类标准,008001,"Leather, Furs, Feather and Relate Products as well as Shoes Manufacturing",CB,2
+C191,皮革鞣制加工,,中国上市公司协会上市公司行业分类标准,008001,Leather Tanning Processing,C19,3
+C192,皮革制品制造,,中国上市公司协会上市公司行业分类标准,008001,Leather Products Manufacturing,C19,3
+C193,毛皮鞣制及制品加工,,中国上市公司协会上市公司行业分类标准,008001,Fur Tanning and Products Processing,C19,3
+C194,羽毛(绒)加工及制品制造,,中国上市公司协会上市公司行业分类标准,008001,Feather (Down) Processing and Products Manufacturing,C19,3
+C195,制鞋业,,中国上市公司协会上市公司行业分类标准,008001,Shoemaking Industry,C19,3
+C20,木材加工和木、竹、藤、棕、草制品业,,中国上市公司协会上市公司行业分类标准,008001,"Timber Processing, Timber, Bamboo, Cane, Palm Fiber and Straw Products Manufacturing",CC,2
+C201,木材加工,,中国上市公司协会上市公司行业分类标准,008001,Timber Processing,C20,3
+C202,人造板制造,,中国上市公司协会上市公司行业分类标准,008001,Wood-Based Panel Manufacturing,C20,3
+C203,木质制品制造,,中国上市公司协会上市公司行业分类标准,008001,Wooden Products Manufacturing,C20,3
+C204,竹、藤、棕、草等制品制造,,中国上市公司协会上市公司行业分类标准,008001,"Bamboo, Cane, Palm Fiber, Straw and Other Products Manufacturing",C20,3
+C21,家具制造业,,中国上市公司协会上市公司行业分类标准,008001,Furniture Manufacturing,CC,2
+C211,木质家具制造,,中国上市公司协会上市公司行业分类标准,008001,Wood Furniture Manufacturing,C21,3
+C212,竹、藤家具制造,,中国上市公司协会上市公司行业分类标准,008001,Bamboo and Cane Furniture Manufacturing,C21,3
+C213,金属家具制造,,中国上市公司协会上市公司行业分类标准,008001,Metal Furniture Making,C21,3
+C214,塑料家具制造,,中国上市公司协会上市公司行业分类标准,008001,Plastic Furniture Manufacturing,C21,3
+C219,其他家具制造,,中国上市公司协会上市公司行业分类标准,008001,Other Furniture Manufacturing,C21,3
+C22,造纸和纸制品业,,中国上市公司协会上市公司行业分类标准,008001,Papermaking and Paper Products,CD,2
+C221,纸浆制造,,中国上市公司协会上市公司行业分类标准,008001,Pulp Manufacturing,C22,3
+C222,造纸,,中国上市公司协会上市公司行业分类标准,008001,Papermaking,C22,3
+C223,纸制品制造,,中国上市公司协会上市公司行业分类标准,008001,Paper Products Manufacturing,C22,3
+C23,印刷和记录媒介复制业,,中国上市公司协会上市公司行业分类标准,008001,Printing and Record Medium Reproduction,CD,2
+C231,印刷,,中国上市公司协会上市公司行业分类标准,008001,Printing,C23,3
+C232,装订及印刷相关服务,,中国上市公司协会上市公司行业分类标准,008001,Binding and Printing Related Services,C23,3
+C233,记录媒介复制,,中国上市公司协会上市公司行业分类标准,008001,Record Medium Reproduction,C23,3
+C24,文教、工美、体育和娱乐用品制造业,,中国上市公司协会上市公司行业分类标准,008001,"Cultural, Educational, Arts, Sports and Entertainment Products Manufacturing",CD,2
+C241,文教办公用品制造,,中国上市公司协会上市公司行业分类标准,008001,Cultural and Educational Office Supplies Manufacturing,C24,3
+C242,乐器制造,,中国上市公司协会上市公司行业分类标准,008001,Musical Instrument Making,C24,3
+C243,工艺美术及礼仪用品制造,,中国上市公司协会上市公司行业分类标准,008001,Arts and Crafts and Ceremonial Goods Manufacturing,C24,3
+C244,体育用品制造,,中国上市公司协会上市公司行业分类标准,008001,Sporting Goods Manufacturing,C24,3
+C245,玩具制造,,中国上市公司协会上市公司行业分类标准,008001,Toy Manufacturing,C24,3
+C246,游艺器材及娱乐用品制造,,中国上市公司协会上市公司行业分类标准,008001,Amusement Equipment and Entertainment Products Manufacturing,C24,3
+C25,石油、煤炭及其他燃料加工业,,中国上市公司协会上市公司行业分类标准,008001,"Petroleum, Coal, and Other Fuel Processing",CE,2
+C251,精炼石油产品制造,,中国上市公司协会上市公司行业分类标准,008001,Refined Petroleum Products Manufacturing,C25,3
+C252,煤炭加工,,中国上市公司协会上市公司行业分类标准,008001,Coal Processing,C25,3
+C253,核燃料加工,,中国上市公司协会上市公司行业分类标准,008001,Nuclear Fuel Processing,C25,3
+C254,生物质燃料加工,,中国上市公司协会上市公司行业分类标准,008001,Biomass Fuel Processing,C25,3
+C26,化学原料和化学制品制造业,,中国上市公司协会上市公司行业分类标准,008001,Raw Chemical Materials and Chemical Products Manufacturing,CE,2
+C261,基础化学原料制造,,中国上市公司协会上市公司行业分类标准,008001,Basic Chemical Raw Materials Manufacturing,C26,3
+C262,肥料制造,,中国上市公司协会上市公司行业分类标准,008001,Fertilizers Manufacturing,C26,3
+C263,农药制造,,中国上市公司协会上市公司行业分类标准,008001,Pesticides Manufacturing,C26,3
+C264,涂料、油墨、颜料及类似产品制造,,中国上市公司协会上市公司行业分类标准,008001,"Paints, Inks, Pigments and Similar Products Manufacturing",C26,3
+C265,合成材料制造,,中国上市公司协会上市公司行业分类标准,008001,Synthetic Materials Manufacturing,C26,3
+C266,专用化学产品制造,,中国上市公司协会上市公司行业分类标准,008001,Special Chemical Products Manufacturing,C26,3
+C267,炸药、火工及焰火产品制造,,中国上市公司协会上市公司行业分类标准,008001,"Explosives, Pyrotechnics and Fireworks Products Manufacturing",C26,3
+C268,日用化学产品制造,,中国上市公司协会上市公司行业分类标准,008001,Daily-use Chemical Products Manufacturing,C26,3
+C27,医药制造业,,中国上市公司协会上市公司行业分类标准,008001,Pharmaceutical Manufacturing,CE,2
+C271,化学药品原料药制造,,中国上市公司协会上市公司行业分类标准,008001,Chemical Raw Medicine Manufacturing,C27,3
+C272,化学药品制剂制造,,中国上市公司协会上市公司行业分类标准,008001,Chemical Drug Preparation Manufacturing,C27,3
+C273,中药饮片加工,,中国上市公司协会上市公司行业分类标准,008001,TCM Decoction Pieces Processing,C27,3
+C274,中成药生产,,中国上市公司协会上市公司行业分类标准,008001,Chinese Patent Medicine Production,C27,3
+C275,兽用药品制造,,中国上市公司协会上市公司行业分类标准,008001,Veterinary Drug Manufacturing,C27,3
+C276,生物药品制品制造,,中国上市公司协会上市公司行业分类标准,008001,Biological Drugs and Products Manufacturing,C27,3
+C277,卫生材料及医药用品制造,,中国上市公司协会上市公司行业分类标准,008001,Sanitary Materials and Medical Supplies Manufacturing,C27,3
+C278,药用辅料及包装材料,,中国上市公司协会上市公司行业分类标准,008001,Pharmaceutical Excipients and Packaging Materials,C27,3
+C28,化学纤维制造业,,中国上市公司协会上市公司行业分类标准,008001,Chemical Fiber Manufacturing,CE,2
+C281,纤维素纤维原料及纤维制造,,中国上市公司协会上市公司行业分类标准,008001,Cellulose Fiber Raw Materials and Fiber Manufacturing,C28,3
+C282,合成纤维制造,,中国上市公司协会上市公司行业分类标准,008001,Synthetic Fiber Manufacturing,C28,3
+C283,生物基材料制造,,中国上市公司协会上市公司行业分类标准,008001,Bio-based Materials Manufacturing,C28,3
+C29,橡胶和塑料制品业,,中国上市公司协会上市公司行业分类标准,008001,Rubber and Plastic Products Manufacturing,CE,2
+C291,橡胶制品业,,中国上市公司协会上市公司行业分类标准,008001,Rubber Products Manufacturing,C29,3
+C292,塑料制品业,,中国上市公司协会上市公司行业分类标准,008001,Plastic Products Manufacturing,C29,3
+C30,非金属矿物制品业,,中国上市公司协会上市公司行业分类标准,008001,Nonmetal Minerals Products Manufacturing,CF,2
+C301,水泥、石灰和石膏制造,,中国上市公司协会上市公司行业分类标准,008001,"Cement, Lime and Plaster Manufacturing",C30,3
+C302,石膏、水泥制品及类似制品制造,,中国上市公司协会上市公司行业分类标准,008001,"Plaster, Cement Products and Similar Products Manufacturing",C30,3
+C303,砖瓦、石材等建筑材料制造,,中国上市公司协会上市公司行业分类标准,008001,"Brick, Stone and Other Building Materials Manufacturing",C30,3
+C304,玻璃制造,,中国上市公司协会上市公司行业分类标准,008001,Glassmaking,C30,3
+C305,玻璃制品制造,,中国上市公司协会上市公司行业分类标准,008001,Glassware Manufacturing,C30,3
+C306,玻璃纤维和玻璃纤维增强塑料制品制造,,中国上市公司协会上市公司行业分类标准,008001,Glass Fiber and Glass Fiber Reinforced Plastic Products Manufacturing,C30,3
+C307,陶瓷制品制造,,中国上市公司协会上市公司行业分类标准,008001,Ceramic Products Manufacturing,C30,3
+C308,耐火材料制品制造,,中国上市公司协会上市公司行业分类标准,008001,Refractory Materials Products Manufacturing,C30,3
+C309,石墨及其他非金属矿物制品制造,,中国上市公司协会上市公司行业分类标准,008001,Graphite and Other Nonmetal Mineral Products Manufacturing,C30,3
+C31,黑色金属冶炼和压延加工业,,中国上市公司协会上市公司行业分类标准,008001,Ferrous Metal Smelting and Pressing,CF,2
+C311,炼铁,,中国上市公司协会上市公司行业分类标准,008001,Ironmaking,C31,3
+C312,炼钢,,中国上市公司协会上市公司行业分类标准,008001,Steelmaking,C31,3
+C313,钢压延加工,,中国上市公司协会上市公司行业分类标准,008001,Steel Rolling Processing,C31,3
+C314,铁合金冶炼,,中国上市公司协会上市公司行业分类标准,008001,Ferroalloy Smelting,C31,3
+C32,有色金属冶炼和压延加工业,,中国上市公司协会上市公司行业分类标准,008001,Nonferrous Metal Smelting and Pressing,CF,2
+C321,常用有色金属冶炼,,中国上市公司协会上市公司行业分类标准,008001,Common Nonferrous Metal Smelting,C32,3
+C322,贵金属冶炼,,中国上市公司协会上市公司行业分类标准,008001,Precious Metal Smelting,C32,3
+C323,稀有稀土金属冶炼,,中国上市公司协会上市公司行业分类标准,008001,Rare Earth Metal Smelting,C32,3
+C324,有色金属合金制造,,中国上市公司协会上市公司行业分类标准,008001,Nonferrous Metal Alloys Manufacturing,C32,3
+C325,有色金属压延加工,,中国上市公司协会上市公司行业分类标准,008001,Nonferrous Metal Pressing,C32,3
+C33,金属制品业,,中国上市公司协会上市公司行业分类标准,008001,Metal Products,CF,2
+C331,结构性金属制品制造,,中国上市公司协会上市公司行业分类标准,008001,Structural Metal Products Manufacturing,C33,3
+C332,金属工具制造,,中国上市公司协会上市公司行业分类标准,008001,Metal Tools Manufacturing,C33,3
+C333,集装箱及金属包装容器制造,,中国上市公司协会上市公司行业分类标准,008001,Container and Metal Packaging Container Manufacturing,C33,3
+C334,金属丝绳及其制品制造,,中国上市公司协会上市公司行业分类标准,008001,Wire Rope and Related Products Manufacturing,C33,3
+C335,建筑、安全用金属制品制造,,中国上市公司协会上市公司行业分类标准,008001,Construction and Safety-purposes Metal Products Manufacturing,C33,3
+C336,金属表面处理及热处理加工,,中国上市公司协会上市公司行业分类标准,008001,Metal Surface Treatment and Heat Treatment Processing,C33,3
+C337,搪瓷制品制造,,中国上市公司协会上市公司行业分类标准,008001,Enamel Products Manufacturing,C33,3
+C338,金属制日用品制造,,中国上市公司协会上市公司行业分类标准,008001,Metal Daily Necessities Manufacturing,C33,3
+C339,铸造及其他金属制品制造,,中国上市公司协会上市公司行业分类标准,008001,Casting and Other Metal Products Manufacturing,C33,3
+C34,通用设备制造业,,中国上市公司协会上市公司行业分类标准,008001,General Machinery Manufacturing,CG,2
+C341,锅炉及原动设备制造,,中国上市公司协会上市公司行业分类标准,008001,Boiler and Prime Mover Equipment Manufacturing,C34,3
+C342,金属加工机械制造,,中国上市公司协会上市公司行业分类标准,008001,Metal Processing Machinery Manufacturing,C34,3
+C343,物料搬运设备制造,,中国上市公司协会上市公司行业分类标准,008001,Material Handling Equipment Manufacturing,C34,3
+C344,泵、阀门、压缩机及类似机械制造,,中国上市公司协会上市公司行业分类标准,008001,"Pumps, Valves, Compressors and Similar Machinery Manufacturing",C34,3
+C345,轴承、齿轮和传动部件制造,,中国上市公司协会上市公司行业分类标准,008001,"Bearings, Gears and Transmission Components Manufacturing",C34,3
+C346,烘炉、风机、包装等设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Ovens, Fans, Packaging and Other Equipment Manufacturing",C34,3
+C347,文化、办公用机械制造,,中国上市公司协会上市公司行业分类标准,008001,Cultural and Office Machinery Manufacturing,C34,3
+C348,通用零部件制造,,中国上市公司协会上市公司行业分类标准,008001,General Components Manufacturing,C34,3
+C349,其他通用设备制造业,,中国上市公司协会上市公司行业分类标准,008001,Other General Machinery Manufacturing,C34,3
+C35,专用设备制造业,,中国上市公司协会上市公司行业分类标准,008001,Special Machinery Manufacturing,CG,2
+C351,采矿、冶金、建筑专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Mining, Metallurgy, Construction Equipment Manufacturing",C35,3
+C352,化工、木材、非金属加工专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Chemical, Wood, Nonmetal Processing Equipment Manufacturing",C35,3
+C353,食品、饮料、烟草及饲料生产专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Food, Beverage, Tobacco and Feed Production Equipment Manufacturing",C35,3
+C354,印刷、制药、日化及日用品生产专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Printing, Pharmaceutical, Daily Chemical and Daily Necessities Production Equipment Manufacturing",C35,3
+C355,纺织、服装和皮革加工专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Textile, Garment and Leather Processing Equipment Manufacturing",C35,3
+C356,电子和电工机械专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,Electronic and Electrical Machinery Equipment Manufacturing,C35,3
+C357,农、林、牧、渔专用机械制造,,中国上市公司协会上市公司行业分类标准,008001,"Agriculture, Forestry, Animal Husbandry, Fishing Machinery Manufacturing",C35,3
+C358,医疗仪器设备及器械制造,,中国上市公司协会上市公司行业分类标准,008001,Medical Instruments and Equipment Manufacturing,C35,3
+C359,环保、邮政、社会公共服务及其他专用设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Environmental Protection, Postal, Social Public Services and Other Special Equipment Manufacturing",C35,3
+C36,汽车制造业,,中国上市公司协会上市公司行业分类标准,008001,Automobile Manufacturing,CG,2
+C361,汽车整车制造,,中国上市公司协会上市公司行业分类标准,008001,Complete Automobile Manufacturing,C36,3
+C362,汽车用发动机制造,,中国上市公司协会上市公司行业分类标准,008001,Automobile Engine Manufacturing,C36,3
+C363,改装汽车制造,,中国上市公司协会上市公司行业分类标准,008001,Modified Automobile Manufacturing,C36,3
+C364,低速汽车制造,,中国上市公司协会上市公司行业分类标准,008001,Low-Speed Automobile Manufacturing,C36,3
+C365,电车制造,,中国上市公司协会上市公司行业分类标准,008001,Trolley Manufacturing,C36,3
+C366,汽车车身、挂车制造,,中国上市公司协会上市公司行业分类标准,008001,Automobile Body and Trailer Manufacturing,C36,3
+C367,汽车零部件及配件制造,,中国上市公司协会上市公司行业分类标准,008001,Automotive Parts and Accessories Manufacturing,C36,3
+C37,铁路、船舶、航空航天和其他运输设备制造业,,中国上市公司协会上市公司行业分类标准,008001,"Railway, Shipping, Aerospace and Other Transport Equipment Manufacturing",CG,2
+C371,铁路运输设备制造,,中国上市公司协会上市公司行业分类标准,008001,Railway Transport Equipment Manufacturing,C37,3
+C372,城市轨道交通设备制造,,中国上市公司协会上市公司行业分类标准,008001,Urban Rail Transit Equipment Manufacturing,C37,3
+C373,船舶及相关装置制造,,中国上市公司协会上市公司行业分类标准,008001,Ships and Related Equipment Manufacturing,C37,3
+C374,航空、航天器及设备制造,,中国上市公司协会上市公司行业分类标准,008001,"Aerospace, Spacecraft and Equipment Manufacturing",C37,3
+C375,摩托车制造,,中国上市公司协会上市公司行业分类标准,008001,Motorcycle Manufacturing,C37,3
+C376,自行车和残疾人座车制造,,中国上市公司协会上市公司行业分类标准,008001,Bicycle and Disabled Carriage Manufacturing,C37,3
+C377,助动车制造,,中国上市公司协会上市公司行业分类标准,008001,Moped Manufacturing,C37,3
+C378,非公路休闲车及零配件制造,,中国上市公司协会上市公司行业分类标准,008001,Off-highway Recreational Vehicles and Spare Parts Manufacturing,C37,3
+C379,潜水救捞及其他未列明运输设备制造,,中国上市公司协会上市公司行业分类标准,008001,Diving Salvage and Other Unspecified Transport Equipment Manufacturing,C37,3
+C38,电气机械和器材制造业,,中国上市公司协会上市公司行业分类标准,008001,Electrical Machinery and Equipment Manufacturing,CH,2
+C381,电机制造,,中国上市公司协会上市公司行业分类标准,008001,Motor Manufacturing,C38,3
+C382,输配电及控制设备制造,,中国上市公司协会上市公司行业分类标准,008001,Power Transmission and Distribution and Control Equipment Manufacturing,C38,3
+C383,电线、电缆、光缆及电工器材制造,,中国上市公司协会上市公司行业分类标准,008001,"Wire, Cable, Optical Cable and Electrical Equipment Manufacturing",C38,3
+C384,电池制造,,中国上市公司协会上市公司行业分类标准,008001,Battery Manufacturing,C38,3
+C385,家用电力器具制造,,中国上市公司协会上市公司行业分类标准,008001,Household Electric Appliance Manufacturing,C38,3
+C386,非电力家用器具制造,,中国上市公司协会上市公司行业分类标准,008001,Non-Electric Household Appliance Manufacturing,C38,3
+C387,照明器具制造,,中国上市公司协会上市公司行业分类标准,008001,Lighting Appliance Manufacturing,C38,3
+C389,其他电气机械及器材制造,,中国上市公司协会上市公司行业分类标准,008001,Other Electrical Machinery and Equipment Manufacturing,C38,3
+C39,计算机、通信和其他电子设备制造业,,中国上市公司协会上市公司行业分类标准,008001,"Computers, Communication Equipment, and Other Electronic Equipment Manufacturing",CH,2
+C391,计算机制造,,中国上市公司协会上市公司行业分类标准,008001,Computer Manufacturing,C39,3
+C392,通信设备制造,,中国上市公司协会上市公司行业分类标准,008001,Communication Equipment Manufacturing,C39,3
+C393,广播电视设备制造,,中国上市公司协会上市公司行业分类标准,008001,Radio and Television Equipment Manufacturing,C39,3
+C394,雷达及配套设备制造,,中国上市公司协会上市公司行业分类标准,008001,Radar and Supporting Equipment Manufacturing,C39,3
+C395,非专业视听设备制造,,中国上市公司协会上市公司行业分类标准,008001,Non-professional Audio-visual Equipment Manufacturing,C39,3
+C396,智能消费设备制造,,中国上市公司协会上市公司行业分类标准,008001,Intelligent Consumer Equipment Manufacturing,C39,3
+C397,电子器件制造,,中国上市公司协会上市公司行业分类标准,008001,Electronic Device Manufacturing,C39,3
+C398,电子元件及电子专用材料制造,,中国上市公司协会上市公司行业分类标准,008001,Electronic Components and Electronic Materials Manufacturing,C39,3
+C399,其他电子设备制造,,中国上市公司协会上市公司行业分类标准,008001,Other Electronic Equipment Manufacturing,C39,3
+C40,仪器仪表制造业,,中国上市公司协会上市公司行业分类标准,008001,Instrument and Apparatus Manufacturing,CI,2
+C401,通用仪器仪表制造,,中国上市公司协会上市公司行业分类标准,008001,General Instrument and Apparatus Manufacturing,C40,3
+C402,专用仪器仪表制造,,中国上市公司协会上市公司行业分类标准,008001,Special Instrument and Apparatus Manufacturing,C40,3
+C403,钟表与计时仪器制造,,中国上市公司协会上市公司行业分类标准,008001,Clock and Chronometer Instrument Manufacturing,C40,3
+C404,光学仪器制造,,中国上市公司协会上市公司行业分类标准,008001,Optical Instrument Manufacturing,C40,3
+C405,衡器制造,,中国上市公司协会上市公司行业分类标准,008001,Weighing Apparatus Manufacturing,C40,3
+C409,其他仪器仪表制造业,,中国上市公司协会上市公司行业分类标准,008001,Other Instrument and Apparatus Manufacturing,C40,3
+C41,其他制造业,,中国上市公司协会上市公司行业分类标准,008001,Other Manufacturing,CJ,2
+C411,日用杂品制造,,中国上市公司协会上市公司行业分类标准,008001,Daily Necessities Manufacturing,C41,3
+C412,核辐射加工,,中国上市公司协会上市公司行业分类标准,008001,Nuclear Radiation Processing,C41,3
+C419,其他未列明制造业,,中国上市公司协会上市公司行业分类标准,008001,Other Unspecified Manufacturing,C41,3
+C42,废弃资源综合利用业,,中国上市公司协会上市公司行业分类标准,008001,Waste Resources Comprehensive Utilization,CJ,2
+C421,金属废料和碎屑加工处理,,中国上市公司协会上市公司行业分类标准,008001,Metal Scrap and Debris Processing,C42,3
+C422,非金属废料和碎屑加工处理,,中国上市公司协会上市公司行业分类标准,008001,Nonmetal Waste and Debris Processing,C42,3
+C43,金属制品、机械和设备修理业,,中国上市公司协会上市公司行业分类标准,008001,"Metal Products, Machinery and Equipment Repair",CJ,2
+C431,金属制品修理,,中国上市公司协会上市公司行业分类标准,008001,Metal Products Repair,C43,3
+C432,通用设备修理,,中国上市公司协会上市公司行业分类标准,008001,General Equipment Repair,C43,3
+C433,专用设备修理,,中国上市公司协会上市公司行业分类标准,008001,Special Equipment Repair,C43,3
+C434,铁路、船舶、航空航天等运输设备修理,,中国上市公司协会上市公司行业分类标准,008001,"Railway, Ship, Aerospace and Other Transportation Equipment Repair",C43,3
+C435,电气设备修理,,中国上市公司协会上市公司行业分类标准,008001,Electrical Equipment Repair,C43,3
+C436,仪器仪表修理,,中国上市公司协会上市公司行业分类标准,008001,Instrument and Apparatus Repair,C43,3
+C439,其他机械和设备修理业,,中国上市公司协会上市公司行业分类标准,008001,Other Machinery and Equipment Repair,C43,3
+CA,食品、饮料、烟草,,中国上市公司协会上市公司行业分类标准,008001,"Food, Beverage and Tobacco",C,1
+CB,纺织、服装、鞋帽,,中国上市公司协会上市公司行业分类标准,008001,"Textile, Clothing, Footwear and Caps",C,1
+CC,木材、家具,,中国上市公司协会上市公司行业分类标准,008001,Timber and Furniture,C,1
+CD,造纸、印刷、文教,,中国上市公司协会上市公司行业分类标准,008001,"Papermaking, Printing, Culture and Education",C,1
+CE,石油、化学、生物医药,,中国上市公司协会上市公司行业分类标准,008001,"Petroleum, Chemicals and Biomedicine",C,1
+CF,金属、非金属,,中国上市公司协会上市公司行业分类标准,008001,Metal and Nonmetal,C,1
+CG,专用、通用及交通运输设备,,中国上市公司协会上市公司行业分类标准,008001,"Special, General and Transportation Equipment",C,1
+CH,电气、电子及通讯,,中国上市公司协会上市公司行业分类标准,008001,"Electrical, Electronic and Communication Equipment",C,1
+CI,仪器、仪表,,中国上市公司协会上市公司行业分类标准,008001,Instrument and Apparatus,C,1
+CJ,其他制造业,,中国上市公司协会上市公司行业分类标准,008001,Other Manufacturing,C,1
+D,电力、热力、燃气及水生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,"Electric Power, Heat, Gas and Water Production and Supply",0,0
+D44,电力、热力生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,Electric Power and Heat Production and Supply,D,2
+D441,电力生产,,中国上市公司协会上市公司行业分类标准,008001,Electric Power Generation,D44,3
+D442,电力供应,,中国上市公司协会上市公司行业分类标准,008001,Electric Power Supply,D44,3
+D443,热力生产和供应,,中国上市公司协会上市公司行业分类标准,008001,Heat Production and Supply,D44,3
+D45,燃气生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,Gas Production and Supply,D,2
+D451,燃气生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,Gas Production and Supply,D45,3
+D452,生物质燃气生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,Biomass Gas Production and Supply,D45,3
+D46,水的生产和供应业,,中国上市公司协会上市公司行业分类标准,008001,Water Production and Supply,D,2
+D461,自来水生产和供应,,中国上市公司协会上市公司行业分类标准,008001,Tap Water Production and Supply,D46,3
+D462,污水处理及其再生利用,,中国上市公司协会上市公司行业分类标准,008001,Sewage Treatment and Recycling,D46,3
+D463,海水淡化处理,,中国上市公司协会上市公司行业分类标准,008001,Seawater Desalination,D46,3
+D469,其他水的处理、利用与分配,,中国上市公司协会上市公司行业分类标准,008001,"Other Water Treatment, Utilization and Distribution",D46,3
+E,建筑业,,中国上市公司协会上市公司行业分类标准,008001,Construction,0,0
+E47,房屋建筑业,,中国上市公司协会上市公司行业分类标准,008001,Housing Industry,E,2
+E471,住宅房屋建筑,,中国上市公司协会上市公司行业分类标准,008001,Residential Building Construction,E47,3
+E472,体育场馆建筑,,中国上市公司协会上市公司行业分类标准,008001,Stadium Building Construction,E47,3
+E479,其他房屋建筑业,,中国上市公司协会上市公司行业分类标准,008001,Other Housing Construction,E47,3
+E48,土木工程建筑业,,中国上市公司协会上市公司行业分类标准,008001,Civil Engineering Construction,E,2
+E481,铁路、道路、隧道和桥梁工程建筑,,中国上市公司协会上市公司行业分类标准,008001,"Railway, Highway, Tunnel and Bridge Construction",E48,3
+E482,水利和水运工程建筑,,中国上市公司协会上市公司行业分类标准,008001,Water Conservancy and Water Carriage Engineering Construction,E48,3
+E483,海洋工程建筑,,中国上市公司协会上市公司行业分类标准,008001,Marine Engineering Construction,E48,3
+E484,工矿工程建筑,,中国上市公司协会上市公司行业分类标准,008001,Industrial and Mining Engineering Construction,E48,3
+E485,架线和管道工程建筑,,中国上市公司协会上市公司行业分类标准,008001,Wiring and Pipeline Engineering Construction,E48,3
+E486,节能环保工程施工,,中国上市公司协会上市公司行业分类标准,008001,Energy Saving and Environmental Protection Engineering Construction,E48,3
+E487,电力工程施工,,中国上市公司协会上市公司行业分类标准,008001,Power Engineering Construction,E48,3
+E489,其他土木工程建筑,,中国上市公司协会上市公司行业分类标准,008001,Other Civil Engineering Construction,E48,3
+E49,建筑安装业,,中国上市公司协会上市公司行业分类标准,008001,Building Installation,E,2
+E491,电气安装,,中国上市公司协会上市公司行业分类标准,008001,Electrical Installation,E49,3
+E492,管道和设备安装,,中国上市公司协会上市公司行业分类标准,008001,Plumbing and Equipment Installation,E49,3
+E499,其他建筑安装业,,中国上市公司协会上市公司行业分类标准,008001,Other Building Installation,E49,3
+E50,建筑装饰、装修和其他建筑业,,中国上市公司协会上市公司行业分类标准,008001,Building Fiting and Decoration and Other Construction,E,2
+E501,建筑装饰和装修业,,中国上市公司协会上市公司行业分类标准,008001,Building Fiting and Decoration,E50,3
+E502,建筑物拆除和场地准备活动,,中国上市公司协会上市公司行业分类标准,008001,Building Demolition and Site Preparation Activities,E50,3
+E503,提供施工设备服务,,中国上市公司协会上市公司行业分类标准,008001,Construction Equipment Provision Services,E50,3
+E509,其他未列明建筑业,,中国上市公司协会上市公司行业分类标准,008001,Other Unspecified Construction,E50,3
+F,批发和零售业,,中国上市公司协会上市公司行业分类标准,008001,Wholesale and Retail,0,0
+F51,批发业,,中国上市公司协会上市公司行业分类标准,008001,Wholesale,F,2
+F511,农、林、牧、渔产品批发,,中国上市公司协会上市公司行业分类标准,008001,"Agricultural, Forestry, Animal Husbandry and Fishery Products Wholesale",F51,3
+F512,食品、饮料及烟草制品批发,,中国上市公司协会上市公司行业分类标准,008001,"Food, Beverage and Tobacco Wholesale",F51,3
+F513,纺织、服装及家庭用品批发,,中国上市公司协会上市公司行业分类标准,008001,"Textile, Clothing and Household Goods Wholesale",F51,3
+F514,文化、体育用品及器材批发,,中国上市公司协会上市公司行业分类标准,008001,"Cultural, Sporting Goods and Equipment Wholesale",F51,3
+F515,医药及医疗器材批发,,中国上市公司协会上市公司行业分类标准,008001,Pharmaceutical and Medical Equipment Wholesale,F51,3
+F516,矿产品、建材及化工产品批发,,中国上市公司协会上市公司行业分类标准,008001,"Mineral Products, Building Materials and Chemical Products Wholesale",F51,3
+F517,机械设备、五金产品及电子产品批发,,中国上市公司协会上市公司行业分类标准,008001,"Mechanical Equipment, Hardware Products and Electronic Products Wholesale",F51,3
+F518,贸易经纪与代理,,中国上市公司协会上市公司行业分类标准,008001,Trade Brokers and Agents,F51,3
+F519,其他批发业,,中国上市公司协会上市公司行业分类标准,008001,Other Wholesales,F51,3
+F52,零售业,,中国上市公司协会上市公司行业分类标准,008001,Retail,F,2
+F521,综合零售,,中国上市公司协会上市公司行业分类标准,008001,Integrated Retail,F52,3
+F522,食品、饮料及烟草制品专门零售,,中国上市公司协会上市公司行业分类标准,008001,"Food, Beverage and Tobacco Retail",F52,3
+F523,纺织、服装及日用品专门零售,,中国上市公司协会上市公司行业分类标准,008001,"Textile, Clothing and Daily Necessities Retail",F52,3
+F524,文化、体育用品及器材专门零售,,中国上市公司协会上市公司行业分类标准,008001,"Cultural, Sporting Goods and Equipment Retail",F52,3
+F525,医药及医疗器材专门零售,,中国上市公司协会上市公司行业分类标准,008001,Pharmaceutical and Medical Equipment Retail,F52,3
+F526,汽车、摩托车、零配件和燃料及其他动力销售,,中国上市公司协会上市公司行业分类标准,008001,"Cars, Motorcycles, Spare Parts, Fuel and Other Power Sale",F52,3
+F527,家用电器及电子产品专门零售,,中国上市公司协会上市公司行业分类标准,008001,Household Appliances and Electronic Products Retail,F52,3
+F528,五金、家具及室内装饰材料专门零售,,中国上市公司协会上市公司行业分类标准,008001,"Hardware, Furniture and Interior Decoration Materials Retail",F52,3
+F529,货摊、无店铺及其他零售业,,中国上市公司协会上市公司行业分类标准,008001,"Stalls, Non-Shops and Other Retails",F52,3
+G,交通运输、仓储和邮政业,,中国上市公司协会上市公司行业分类标准,008001,"Transportation, Warehousing and Post",0,0
+G53,铁路运输业,,中国上市公司协会上市公司行业分类标准,008001,Railway Transportation,G,2
+G531,铁路旅客运输,,中国上市公司协会上市公司行业分类标准,008001,Railway Passenger Transportation,G53,3
+G532,铁路货物运输,,中国上市公司协会上市公司行业分类标准,008001,Railway Freight Transportation,G53,3
+G533,铁路运输辅助活动,,中国上市公司协会上市公司行业分类标准,008001,Railway Transportation Auxiliary Activities,G53,3
+G54,道路运输业,,中国上市公司协会上市公司行业分类标准,008001,Highway Transportation,G,2
+G541,城市公共交通运输,,中国上市公司协会上市公司行业分类标准,008001,Urban Public Transportation,G54,3
+G542,公路旅客运输,,中国上市公司协会上市公司行业分类标准,008001,Road Passenger Transportation,G54,3
+G543,道路货物运输,,中国上市公司协会上市公司行业分类标准,008001,Road Freight Transportation,G54,3
+G544,道路运输辅助活动,,中国上市公司协会上市公司行业分类标准,008001,Road Transportation Auxiliary Activities,G54,3
+G55,水上运输业,,中国上市公司协会上市公司行业分类标准,008001,Water Transportation,G,2
+G551,水上旅客运输,,中国上市公司协会上市公司行业分类标准,008001,Water Passenger Transportation,G55,3
+G552,水上货物运输,,中国上市公司协会上市公司行业分类标准,008001,Water Cargo Transportation,G55,3
+G553,水上运输辅助活动,,中国上市公司协会上市公司行业分类标准,008001,Water Transportation Auxiliary Activities,G55,3
+G56,航空运输业,,中国上市公司协会上市公司行业分类标准,008001,Air Transportation,G,2
+G561,航空客货运输,,中国上市公司协会上市公司行业分类标准,008001,Air Passenger and Freight Transportation,G56,3
+G562,通用航空服务,,中国上市公司协会上市公司行业分类标准,008001,General Aviation Services,G56,3
+G563,航空运输辅助活动,,中国上市公司协会上市公司行业分类标准,008001,Air Transportation Auxiliary Activities,G56,3
+G57,管道运输业,,中国上市公司协会上市公司行业分类标准,008001,Pipeline Transportation,G,2
+G571,海底管道运输,,中国上市公司协会上市公司行业分类标准,008001,Submarine Pipeline Transportation,G57,3
+G572,陆地管道运输,,中国上市公司协会上市公司行业分类标准,008001,Land Pipeline Transportation,G57,3
+G58,多式联运和运输代理业,,中国上市公司协会上市公司行业分类标准,008001,Multimodal Transportation and Transportation Agency,G,2
+G581,多式联运,,中国上市公司协会上市公司行业分类标准,008001,Multimodal Transportation,G58,3
+G582,运输代理业,,中国上市公司协会上市公司行业分类标准,008001,Transportation Agency,G58,3
+G59,装卸搬运和仓储业,,中国上市公司协会上市公司行业分类标准,008001,Handling and Warehousing,G,2
+G591,装卸搬运,,中国上市公司协会上市公司行业分类标准,008001,Handling,G59,3
+G592,通用仓储,,中国上市公司协会上市公司行业分类标准,008001,General Warehousing,G59,3
+G593,低温仓储,,中国上市公司协会上市公司行业分类标准,008001,Low Temperature Warehousing,G59,3
+G594,危险品仓储,,中国上市公司协会上市公司行业分类标准,008001,Dangerous Goods Warehousing,G59,3
+G595,谷物、棉花等农产品仓储,,中国上市公司协会上市公司行业分类标准,008001,"Grain, Cotton and Other Agricultural Products Warehousing",G59,3
+G596,中药材仓储,,中国上市公司协会上市公司行业分类标准,008001,Traditional Chinese Medicine Warehousing,G59,3
+G599,其他仓储业,,中国上市公司协会上市公司行业分类标准,008001,Other Warehousing,G59,3
+G60,邮政业,,中国上市公司协会上市公司行业分类标准,008001,Post,G,2
+G601,邮政基本服务,,中国上市公司协会上市公司行业分类标准,008001,Basic Post Services,G60,3
+G602,快递服务,,中国上市公司协会上市公司行业分类标准,008001,Express Services,G60,3
+G609,其他寄递服务,,中国上市公司协会上市公司行业分类标准,008001,Other Delivery Services,G60,3
+H,住宿和餐饮业,,中国上市公司协会上市公司行业分类标准,008001,Lodging and Catering,0,0
+H61,住宿业,,中国上市公司协会上市公司行业分类标准,008001,Lodging,H,2
+H611,旅游饭店,,中国上市公司协会上市公司行业分类标准,008001,Tourist Hotel,H61,3
+H612,一般旅馆,,中国上市公司协会上市公司行业分类标准,008001,General Hotel,H61,3
+H613,民宿服务,,中国上市公司协会上市公司行业分类标准,008001,Home-Stay Services,H61,3
+H614,露营地服务,,中国上市公司协会上市公司行业分类标准,008001,Campground Services,H61,3
+H619,其他住宿业,,中国上市公司协会上市公司行业分类标准,008001,Other Lodging,H61,3
+H62,餐饮业,,中国上市公司协会上市公司行业分类标准,008001,Catering Services,H,2
+H621,正餐服务,,中国上市公司协会上市公司行业分类标准,008001,Dinner Services,H62,3
+H622,快餐服务,,中国上市公司协会上市公司行业分类标准,008001,Fast Food Services,H62,3
+H623,饮料及冷饮服务,,中国上市公司协会上市公司行业分类标准,008001,Beverage and Cold Drink Services,H62,3
+H624,餐饮配送及外卖送餐服务,,中国上市公司协会上市公司行业分类标准,008001,Food Delivery and Take-Out Services,H62,3
+H629,其他餐饮业,,中国上市公司协会上市公司行业分类标准,008001,Other Catering Services,H62,3
+I,信息传输、软件和信息技术服务业,,中国上市公司协会上市公司行业分类标准,008001,"Information Transmission, Software and Information Technology Services",0,0
+I63,电信、广播电视和卫星传输服务,,中国上市公司协会上市公司行业分类标准,008001,"Telecommunications, Radio and Television and Satellite Transmission Services",I,2
+I631,电信,,中国上市公司协会上市公司行业分类标准,008001,Telecommunications,I63,3
+I632,广播电视传输服务,,中国上市公司协会上市公司行业分类标准,008001,Radio and Television Transmission Services,I63,3
+I633,卫星传输服务,,中国上市公司协会上市公司行业分类标准,008001,Satellite Transmission Services,I63,3
+I64,互联网和相关服务,,中国上市公司协会上市公司行业分类标准,008001,Internet and Other-related Services,I,2
+I641,互联网接入及相关服务,,中国上市公司协会上市公司行业分类标准,008001,Internet Access and Related Services,I64,3
+I642,互联网信息服务,,中国上市公司协会上市公司行业分类标准,008001,Internet Information Services,I64,3
+I643,互联网平台,,中国上市公司协会上市公司行业分类标准,008001,Internet Platform,I64,3
+I644,互联网安全服务,,中国上市公司协会上市公司行业分类标准,008001,Internet Security Services,I64,3
+I645,互联网数据服务,,中国上市公司协会上市公司行业分类标准,008001,Internet Data Services,I64,3
+I649,其他互联网服务,,中国上市公司协会上市公司行业分类标准,008001,Other Internet Services,I64,3
+I65,软件和信息技术服务业,,中国上市公司协会上市公司行业分类标准,008001,Software and Information Technology Services,I,2
+I651,软件开发,,中国上市公司协会上市公司行业分类标准,008001,Software Development,I65,3
+I652,集成电路设计,,中国上市公司协会上市公司行业分类标准,008001,Integrated Circuit Design,I65,3
+I653,信息系统集成和物联网技术服务,,中国上市公司协会上市公司行业分类标准,008001,Information System Integration and Internet of Things Technology Services,I65,3
+I654,运行维护服务,,中国上市公司协会上市公司行业分类标准,008001,Operation and Maintenance Services,I65,3
+I655,信息处理和存储支持服务,,中国上市公司协会上市公司行业分类标准,008001,Information Processing and Storage Support Services,I65,3
+I656,信息技术咨询服务,,中国上市公司协会上市公司行业分类标准,008001,Information Technology Consulting Services,I65,3
+I657,数字内容服务,,中国上市公司协会上市公司行业分类标准,008001,Digital Content Services,I65,3
+I659,其他信息技术服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Information Technology Services,I65,3
+J,金融业,,中国上市公司协会上市公司行业分类标准,008001,Finance,0,0
+J66,货币金融服务,,中国上市公司协会上市公司行业分类标准,008001,Monetary and Financial Services,J,2
+J661,中央银行服务,,中国上市公司协会上市公司行业分类标准,008001,Central Banking Services,J66,3
+J662,货币银行服务,,中国上市公司协会上市公司行业分类标准,008001,Monetary Banking Services,J66,3
+J663,非货币银行服务,,中国上市公司协会上市公司行业分类标准,008001,Non-monetary Banking Services,J66,3
+J664,银行理财服务,,中国上市公司协会上市公司行业分类标准,008001,Bank Wealth Management Services,J66,3
+J665,银行监管服务,,中国上市公司协会上市公司行业分类标准,008001,Bank Supervision Services,J66,3
+J67,资本市场服务,,中国上市公司协会上市公司行业分类标准,008001,Capital Market Services,J,2
+J671,证券市场服务,,中国上市公司协会上市公司行业分类标准,008001,Securities Market Services,J67,3
+J672,公开募集证券投资基金,,中国上市公司协会上市公司行业分类标准,008001,Mutual Fund,J67,3
+J673,非公开募集投资基金,,中国上市公司协会上市公司行业分类标准,008001,Private Fund,J67,3
+J674,期货市场服务,,中国上市公司协会上市公司行业分类标准,008001,Futures Market Services,J67,3
+J675,证券期货监管服务,,中国上市公司协会上市公司行业分类标准,008001,Securities and Futures Regulatory Services,J67,3
+J679,其他资本市场服务,,中国上市公司协会上市公司行业分类标准,008001,Other Capital Market Services,J67,3
+J68,保险业,,中国上市公司协会上市公司行业分类标准,008001,Insurance,J,2
+J681,人身保险,,中国上市公司协会上市公司行业分类标准,008001,Life Insurance,J68,3
+J682,财产保险,,中国上市公司协会上市公司行业分类标准,008001,Property Insurance,J68,3
+J683,再保险,,中国上市公司协会上市公司行业分类标准,008001,Reinsurance,J68,3
+J684,商业养老金,,中国上市公司协会上市公司行业分类标准,008001,Commercial Pension,J68,3
+J685,保险中介服务,,中国上市公司协会上市公司行业分类标准,008001,Insurance Intermediary Services,J68,3
+J686,保险资产管理,,中国上市公司协会上市公司行业分类标准,008001,Insurance Asset Management,J68,3
+J687,保险监管服务,,中国上市公司协会上市公司行业分类标准,008001,Insurance Regulatory Services,J68,3
+J689,其他保险活动,,中国上市公司协会上市公司行业分类标准,008001,Other Insurance Activities,J68,3
+J69,其他金融业,,中国上市公司协会上市公司行业分类标准,008001,Other Financial Services,J,2
+J691,金融信托与管理服务,,中国上市公司协会上市公司行业分类标准,008001,Financial Trust and Management Services,J69,3
+J692,控股公司服务,,中国上市公司协会上市公司行业分类标准,008001,Holding Company Services,J69,3
+J693,非金融机构支付服务,,中国上市公司协会上市公司行业分类标准,008001,Non-financial Institutions Payment Services,J69,3
+J694,金融信息服务,,中国上市公司协会上市公司行业分类标准,008001,Financial Information Services,J69,3
+J695,金融资产管理公司,,中国上市公司协会上市公司行业分类标准,008001,Asset Management Corporation,J69,3
+J699,其他未列明金融业,,中国上市公司协会上市公司行业分类标准,008001,Other Unspecified Financial Services,J69,3
+K,房地产业,,中国上市公司协会上市公司行业分类标准,008001,Real Estate,0,0
+K70,房地产业,,中国上市公司协会上市公司行业分类标准,008001,Real Estate,K,2
+K701,房地产开发经营,,中国上市公司协会上市公司行业分类标准,008001,Real Estate Development and Operation,K70,3
+K702,物业管理,,中国上市公司协会上市公司行业分类标准,008001,Property Management,K70,3
+K703,房地产中介服务,,中国上市公司协会上市公司行业分类标准,008001,Real Estate Agency Services,K70,3
+K704,房地产租赁经营,,中国上市公司协会上市公司行业分类标准,008001,Real Estate Leasing and Operation,K70,3
+K709,其他房地产业,,中国上市公司协会上市公司行业分类标准,008001,Other Real Estate,K70,3
+L,租赁和商务服务业,,中国上市公司协会上市公司行业分类标准,008001,Leasing and Business Services,0,0
+L71,租赁业,,中国上市公司协会上市公司行业分类标准,008001,Leasing,L,2
+L711,机械设备经营租赁,,中国上市公司协会上市公司行业分类标准,008001,Mechanical Equipment Operating Leasing,L71,3
+L712,文体设备和用品出租,,中国上市公司协会上市公司行业分类标准,008001,Stationery Sports Equipment and Goods Leasing,L71,3
+L713,日用品出租,,中国上市公司协会上市公司行业分类标准,008001,Daily Necessities Leasing,L71,3
+L72,商务服务业,,中国上市公司协会上市公司行业分类标准,008001,Business Services,L,2
+L721,组织管理服务,,中国上市公司协会上市公司行业分类标准,008001,Organization Management Services,L72,3
+L722,综合管理服务,,中国上市公司协会上市公司行业分类标准,008001,Integrated Management Services,L72,3
+L723,法律服务,,中国上市公司协会上市公司行业分类标准,008001,Legal Services,L72,3
+L724,咨询与调查,,中国上市公司协会上市公司行业分类标准,008001,Consultation and Investigation,L72,3
+L725,广告业,,中国上市公司协会上市公司行业分类标准,008001,Advertising,L72,3
+L726,人力资源服务,,中国上市公司协会上市公司行业分类标准,008001,Human Resource Services,L72,3
+L727,安全保护服务,,中国上市公司协会上市公司行业分类标准,008001,Security Guard Service,L72,3
+L728,会议、展览及相关服务,,中国上市公司协会上市公司行业分类标准,008001,"Conference, Exhibition and Related Services",L72,3
+L729,其他商务服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Business Services,L72,3
+M,科学研究和技术服务业,,中国上市公司协会上市公司行业分类标准,008001,Scientific Research and Technical Services,0,0
+M73,研究和试验发展,,中国上市公司协会上市公司行业分类标准,008001,Research and Experimental Development,M,2
+M731,自然科学研究和试验发展,,中国上市公司协会上市公司行业分类标准,008001,Natural Science Research and Experimental Development,M73,3
+M732,工程和技术研究和试验发展,,中国上市公司协会上市公司行业分类标准,008001,Engineering and Technology Research and Experimental Development,M73,3
+M733,农业科学研究和试验发展,,中国上市公司协会上市公司行业分类标准,008001,Agricultural Science Research and Experimental Development,M73,3
+M734,医学研究和试验发展,,中国上市公司协会上市公司行业分类标准,008001,Medical Research and Experimental Development,M73,3
+M735,社会人文科学研究,,中国上市公司协会上市公司行业分类标准,008001,Social and Humanities Science Research,M73,3
+M74,专业技术服务业,,中国上市公司协会上市公司行业分类标准,008001,Professional Technical Services,M,2
+M741,气象服务,,中国上市公司协会上市公司行业分类标准,008001,Meteorological Services,M74,3
+M742,地震服务,,中国上市公司协会上市公司行业分类标准,008001,Seismic Services,M74,3
+M743,海洋服务,,中国上市公司协会上市公司行业分类标准,008001,Marine Services,M74,3
+M744,测绘地理信息服务,,中国上市公司协会上市公司行业分类标准,008001,Mapping Geographic Information Services,M74,3
+M745,质检技术服务,,中国上市公司协会上市公司行业分类标准,008001,Quality Inspection Technology Services,M74,3
+M746,环境与生态监测检测服务,,中国上市公司协会上市公司行业分类标准,008001,Environmental and Ecological Monitoring and Testing Services,M74,3
+M747,地质勘查,,中国上市公司协会上市公司行业分类标准,008001,Geological Exploration,M74,3
+M748,工程技术与设计服务,,中国上市公司协会上市公司行业分类标准,008001,Engineering Technology and Design Services,M74,3
+M749,工业与专业设计及其他专业技术服务,,中国上市公司协会上市公司行业分类标准,008001,Industrial and Professional Design and Other Professional Technical Services,M74,3
+M75,科技推广和应用服务业,,中国上市公司协会上市公司行业分类标准,008001,Technology Promotion and Application Services,M,2
+M751,技术推广服务,,中国上市公司协会上市公司行业分类标准,008001,Technology Promotion Services,M75,3
+M752,知识产权服务,,中国上市公司协会上市公司行业分类标准,008001,Intellectual Property Services,M75,3
+M753,科技中介服务,,中国上市公司协会上市公司行业分类标准,008001,Science and Technology Intermediary Services,M75,3
+M754,创业空间服务,,中国上市公司协会上市公司行业分类标准,008001,Entrepreneurship Space Services,M75,3
+M759,其他科技推广服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Science and Technology Promotion Services,M75,3
+N,水利、环境和公共设施管理业,,中国上市公司协会上市公司行业分类标准,008001,"Water Conservancy, Environment and Public Utilities Management",0,0
+N76,水利管理业,,中国上市公司协会上市公司行业分类标准,008001,Water Conservancy Management,N,2
+N761,防洪除涝设施管理,,中国上市公司协会上市公司行业分类标准,008001,Flood Control and Drainage Facilities Management,N76,3
+N762,水资源管理,,中国上市公司协会上市公司行业分类标准,008001,Water Resources Management,N76,3
+N763,天然水收集与分配,,中国上市公司协会上市公司行业分类标准,008001,Natural Water Collection and Distribution,N76,3
+N764,水文服务,,中国上市公司协会上市公司行业分类标准,008001,Hydrological Services,N76,3
+N769,其他水利管理业,,中国上市公司协会上市公司行业分类标准,008001,Other Water Conservancy Management,N76,3
+N77,生态保护和环境治理业,,中国上市公司协会上市公司行业分类标准,008001,Ecological Protection and Environmental Governance,N,2
+N771,生态保护,,中国上市公司协会上市公司行业分类标准,008001,Ecological Protection,N77,3
+N772,环境治理业,,中国上市公司协会上市公司行业分类标准,008001,Environmental Governance,N77,3
+N78,公共设施管理业,,中国上市公司协会上市公司行业分类标准,008001,Public Facility Management,N,2
+N781,市政设施管理,,中国上市公司协会上市公司行业分类标准,008001,Municipal Facility Management,N78,3
+N782,环境卫生管理,,中国上市公司协会上市公司行业分类标准,008001,Environmental Health Management,N78,3
+N783,城乡市容管理,,中国上市公司协会上市公司行业分类标准,008001,Urban and Rural Appearance Management,N78,3
+N784,绿化管理,,中国上市公司协会上市公司行业分类标准,008001,Greening Management,N78,3
+N785,城市公园管理,,中国上市公司协会上市公司行业分类标准,008001,Urban Park Management,N78,3
+N786,游览景区管理,,中国上市公司协会上市公司行业分类标准,008001,Tourist Attractions Management,N78,3
+N79,土地管理业,,中国上市公司协会上市公司行业分类标准,008001,Land Management,N,2
+N791,土地整治服务,,中国上市公司协会上市公司行业分类标准,008001,Land Consolidation Services,N79,3
+N792,土地调查评估服务,,中国上市公司协会上市公司行业分类标准,008001,Land Survey and Assessment Services,N79,3
+N793,土地登记服务,,中国上市公司协会上市公司行业分类标准,008001,Land Registration Services,N79,3
+N794,土地登记代理服务,,中国上市公司协会上市公司行业分类标准,008001,Land Registration Agency Services,N79,3
+N799,其他土地管理服务,,中国上市公司协会上市公司行业分类标准,008001,Other Land Management Services,N79,3
+O,居民服务、修理和其他服务业,,中国上市公司协会上市公司行业分类标准,008001,"Resident Services, Repairing and Other Services",0,0
+O80,居民服务业,,中国上市公司协会上市公司行业分类标准,008001,Resident Services,O,2
+O801,家庭服务,,中国上市公司协会上市公司行业分类标准,008001,Home Services,O80,3
+O802,托儿所服务,,中国上市公司协会上市公司行业分类标准,008001,Nursery Services,O80,3
+O803,洗染服务,,中国上市公司协会上市公司行业分类标准,008001,Washing and Dyeing Services,O80,3
+O804,理发及美容服务,,中国上市公司协会上市公司行业分类标准,008001,Haircut and Beauty Services,O80,3
+O805,洗浴和保健养生服务,,中国上市公司协会上市公司行业分类标准,008001,Bath and Health Care Services,O80,3
+O806,摄影扩印服务,,中国上市公司协会上市公司行业分类标准,008001,Photography and Printing Services,O80,3
+O807,婚姻服务,,中国上市公司协会上市公司行业分类标准,008001,Marriage Services,O80,3
+O808,殡葬服务,,中国上市公司协会上市公司行业分类标准,008001,Funeral Services,O80,3
+O809,其他居民服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Resident Services,O80,3
+O81,机动车、电子产品和日用产品修理业,,中国上市公司协会上市公司行业分类标准,008001,"Motor Vehicle, Electronic Products and Household Products Repair",O,2
+O811,汽车、摩托车等修理与维护,,中国上市公司协会上市公司行业分类标准,008001,Automobile and Motorcycles Repair and Maintenance,O81,3
+O812,计算机和办公设备维修,,中国上市公司协会上市公司行业分类标准,008001,Computer and Office Equipment Maintenance,O81,3
+O813,家用电器修理,,中国上市公司协会上市公司行业分类标准,008001,Household Appliance Repair,O81,3
+O819,其他日用产品修理业,,中国上市公司协会上市公司行业分类标准,008001,Other Household Products Repair,O81,3
+O82,其他服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Services,O,2
+O821,清洁服务,,中国上市公司协会上市公司行业分类标准,008001,Cleaning Services,O82,3
+O822,宠物服务,,中国上市公司协会上市公司行业分类标准,008001,Pet Services,O82,3
+O829,其他未列明服务业,,中国上市公司协会上市公司行业分类标准,008001,Other Unspecified Services,O82,3
+P,教育,,中国上市公司协会上市公司行业分类标准,008001,Education,0,0
+P83,教育,,中国上市公司协会上市公司行业分类标准,008001,Education,P,2
+P831,学前教育,,中国上市公司协会上市公司行业分类标准,008001,Preschool Education,P83,3
+P832,初等教育,,中国上市公司协会上市公司行业分类标准,008001,Primary Education,P83,3
+P833,中等教育,,中国上市公司协会上市公司行业分类标准,008001,Secondary Education,P83,3
+P834,高等教育,,中国上市公司协会上市公司行业分类标准,008001,Higher Education,P83,3
+P835,特殊教育,,中国上市公司协会上市公司行业分类标准,008001,Special Education,P83,3
+P839,技能培训、教育辅助及其他教育,,中国上市公司协会上市公司行业分类标准,008001,"Skills Training, Educational Assistance and Other Education",P83,3
+Q,卫生和社会工作,,中国上市公司协会上市公司行业分类标准,008001,Health and Social Works,0,0
+Q84,卫生,,中国上市公司协会上市公司行业分类标准,008001,Health,Q,2
+Q841,医院,,中国上市公司协会上市公司行业分类标准,008001,Hospitals,Q84,3
+Q842,基层医疗卫生服务,,中国上市公司协会上市公司行业分类标准,008001,Primary Medical and Health Services,Q84,3
+Q843,专业公共卫生服务,,中国上市公司协会上市公司行业分类标准,008001,Professional Public Health Services,Q84,3
+Q849,其他卫生活动,,中国上市公司协会上市公司行业分类标准,008001,Other Health Activities,Q84,3
+Q85,社会工作,,中国上市公司协会上市公司行业分类标准,008001,Social Works,Q,2
+Q851,提供住宿社会工作,,中国上市公司协会上市公司行业分类标准,008001,Social Work with Accommodation,Q85,3
+Q852,不提供住宿社会工作,,中国上市公司协会上市公司行业分类标准,008001,Social Work with No Accommodation,Q85,3
+R,文化、体育和娱乐业,,中国上市公司协会上市公司行业分类标准,008001,"Culture, Sports and Entertainment",0,0
+R86,新闻和出版业,,中国上市公司协会上市公司行业分类标准,008001,News and Publishing,R,2
+R861,新闻业,,中国上市公司协会上市公司行业分类标准,008001,News,R86,3
+R862,出版业,,中国上市公司协会上市公司行业分类标准,008001,Publishing,R86,3
+R87,广播、电视、电影和录音制作业,,中国上市公司协会上市公司行业分类标准,008001,"Broadcast, Television, Film and Recording Production",R,2
+R871,广播,,中国上市公司协会上市公司行业分类标准,008001,Broadcast,R87,3
+R872,电视,,中国上市公司协会上市公司行业分类标准,008001,Television,R87,3
+R873,影视节目制作,,中国上市公司协会上市公司行业分类标准,008001,Film and Television Program Production,R87,3
+R874,广播电视集成播控,,中国上市公司协会上市公司行业分类标准,008001,Radio and Television Integrated Broadcast Control,R87,3
+R875,电影和广播电视节目发行,,中国上市公司协会上市公司行业分类标准,008001,"Film, Radio and Television Program Distribution",R87,3
+R876,电影放映,,中国上市公司协会上市公司行业分类标准,008001,Film Screening,R87,3
+R877,录音制作,,中国上市公司协会上市公司行业分类标准,008001,Sound Recording,R87,3
+R88,文化艺术业,,中国上市公司协会上市公司行业分类标准,008001,Culture and Art,R,2
+R881,文艺创作与表演,,中国上市公司协会上市公司行业分类标准,008001,Literary and Artistic Creation and Performance,R88,3
+R882,艺术表演场馆,,中国上市公司协会上市公司行业分类标准,008001,Performing Arts Venue,R88,3
+R883,图书馆与档案馆,,中国上市公司协会上市公司行业分类标准,008001,Library and Archive,R88,3
+R884,文物及非物质文化遗产保护,,中国上市公司协会上市公司行业分类标准,008001,Cultural Relics and Intangible Cultural Heritage Protection,R88,3
+R885,博物馆,,中国上市公司协会上市公司行业分类标准,008001,Museum,R88,3
+R886,烈士陵园、纪念馆,,中国上市公司协会上市公司行业分类标准,008001,Martyrs Cemetery and Memorial Hall,R88,3
+R887,群众文体活动,,中国上市公司协会上市公司行业分类标准,008001,Mass Cultural and Sports Activities,R88,3
+R889,其他文化艺术业,,中国上市公司协会上市公司行业分类标准,008001,Other Culture and Arts,R88,3
+R89,体育,,中国上市公司协会上市公司行业分类标准,008001,Sports,R,2
+R891,体育组织,,中国上市公司协会上市公司行业分类标准,008001,Sports Organization,R89,3
+R892,体育场地设施管理,,中国上市公司协会上市公司行业分类标准,008001,Sports Venue Facilities Management,R89,3
+R893,健身休闲活动,,中国上市公司协会上市公司行业分类标准,008001,Fitness and Leisure Activities,R89,3
+R899,其他体育,,中国上市公司协会上市公司行业分类标准,008001,Other Sports,R89,3
+R90,娱乐业,,中国上市公司协会上市公司行业分类标准,008001,Entertainment,R,2
+R901,室内娱乐活动,,中国上市公司协会上市公司行业分类标准,008001,Indoor Entertainment,R90,3
+R902,游乐园,,中国上市公司协会上市公司行业分类标准,008001,Amusement Park,R90,3
+R903,休闲观光活动,,中国上市公司协会上市公司行业分类标准,008001,Leisure and Sightseeing Activities,R90,3
+R904,彩票活动,,中国上市公司协会上市公司行业分类标准,008001,Lottery Activities,R90,3
+R905,文化体育娱乐活动与经纪代理服务,,中国上市公司协会上市公司行业分类标准,008001,"Cultural, Sports and Entertainment Activities and Brokerage Services",R90,3
+R909,其他娱乐业,,中国上市公司协会上市公司行业分类标准,008001,Other Entertainment,R90,3
+S,综合,,中国上市公司协会上市公司行业分类标准,008001,Conglomerates,0,0
+S91,综合,,中国上市公司协会上市公司行业分类标准,008001,Conglomerates,S,2
+S911,综合,,中国上市公司协会上市公司行业分类标准,008001,Conglomerates,S91,3
