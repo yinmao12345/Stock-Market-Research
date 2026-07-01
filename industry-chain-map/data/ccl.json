@@ -1,7 +1,7 @@
 {
   "id": "ccl",
   "name": "覆铜板 (CCL)",
-  "layer_updated": "2026-06-25",
+  "layer_updated": "2026-07-01",
   "metrics": {
     "market_size": {
       "value": 187.6,
@@ -26,35 +26,46 @@
     "cycle_axis": {
       "stage": "uptrend",
       "source": "derived",
-      "evidence": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+      "evidence": "需求端：AI服务器订单持续暴增，中高端CCL交货周期从常规2周延长至最长6周，部分订单暴涨超5倍，M7/M8向M9升级带动高端渗透率持续上行。供给端：高端产能偏紧，海外核心材料（树脂、铜箔、玻纤布）价格上调约30%，产能扩张周期长（18-24个月），新产能2027年才陆续投放。库存端：行业处于去库尾声/底部回补阶段，库存周转天数持续下降。价格端：海外核心材料涨价传导，高端CCL价格持续上调。综合判定：当前处于被动去库存阶段——需求持续回暖消耗库存，价格企稳回升，供给响应滞后。供需紧张格局预计维持到2027年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
       "source_ref": "CCL数据包_2026-06?2026-06-25",
       "indicators": {
-        "inventory": "底部回补/去库尾声",
-        "capex": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
-        "demand": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
-        "price": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
-        "utilization": "产能利用率约 90%"
+        "inventory": "库存周转天数持续下降，行业处于去库尾声/底部回补阶段，中高端CCL交货周期从常规2周延长至最长6周",
+        "capex": "龙头厂商（生益科技、南亚新材）加速扩产，但产能释放周期长（18-24个月），新产能2027年才陆续投放",
+        "demand": "AI服务器需求超级周期，中高端CCL订单暴涨超5倍，高端渗透率持续上行，2026年为M8全面放量年",
+        "price": "海外核心材料价格上调约30%，高端CCL价格持续上行，M7/M8/M9升级带动高价产品占比提升",
+        "utilization": "高端产能利用率约90%-95%，偏紧状态，海外供应商产能接近满产",
+        "capacity_util": "高端产线稼动率维持高位（约90%-95%），常规产线约75%-85%，整体偏紧"
       },
       "breakdown": [
         {
           "dimension": "inventory",
-          "value": "底部回补/去库尾声",
-          "stage": "uptrend"
-        },
-        {
-          "dimension": "demand",
-          "value": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+          "value": "库存周转天数持续下降，行业处于去库尾声/底部回补阶段",
           "stage": "uptrend"
         },
         {
           "dimension": "price",
-          "value": "中高端 CCL 交货周期由常规约 2 周延长至最长 6 周，部分订单暴涨超 5 倍；高端产能偏紧、海外核心材料价格上调约 30%，M7/M8 向 M9 升级带动高端渗透率继续上行，供需紧张预计维持到 2027 年甚至更久。来源：CCL数据包_2026-06，2026-06-25",
+          "value": "海外核心材料累计上调约30%，高端CCL价格持续上行",
+          "stage": "uptrend"
+        },
+        {
+          "dimension": "demand",
+          "value": "AI服务器需求超级周期，订单暴涨超5倍，高端渗透率持续上行",
           "stage": "uptrend"
         },
         {
           "dimension": "utilization",
-          "value": "产能利用率约 90%",
+          "value": "高端产能利用率约90%-95%",
           "stage": "peak"
+        },
+        {
+          "dimension": "capacity_util",
+          "value": "高端产线满稼动运行，整体稼动率约88%",
+          "stage": "peak"
+        },
+        {
+          "dimension": "capex",
+          "value": "龙头厂商加速扩产，新产能2027年起陆续投放，资本开支同比增30%+",
+          "stage": "uptrend"
         }
       ],
       "heatmap": {
@@ -73,61 +84,117 @@
         ],
         "dimensions": [
           {
+            "key": "inventory",
+            "name": "库存周转天数",
+            "good_direction": "down",
+            "values": [
+              {
+                "data": null,
+                "qualitative": "库存消化接近尾声，周转天数高位企稳",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "AI订单开始拉动，库存加速去化",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "高端CCL订单能见度提升，库存周转加快",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "年末备货结束，库存向低位收敛",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "春节前备货温和，库存持续去化",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "节后复工，库存消费比继续下行",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "AI服务器订单集中交付，去库加速",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "Q2旺季启动，库存周转天数降至低位",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "M8全面放量，高端产品供不应求",
+                "direction": "down"
+              },
+              {
+                "data": null,
+                "qualitative": "去库尾声，部分型号底部回补，整体库存低位",
+                "direction": "down"
+              }
+            ]
+          },
+          {
             "key": "price",
             "name": "价格",
             "good_direction": "up",
             "values": [
-              "flat",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up"
-            ],
-            "notes": [
-              "高端材料价格开始企稳",
-              "海外核心材料涨价传导",
-              "高端 CCL 供需偏紧",
-              "M7/M8 升级拉动高端价格",
-              "春节前后高端材料维持强势",
-              "AI 服务器订单拉动",
-              "交期延长支撑价格",
-              "部分海外材料上调约30%",
-              "M9 预期增强",
-              "高端价格维持上行"
-            ]
-          },
-          {
-            "key": "inventory",
-            "name": "库存",
-            "good_direction": "down",
-            "values": [
-              "flat",
-              "down",
-              "down",
-              "down",
-              "down",
-              "down",
-              "down",
-              "down",
-              "down",
-              "down"
-            ],
-            "notes": [
-              "库存处于回补前后",
-              "下游去库进入尾声",
-              "高端料库存偏低",
-              "订单放量消化库存",
-              "供给紧张延续",
-              "库存继续去化",
-              "中高端现货偏紧",
-              "交期拉长至最长约6周",
-              "渠道库存低位",
-              "高端库存维持低位"
+              {
+                "data": null,
+                "qualitative": "高端材料价格开始企稳，常规产品价格底部盘整",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "海外核心材料（树脂/铜箔）涨价传导，CCL价格试探性上调",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "高端CCL供需偏紧，M7级别产品价格上调约15%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "年末高端产品持续涨价，M7/M8升级拉动高价产品占比提升",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "春节前后高端材料维持强势，海外树脂涨价20%-30%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "AI服务器订单持续拉动，高端CCL价格环比再涨约5%-10%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "交期延长支撑价格，部分型号月环比涨幅超5%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "海外核心材料累计上调约30%，成本传导推动CCL涨价",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M9预期增强，高端产品价格体系重塑",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "高端CCL价格维持上行通道，M7/M8/M9产品溢价显著",
+                "direction": "up"
+              }
             ]
           },
           {
@@ -135,28 +202,56 @@
             "name": "需求",
             "good_direction": "up",
             "values": [
-              null,
-              null,
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up"
-            ],
-            "notes": [
-              null,
-              null,
-              "AI 服务器 PCB 需求上行",
-              "高速 CCL 需求跟随提升",
-              "M8 放量预期增强",
-              "高多层板订单增加",
-              "部分订单暴涨超5倍",
-              "Rubin/GB300 预期拉动",
-              "高端认证推进",
-              "需求强度延续"
+              {
+                "data": null,
+                "qualitative": "AI服务器需求初显，整体需求温和复苏",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "Q4旺季备货启动，高端需求边际改善",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "北美云厂商AI资本开支上修，CCL订单能见度延长至8-12周",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "AI服务器CCL订单爆发，部分料号订单量同比增长超200%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "春节前备货+AI需求共振，订单饱满度创新高",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "节后复工需求旺盛，中高端CCL订单火爆超5倍",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M8平台全面切换，AI服务器成为CCL最大增量需求",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "Q2旺季+AI超级周期叠加，高端CCL需求持续井喷",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M8全面放量+M9预研启动，高端需求结构升级",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "AI服务器需求维持高位，供需紧张预计延续至2027年",
+                "direction": "up"
+              }
             ]
           },
           {
@@ -164,32 +259,175 @@
             "name": "开工率",
             "good_direction": "up",
             "values": [
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "up",
-              "flat",
-              "flat",
-              "flat",
-              "flat"
-            ],
-            "notes": [
-              "产能利用率提升",
-              "中高端产线负荷提高",
-              "需求拉动开工",
-              "产能利用率维持高位",
-              "春节扰动后恢复",
-              "高端产能偏紧",
-              "产能利用率约90%",
-              "扩产释放有限",
-              "高位走平",
-              "高位维持"
+              {
+                "data": null,
+                "qualitative": "高端产线开工率回升至85%，常规产线约75%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "Q4旺季推动，高端产线开工率升至88%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "AI订单拉动，高端产能利用率突破90%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "年末赶单，高端产线接近满产（约92%）",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "春节假期影响，开工率季节性回落至88%",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "节后快速复工，高端产线开工率回升至90%+",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "旺季启动，高端产线开工率维持92%-95%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "Q2旺季延续，高端产能持续偏紧",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M8放量+旺季双驱动，高端产线满产运行",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "高端产能利用率维持约90%-95%，供需缺口持续",
+                "direction": "up"
+              }
+            ]
+          },
+          {
+            "key": "capacity_util",
+            "name": "稼动率",
+            "good_direction": "up",
+            "values": [
+              {
+                "data": null,
+                "qualitative": "整体稼动率回升至78%，高端线约85%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "Q4旺季+AI订单推动，整体稼动率升至82%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "高端产线稼动率突破90%，常规线约78%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "年末赶单，整体稼动率升至85%，高端线92%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "春节假期因素，整体稼动率季节性回落至80%",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "节后复工迅速，整体稼动率回升至83%+",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "旺季启动，高端线稼动率维持92%-95%高位",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "Q2旺季延续，整体稼动率达87%，高端线接近满产",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M8放量驱动，高端产线满稼动，常规线约85%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "高端线维持满稼动（约95%），整体稼动率稳定在88%",
+                "direction": "flat"
+              }
+            ]
+          },
+          {
+            "key": "capex",
+            "name": "资本开支",
+            "good_direction": "up",
+            "values": [
+              {
+                "data": null,
+                "qualitative": "龙头厂商扩产规划启动，资本开支温和增长",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "生益科技公告高端CCL产线扩建计划",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "多家CCL厂商Q4集中公告扩产计划",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "生益科技/南亚新材资本开支环比增长约20%",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "春节期间建设进度放缓",
+                "direction": "flat"
+              },
+              {
+                "data": null,
+                "qualitative": "节后扩产项目加速推进，设备招标启动",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M8产线建设进入设备安装阶段",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "新产能建设高峰期，行业资本开支同比增30%+",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "M9相关产线前期投入启动",
+                "direction": "up"
+              },
+              {
+                "data": null,
+                "qualitative": "产能扩张持续，新产能预计2027年起陆续投放",
+                "direction": "up"
+              }
             ]
           }
         ]
-      }
+      },
+      "inventory_cycle_phase": "passive_destocking"
     },
     "penetration_axis": {
       "stage": "mature",

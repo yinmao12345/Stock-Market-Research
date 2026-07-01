@@ -1441,3 +1441,82 @@ input {
 .key-factors-list__item::marker {
   color: var(--color-accent);
 }
+
+/* ===== 库存周期阶段卡片 ===== */
+
+.cycle-phase-card {
+  margin: var(--space-3) 0;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+}
+
+.cycle-phase-card__label {
+  font-family: var(--font-display);
+  font-size: var(--text-section);
+  font-weight: var(--weight-title);
+  color: var(--color-accent);
+  margin-bottom: var(--space-1);
+}
+
+.cycle-phase-card__desc {
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+  color: var(--color-muted);
+}
+
+.cycle-phase-evidence {
+  margin: var(--space-2) 0 var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  background: rgba(251, 250, 246, 0.6);
+  border-radius: var(--radius-sm, 4px);
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+  color: var(--color-muted);
+  border: 1px dashed var(--color-border);
+}
+
+.cycle-phase-evidence__title {
+  font-weight: var(--weight-title);
+  color: var(--color-ink);
+  margin-right: var(--space-1);
+}
+
+/* ===== 景气热力图总结 ===== */
+
+.heatmap-summary__title {
+  font-family: var(--font-display);
+  font-size: var(--text-section);
+  font-weight: var(--weight-title);
+  color: var(--color-ink);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.heatmap-summary__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid rgba(221, 214, 200, 0.42);
+}
+
+.heatmap-summary__item:last-child {
+  border-bottom: none;
+}
+
+.heatmap-summary__label {
+  font-weight: var(--weight-title);
+  color: var(--color-accent);
+  font-size: var(--text-label);
+}
+
+.heatmap-summary__text {
+  font-size: var(--text-label);
+  line-height: var(--leading-label);
+  color: var(--color-text);
+}
+

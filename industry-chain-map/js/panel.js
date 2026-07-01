@@ -1,12 +1,6 @@
-﻿import { getPenetrationTypeLabel, getStageLabel } from './gap-rules.js';
+﻿import { getPenetrationTypeLabel, getStageLabel, getInventoryCyclePhase, getInventoryCyclePhaseLabel, getInventoryCyclePhaseDescription, getInventoryCyclePhaseTone, getCycleDimensionLabel, getCycleDimensionDirection, generateHeatmapSummary, getCycleDimensionsMeta } from './gap-rules.js';
 
-const CYCLE_DIMENSIONS = [
-  { key: 'inventory', name: '库存', good_direction: 'down' },
-  { key: 'capex', name: '资本开支', good_direction: 'up' },
-  { key: 'demand', name: '需求', good_direction: 'up' },
-  { key: 'price', name: '价格', good_direction: 'up' },
-  { key: 'utilization', name: '开工率', good_direction: 'up' },
-];
+const CYCLE_DIMENSIONS = getCycleDimensionsMeta();
 
 const DEFAULT_HEATMAP_TIMELINE = ['待补1', '待补2', '待补3', '待补4', '待补5', '待补6'];
 
@@ -275,16 +269,33 @@ function gapSection(node, config) {
 function axisBlock(kind, axis = {}, config = {}) {
   const title = kind === 'cycle' ? '库存周期' : '渗透率';
   const stageLabel = getStageLabel(kind === 'cycle' ? 'cycle' : 'penetration', axis?.stage);
+  const phaseKey = kind === 'cycle' ? (axis?.inventory_cycle_phase || getInventoryCyclePhase(axis?.indicators || {})) : null;
+  const phaseLabel = phaseKey ? getInventoryCyclePhaseLabel(phaseKey) : null;
+  const phaseDesc = phaseKey ? getInventoryCyclePhaseDescription(phaseKey) : null;
   const block = document.createElement('div');
   block.className = `axis-block axis-block--${kind}`;
+  
+  let phaseHtml = '';
+  if (kind === 'cycle' && phaseLabel) {
+    phaseHtml = `
+      <div class="cycle-phase-card">
+        <div class="cycle-phase-card__label">${escapeHtml(phaseLabel)}</div>
+        <div class="cycle-phase-card__desc">${escapeHtml(phaseDesc)}</div>
+      </div>
+      <div class="cycle-phase-evidence">
+        <span class="cycle-phase-evidence__title">判断依据：</span>${escapeHtml(stripSource(axis?.evidence) || '暂无依据')}
+      </div>
+    `;
+  }
   block.innerHTML = `
     <div class="axis-block__head">
       <span>${escapeHtml(title)}</span>
     </div>
-    <div class="axis-stage">${escapeHtml(stageLabel)}</div>
+    ${phaseHtml}
+      ${kind === 'penetration' ? `<div class="axis-stage">${escapeHtml(stageLabel)}</div>` : ''}
     ${kind === 'penetration' ? `<div class="detail-field">渗透率：${escapeHtml(formatNullable(axis?.rate, '%'))}</div>` : ''}
     ${kind === 'penetration' ? `<div class="detail-field">类型：${escapeHtml(getPenetrationTypeLabel(axis?.type))}</div>` : ''}
-    <div class="detail-field detail-field--muted">${escapeHtml(stripSource(axis?.evidence) || '暂无依据')}</div>
+    ${kind !== 'cycle' ? `<div class="detail-field detail-field--muted">${escapeHtml(stripSource(axis?.evidence) || '暂无依据')}</div>` : ''}
   `;
   if (kind === 'cycle') {
     const heatmap = heatmapBlock(axis?.heatmap, config?.heatmap);
@@ -435,13 +446,24 @@ function normalizeHeatmapForDisplay(heatmap) {
   const sourceByKey = new Map(sourceDimensions.map(item => [item?.key, item]));
   const dimensions = CYCLE_DIMENSIONS.map(template => {
     const source = sourceByKey.get(template.key) || {};
-    const values = sourceTimeline.map((_, index) => normalizedDirection(source.values?.[index]));
-    const notes = sourceTimeline.map((_, index) => Array.isArray(source.notes) ? source.notes[index] ?? null : null);
+    const sourceValues = Array.isArray(source.values) ? source.values : [];
+    const values = sourceTimeline.map((_, index) => {
+      const raw = sourceValues[index];
+      if (raw == null || raw === '') return null;
+      if (typeof raw === 'object') return { direction: normalizedDirection(raw.direction), data: raw.data ?? null, qualitative: raw.qualitative ?? null };
+      return { direction: normalizedDirection(raw), data: null, qualitative: null };
+    });
+    const notes = sourceTimeline.map((_, index) => {
+      const raw = sourceValues[index];
+      if (raw && typeof raw === 'object') return raw.qualitative ?? null;
+      return Array.isArray(source.notes) ? source.notes[index] ?? null : null;
+    });
     return {
       key: template.key,
       name: source.name || template.name,
       good_direction: source.good_direction || template.good_direction,
       values,
+      sourceValues,
       notes,
     };
   });
@@ -452,26 +474,34 @@ function normalizeHeatmapForDisplay(heatmap) {
 function breakdownList(kind, axis = {}) {
   const list = document.createElement('div');
   list.className = 'breakdown-list';
-  const source = Array.isArray(axis?.breakdown) ? axis.breakdown : [];
-  const rows = kind === 'cycle'
-    ? CYCLE_DIMENSIONS.map(dimension => {
-        const matched = source.find(item => item.dimension === dimension.key);
-        return {
-          dimension: dimension.key,
-          stage: matched?.stage ?? null,
-          value: matched?.value ?? axis?.indicators?.[dimension.key] ?? null,
-        };
-      })
-    : (source.length ? source : [
-        { dimension: 'rate', stage: axis?.stage ?? null, value: axis?.rate ?? null },
-        { dimension: 'qualitative', stage: axis?.stage ?? null, value: axis?.indicators?.qualitative ?? null },
-      ]);
-  list.innerHTML = rows.map(item => `
-    <div class="breakdown-row">
-      <span>${escapeHtml(dimensionLabel(item.dimension))}</span>
-      <span>${escapeHtml(item.stage ? getStageLabel(kind === 'cycle' ? 'cycle' : 'penetration', item.stage) : '暂缺')}</span>
-    </div>
-  `).join('');
+
+  if (kind !== 'cycle') {
+    const source = Array.isArray(axis?.breakdown) ? axis.breakdown : [];
+    const rows = source.length ? source : [
+      { dimension: 'rate', stage: axis?.stage ?? null, value: axis?.rate ?? null },
+      { dimension: 'qualitative', stage: axis?.stage ?? null, value: axis?.indicators?.qualitative ?? null },
+    ];
+    list.innerHTML = rows.map(item => `
+      <div class="breakdown-row">
+        <span>${escapeHtml(dimensionLabel(item.dimension))}</span>
+        <span>${escapeHtml(item.stage ? getStageLabel('penetration', item.stage) : '暂缺')}</span>
+      </div>
+    `).join('');
+    return list;
+  }
+
+  // Cycle axis: generate summary from heatmap data
+  const heatmap = axis?.heatmap;
+  const displayData = normalizeHeatmapForDisplay(heatmap);
+  const summaries = generateHeatmapSummary(displayData.dimensions, displayData.timeline);
+
+  list.innerHTML = '<div class="heatmap-summary__title">景气热力图总结</div>' +
+    summaries.map(s => `
+      <div class="heatmap-summary__item">
+        <span class="heatmap-summary__label">${escapeHtml(s.name)}</span>
+        <span class="heatmap-summary__text">${escapeHtml(s.summary)}</span>
+      </div>
+    `).join('');
   return list;
 }
 
@@ -533,18 +563,25 @@ function heatmapLabel(label) {
 }
 
 function heatmapCell(dimension, month, index, mode) {
-  const value = normalizedDirection(dimension.values?.[index]);
+  const rawValue = dimension.values?.[index];
+  const value = rawValue ? (rawValue.direction ?? normalizedDirection(rawValue)) : null;
   const tone = heatmapTone(value, dimension.good_direction, mode);
-  const note = Array.isArray(dimension.notes) ? dimension.notes[index] : '';
+  const note = rawValue ? (rawValue.qualitative || (Array.isArray(dimension.notes) ? dimension.notes[index] : '')) : '';
+  const dataText = rawValue && rawValue.data ? ('具体数据：' + rawValue.data) : '';
   const el = document.createElement('div');
   el.className = `heatmap__cell heatmap__cell--${tone}`;
-  el.title = `${dimension.name || dimension.key || '-'} ${month}：${directionLabel(value)}${note ? `；${note}` : ''}`;
+  const parts = [`${dimension.name || dimension.key || '-'} ${month}`];
+  parts.push(directionLabel(value));
+  if (dataText) parts.push(dataText);
+  if (note) parts.push(note);
+  el.title = parts.join('；');
   el.setAttribute('aria-label', el.title);
   return el;
 }
 
 function heatmapStreak(dimension) {
-  const values = Array.isArray(dimension.values) ? dimension.values.map(normalizedDirection) : [];
+  const rawValues = Array.isArray(dimension.values) ? dimension.values : [];
+  const values = rawValues.map(v => v ? (v.direction ?? normalizedDirection(v)) : null);
   const last = [...values].reverse().find(value => value != null);
   const count = trailingCount(values, last);
   const el = document.createElement('div');
