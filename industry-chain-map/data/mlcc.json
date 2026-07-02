@@ -24,7 +24,103 @@
   },
   "competition": {
     "global": {
-      "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
         {
           "name": "村田制作所",
           "country": null,
@@ -36,7 +132,103 @@
       "note": null
     },
     "domestic": {
-      "companies": [],
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [],
       "note": null
     },
     "key_factors": [
@@ -338,6 +530,102 @@
       }
     }
   },
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
   "companies": [
     {
       "name": "村田制作所",
@@ -559,11 +847,203 @@
       },
       "competition": {
         "global": {
-          "companies": [],
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [],
           "note": null
         },
         "domestic": {
-          "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
             {
               "name": "日本堺化学",
               "country": null,
@@ -885,7 +1365,103 @@
           }
         }
       },
-      "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
         {
           "name": "国瓷材料",
           "ticker": "300285.SZ",
@@ -1051,11 +1627,203 @@
       },
       "competition": {
         "global": {
-          "companies": [],
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [],
           "note": null
         },
         "domestic": {
-          "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
             {
               "name": "昭荣化学（日本）",
               "country": null,
@@ -1377,7 +2145,103 @@
           }
         }
       },
-      "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
         {
           "name": "博迁新材",
           "ticker": "605376.SH",
@@ -1510,11 +2374,203 @@
       },
       "competition": {
         "global": {
-          "companies": [],
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [],
           "note": null
         },
         "domestic": {
-          "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
             {
               "name": "日本平野（Hirano Tecseed）",
               "country": null,
@@ -1836,7 +2892,103 @@
           }
         }
       },
-      "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
         {
           "name": "先导智能",
           "ticker": "300450.SZ",
@@ -2000,11 +3152,203 @@
       },
       "competition": {
         "global": {
-          "companies": [],
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [],
           "note": null
         },
         "domestic": {
-          "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
             {
               "name": "日本三井化学/琳得科/日东电工",
               "country": null,
@@ -2326,7 +3670,103 @@
           }
         }
       },
-      "companies": [
+  "demand_analysis": {
+    "summary": "供需缺口驱动的周期成长，主引信=AI服务器场景扩张+单机用量↑+高端结构升级；⚠补库存囤货虚火是最大见顶风险",
+    "tiers": [
+      {
+        "tier": "breadth",
+        "name": "广度（用的人更多）",
+        "factors": [
+          {
+            "key": "penetration",
+            "name": "渗透率提升",
+            "stars": 1,
+            "polarity": "positive",
+            "detail": "MLCC整体渗透率已饱和，几乎所有电子产品均使用MLCC，处于S曲线>60%饱和段。本轮需求爆发与本因子无关。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "scene_expansion",
+            "name": "应用场景扩张",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器是全新巨型场景：GB300单机2万+颗MLCC（传统服务器仅几百颗），2026年AI服务器MLCC需求726亿颗(+87% YoY)，2027年1367亿颗(+88%)。新能源车单车MLCC 8000-12000颗（燃油车3000颗）。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "localization",
+            "name": "国产替代/份额转移",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "中国大陆厂商全球出货份额10-20%，处于加速替代期。三环集团/风华高科/火炬电子等加速高端突破，AI高容国产化率仍极低（<5%），天花板高。但村田三星仍主导AI高容市场。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "depth",
+        "name": "深度（每人用更多/更贵）",
+        "factors": [
+          {
+            "key": "unit_usage",
+            "name": "单位用量提升",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI服务器单机MLCC从传统几百颗跃升至2万+颗（GB300），Rubin/VR200平台MLCC价值量较上代跃升约182%。单机用量离上限仍远，还可持续翻倍。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "premium_upgrade",
+            "name": "高端结构升级(ASP)",
+            "stars": 5,
+            "polarity": "positive",
+            "detail": "AI高容MLCC ASP远超消费级：高容高Q值产品价格是普通MLCC的10-50倍。高容占比从10%以下快速提升，ASP提升幅度巨大。村田将AI服务器MLCC CAGR从18%上调至30%。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "tech_iteration",
+            "name": "替代升级/技术代际迭代",
+            "stars": 4,
+            "polarity": "positive",
+            "detail": "0201封装→008004封装持续推进，村田已推出0.22uF/6.3V/0201产品（钛酸钡晶粒<50nm）。高容+小型化+高Q值三大方向并行升级，加速AI服务器MLCC代际替换。但材料物理极限正在逼近。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      },
+      {
+        "tier": "sustainability",
+        "name": "持续性/节奏（缺口维持多久）",
+        "factors": [
+          {
+            "key": "policy",
+            "name": "政策/补贴驱动",
+            "stars": 2,
+            "polarity": "positive",
+            "detail": "非政策驱动型需求。AI投资以北美CSP资本开支和国产算力建设为主，属市场驱动。无退坡风险，但与宏观/科技投资周期相关。国内半导体自主可控政策间接利好国产MLCC。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "cyclicality",
+            "name": "季节性/行业周期",
+            "stars": 4,
+            "polarity": "neutral",
+            "detail": "当前处于四年去库存(2022-2026.2)后底部反转，从'主动去库'→'补库启动/涨价启动期'，稼动率突破90%触发涨价。历史均值渠道库存4.5个月，当前仅1-1.5个月——底部反转周期弹性极大。但需注意：此为周期位置，非趋势性需求，短期扰动勿当趋势。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          },
+          {
+            "key": "restocking",
+            "name": "补库存/囤货放大",
+            "stars": 5,
+            "polarity": "reverse",
+            "detail": "⚠高风险：渠道库存仅1-1.5个月（历史均值4.5个月），终端2-3周，渠道商零库存→恐慌补库。现货涨10倍以上远超原厂调价（村田涨15-35%），囤货惜售迹象明显，5月后'一天一价'。K型分化加剧：高端小尺寸高容严重短缺，消费级中低容相对健康。补库存虚火一旦消退，现货价格回调最快、最猛。这是当前缺口中情绪虚高占比最高的部分。",
+            "source_ref": "updates/updates-2026-06-28/MLCC生产厂商.md"
+          }
+        ]
+      }
+    ]
+  },
+
+  "companies": [
         {
           "name": "洁美科技",
           "ticker": "002859.SZ",

@@ -1727,7 +1727,102 @@
         "光伏储能：景气回升，需求稳定拉动用量",
         "人形机器人：商业化加速，成为高压MOSFET新增长极",
         "5G通信与消费电子：消费级市场随补库与涨价潮逐步修复"
-      ]
+      ],
+      "demand_analysis": {
+        "summary": "AI算力+新能源+机器人三重需求叠加8英寸产能收缩驱动量价齐升，主引信=场景扩张+高端ASP升级；补库存启动但尚未极端囤货",
+        "tiers": [
+          {
+            "tier": "breadth",
+            "name": "广度（用的人更多）",
+            "factors": [
+              {
+                "key": "penetration",
+                "name": "渗透率提升",
+                "stars": 4,
+                "polarity": "positive",
+                "detail": "硅基MOSFET已成熟饱和，但SiC MOSFET替代硅基IGBT是核心增量主线：新能源车主驱SiC渗透率从2024年底约13%升至2026年中约22%，处于10-30%黄金陡峭段。800V车型中SiC渗透率已达71%，800V车型整体渗透率约15%且快速提升。盖世汽车预测2030年800V平台渗透率约33.5%。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "scene_expansion",
+                "name": "应用场景扩张",
+                "stars": 5,
+                "polarity": "positive",
+                "detail": "AI数据中心服务器电源是全新巨型场景：英飞凌指出AI带动功率开关与IC需求大涨并缺货，TI 2026Q1数据中心营收同比增约90%，高压MOSFET裸晶尺寸大而最先反映缺货。人形机器人商业化加速成为新增长极（导入早期）。新能源车功率器件需求年增长超30%。光伏储能景气回升。五大场景同时扩张，场景广度与体量均达顶级。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "localization",
+                "name": "国产替代/份额转移",
+                "stars": 4,
+                "polarity": "positive",
+                "detail": "全球市场中，华润微4.1%、士兰微3.3%分列第九、十位；国内CR8>60%，英飞凌仍占20%+。国产份额处于加速替代期（低基数+份额快升），车规级认证周期2-3年形成壁垒但在逐步突破。华润微12吋线、士兰微SiC主驱芯片量产加速国产高端替代。天花板高但进度仍需持续跟踪。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              }
+            ]
+          },
+          {
+            "tier": "depth",
+            "name": "深度（每人用更多/更贵）",
+            "factors": [
+              {
+                "key": "unit_usage",
+                "name": "单位用量提升",
+                "stars": 4,
+                "polarity": "positive",
+                "detail": "新能源车单车功率器件用量持续增加：800V平台下SiC MOSFET成为主驱核心增量，每辆车功率半导体价值量增量占80%+。AI服务器电源中高压MOSFET颗数远超传统服务器，且对裸晶尺寸要求更大（单颗消耗更多晶圆面积）。离上限仍有较大空间，增速可观。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "premium_upgrade",
+                "name": "高端结构升级(ASP)",
+                "stars": 5,
+                "polarity": "positive",
+                "detail": "从硅基MOSFET→SiC MOSFET的ASP跃升巨大：SiC衬底+外延占器件成本70%，高端产品ASP远超普通硅基。800V平台中SiC渗透率71%，高端占比快速提升。英飞凌调涨最高25%、TI涨15-85%，涨价主力正是高端紧缺型号。高端结构升级处于黄金加速段。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "tech_iteration",
+                "name": "替代升级/技术代际迭代",
+                "stars": 4,
+                "polarity": "positive",
+                "detail": "双重技术并行迭代：硅基路线VDMOS→Trench→SGT→Super Junction持续升级；宽禁带SiC MOSFET+GaN HEMT快速渗透（SiC从6吋向8吋晶圆过渡降本）。士兰微月产6000片6吋SiC MOS，国内首家SiC芯片用于汽车主驱。技术迭代活跃，但物理极限仍有一定窗口。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              }
+            ]
+          },
+          {
+            "tier": "sustainability",
+            "name": "持续性/节奏（缺口维持多久）",
+            "factors": [
+              {
+                "key": "policy",
+                "name": "政策/补贴驱动",
+                "stars": 2,
+                "polarity": "positive",
+                "detail": "非政策补贴直接驱动型需求。国内半导体自主可控政策间接利好国产MOSFET，但核心驱动力来自AI资本开支（市场驱动）和新能源车渗透（消费驱动）。无退坡风险，与全球科技投资周期高度相关。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "cyclicality",
+                "name": "季节性/行业周期",
+                "stars": 4,
+                "polarity": "neutral",
+                "detail": "当前处于明确周期底部反转早周期：2022年高景气→2023-2024年深度去库存→2025Q4拐点→2026年量价齐升。全球8吋晶圆厂稼动率从2025年75-80%升至2026年85-90%。此为周期位置判断，非趋势性需求，短期扰动勿当趋势。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              },
+              {
+                "key": "restocking",
+                "name": "补库存/囤货放大",
+                "stars": 4,
+                "polarity": "reverse",
+                "detail": "⚠中高风险：经历2023-2025年深度去库后库存回归健康水位，2026年1月起主动补库启动，渠道出现买涨不买跌提前备货。华润微2月提价10%→士兰微3月涨10%→英飞凌4月涨25%、TI涨15-85%，逐级放大。8吋产能紧张加剧囤货动机。但相比MLCC的一天一价极端情况，MOSFET目前仍属可控补库阶段，尚未出现渠道恐慌性抢货。",
+                "source_ref": "mosfit更新.md, 2026-06-27"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "sic",

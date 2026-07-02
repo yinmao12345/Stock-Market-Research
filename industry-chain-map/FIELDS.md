@@ -1,4 +1,4 @@
-# FIELDS.md 字段字典
+﻿# FIELDS.md 字段字典
 
 本项目数据字段的唯一权威定义。记录字段的类型、单位、JSON 位置、显示方式和填写要求,**不记录任何具体产业链的数据内容**(产业数据进度见 `PROGRESS.md`,数据本体在 `data/*.json`)。
 
@@ -11,7 +11,7 @@
 ## 五处同步纪律
 
 任何字段的增删改,必须同步检查这五处并改到一致,再更新本文档:
-① 数据 `data/*.json` ② schema(本文档) ③ 数据提取模板 `updates/数据提取模板.md` ④ 推导规则 `js/gap-rules.js` ⑤ 界面渲染(节点缩略 + 详情面板)。
+① 数据 `data/*.json` ② schema(本文档) ③ 数据提取模板 `updates/数据提取模板.md` ④ 推导规则 `js/gap-rules.js` ⑤ 界面渲染(节点缩略 + 详情面板 + CSS)。
 新增产业链只是在现有 schema 下填 `data/`,**不需要改本文档**。
 
 ---
@@ -255,6 +255,44 @@
 > **显示**:详情面板技术演进 section;若节点有 `bom_by_generation`,在本区块下方追加代际 BOM 拆解、趋势速览和新增材料高亮。`stages` 用箭头连接显示。节点缩略不显示。
 
 ---
+
+
+## 需求分析字段
+
+`demand_analysis` 对象,位于节点 `demand_analysis`,与 `gap` 平级,推荐填(缺失时详情面板不渲染该栏)。不参与缺口计算。
+
+九因子框架(三层级 × 九因子),按 `polarity` 区分正向/反向/中性,反向因子不计入正向汇总。评星依据见提取模板 `updates/数据提取模板.md`。
+
+| 字段 | 类型 / 单位 | 填写要求 |
+|---|---|---|
+| `demand_analysis.summary` | 字符串 | 推荐,一句判读小结,如"供需缺口驱动的周期成长,主引信=单机用量↑+高端占比↑" |
+| `demand_analysis.tiers` | 数组,三层固定 | **必填**:breadth(广度)、depth(深度)、sustainability(持续性),顺序固定 |
+| `demand_analysis.tiers[].tier` | 字符串 | 层级 key:breadth/depth/sustainability,固定 |
+| `demand_analysis.tiers[].name` | 字符串 | 层级中文名:广度(用的人更多)/深度(每人用更多更贵)/持续性(缺口维持多久) |
+| `demand_analysis.tiers[].factors` | 数组,每层3个因子固定 | 九个因子 key 固定不变;不适用该因子时 stars 按实际填、detail 说明"本轮无关" |
+| `…factors[].key` | 字符串 | 因子 key,固定:penetration/scene_expansion/localization/unit_usage/premium_upgrade/tech_iteration/policy/cyclicality/restocking |
+| `…factors[].name` | 字符串 | 因子中文名 |
+| `…factors[].stars` | 数字 1-5 | 星级评定,界面用 ★☆ 显示 |
+| `…factors[].polarity` | 枚举 `positive`/`reverse`/`neutral` | positive=正向(星多=需求好);reverse=反向⚠(星多=风险大,不计入正向汇总);neutral=择时中性。前8因子除 cyclicality 为 neutral 外均 positive;restocking 为 reverse |
+| `…factors[].detail` | 字符串 | 该因子详情描述,含数据依据 |
+| `…factors[].source_ref` | 字符串 | 推荐,资料名+日期,当前 UI 不直接展示 |
+
+### 三层级九因子固定 key 对照
+
+| 层级 | key | 中文名 | polarity |
+|---|---|---|---|
+| breadth | penetration | 渗透率提升 | positive |
+| breadth | scene_expansion | 应用场景扩张 | positive |
+| breadth | localization | 国产替代/份额转移 | positive |
+| depth | unit_usage | 单位用量提升 | positive |
+| depth | premium_upgrade | 高端结构升级(ASP) | positive |
+| depth | tech_iteration | 替代升级/技术代际迭代 | positive |
+| sustainability | policy | 政策/补贴驱动 | positive |
+| sustainability | cyclicality | 季节性/行业周期 | neutral |
+| sustainability | restocking | 补库存/囤货放大 | **reverse**⚠ |
+
+> **显示规则**:详情面板单独一栏"需求分析",三层级分组,因子+★☆星级+详情。reverse 因子(补库存)用 ⚠ 图标+警示色区分,neutral 因子正常显示。原表第5列(评星依据)不显示在界面。null 时不渲染该栏。
+
 
 ## 索引与配置字段
 

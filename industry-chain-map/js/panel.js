@@ -26,6 +26,7 @@ export function renderPanel(container, node, config = {}) {
     titleBlock(node),
     metricsGrid(node),
     gapSection(node, config),
+    demandAnalysisSection(node),
     companiesSection(node),
     techSection(node),
     downstreamAnchorsSection(node),
@@ -638,6 +639,161 @@ function formatMonthParts(month) {
   if (!match) return { year: '', month: text };
   return { year: match[1], month: `${Number(match[2])}月` };
 }
+
+
+
+// 九因子固定框架定义
+const DEMAND_ANALYSIS_TIERS = [
+  {
+    tier: 'breadth', name: '广度（用的人更多）',
+    factors: [
+      { key: 'penetration', name: '渗透率提升' },
+      { key: 'scene_expansion', name: '应用场景扩张' },
+      { key: 'localization', name: '国产替代/份额转移' }
+    ]
+  },
+  {
+    tier: 'depth', name: '深度（每人用更多/更贵）',
+    factors: [
+      { key: 'unit_usage', name: '单位用量提升' },
+      { key: 'premium_upgrade', name: '高端结构升级(ASP)' },
+      { key: 'tech_iteration', name: '替代升级/技术代际迭代' }
+    ]
+  },
+  {
+    tier: 'sustainability', name: '持续性/节奏（缺口维持多久）',
+    factors: [
+      { key: 'policy', name: '政策/补贴驱动' },
+      { key: 'cyclicality', name: '季节性/行业周期' },
+      { key: 'restocking', name: '补库存/囤货放大' }
+    ]
+  }
+];
+
+function demandAnalysisSection(node) {
+  const da = node.demand_analysis;
+  const hasData = da && Array.isArray(da.tiers) && da.tiers.length > 0;
+
+  const sec = document.createElement('section');
+  sec.className = 'section section--demand-analysis';
+
+  const title = document.createElement('div');
+  title.className = 'section__title';
+  title.textContent = '需求分析（需求引信）';
+  sec.append(title);
+
+  if (!hasData) {
+    // 无数据：显示空框架，所有因子填"暂缺"
+    DEMAND_ANALYSIS_TIERS.forEach(tpl => {
+      const tierBlock = document.createElement('div');
+      tierBlock.className = 'da-tier';
+
+      const tierHead = document.createElement('div');
+      tierHead.className = 'da-tier__head';
+      tierHead.textContent = tpl.name;
+      tierBlock.append(tierHead);
+
+      tpl.factors.forEach(f => {
+        const row = document.createElement('div');
+        row.className = 'da-factor da-factor--empty';
+
+        const nameEl = document.createElement('span');
+        nameEl.className = 'da-factor__name';
+        nameEl.textContent = f.name;
+        row.append(nameEl);
+
+        const starsEl = document.createElement('span');
+        starsEl.className = 'da-factor__stars da-factor__stars--empty';
+        starsEl.textContent = '暂缺';
+        row.append(starsEl);
+
+        const detailEl = document.createElement('span');
+        detailEl.className = 'da-factor__detail';
+        detailEl.textContent = '暂无数据';
+        row.append(detailEl);
+
+        tierBlock.append(row);
+      });
+
+      sec.append(tierBlock);
+    });
+
+    return sec;
+  }
+
+  // Summary line
+  if (da.summary) {
+    const summary = document.createElement('div');
+    summary.className = 'da-summary';
+    summary.textContent = da.summary;
+    sec.append(summary);
+  }
+
+  // Positive star total
+  let positiveTotal = 0;
+  let positiveCount = 0;
+
+  da.tiers.forEach(tier => {
+    const tierBlock = document.createElement('div');
+    tierBlock.className = 'da-tier';
+
+    const tierHead = document.createElement('div');
+    tierHead.className = 'da-tier__head';
+    tierHead.textContent = tier.name || tier.tier || '';
+    tierBlock.append(tierHead);
+
+    const factors = Array.isArray(tier.factors) ? tier.factors : [];
+    factors.forEach(factor => {
+      const row = document.createElement('div');
+      const isReverse = factor.polarity === 'reverse';
+      const isNeutral = factor.polarity === 'neutral';
+      row.className = 'da-factor' + (isReverse ? ' da-factor--reverse' : '') + (isNeutral ? ' da-factor--neutral' : '');
+
+      // Name
+      const nameEl = document.createElement('span');
+      nameEl.className = 'da-factor__name';
+      nameEl.textContent = (isReverse ? '⚠ ' : '') + (factor.name || factor.key || '');
+      row.append(nameEl);
+
+      // Stars
+      const starsEl = document.createElement('span');
+      starsEl.className = 'da-factor__stars';
+      const stars = Math.max(0, Math.min(5, Number(factor.stars) || 0));
+      starsEl.textContent = '★'.repeat(stars) + '☆'.repeat(5 - stars);
+      if (isReverse) starsEl.classList.add('da-factor__stars--reverse');
+      if (isNeutral) starsEl.classList.add('da-factor__stars--neutral');
+      row.append(starsEl);
+
+      // Detail
+      const detailEl = document.createElement('span');
+      detailEl.className = 'da-factor__detail';
+      detailEl.textContent = factor.detail || '';
+      row.append(detailEl);
+
+      tierBlock.append(row);
+
+      // Accumulate positive
+      if (factor.polarity === 'positive' && stars > 0) {
+        positiveTotal += stars;
+        positiveCount += 1;
+      }
+    });
+
+    sec.append(tierBlock);
+  });
+
+  // Positive summary footer
+  if (positiveCount > 0) {
+    const footer = document.createElement('div');
+    footer.className = 'da-positive-summary';
+    const avg = (positiveTotal / positiveCount).toFixed(1);
+    footer.innerHTML = '正向需求强度：<strong>' + positiveTotal + '星 / ' + positiveCount + '因子</strong>（均' + avg + '），补库存⚠反向星不计入';
+    sec.append(footer);
+  }
+
+  return sec;
+}
+
 
 function companiesSection(node) {
   const sec = document.createElement('section');
@@ -685,7 +841,7 @@ function techSection(node) {
 
 function downstreamAnchorsSection(node) {
   const anchors = Array.isArray(node.downstream_anchors) ? node.downstream_anchors : [];
-  if (!anchors.length) return null;
+  if (!anchors.length) return new DocumentFragment();
   const sec = document.createElement('section');
   sec.className = 'section';
   sec.innerHTML = `
